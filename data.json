@@ -1,1502 +1,1506 @@
 {
   "1": {
-    "title": "Level 1: Daily Conversational Basics",
-    "words": [
-      {"ar": "صباح الخير", "en": "Good morning", "ph": "Sabah al-khayr"},
-      {"ar": "في", "en": "In / Inside", "ph": "Fi"},
-      {"ar": "بيت", "en": "House", "ph": "Bayt"},
-      {"ar": "سيارة", "en": "Car", "ph": "Sayyarah"},
-      {"ar": "ذهب", "en": "He went", "ph": "Dhahaba"},
-      {"ar": "كبير", "en": "Big", "ph": "Kabeer"},
-      {"ar": "من فضلك", "en": "Please", "ph": "Min fadlik"},
-      {"ar": "ماء", "en": "Water", "ph": "Maa'"},
-      {"ar": "طعام", "en": "Food", "ph": "Ta'am"},
-      {"ar": "أكل", "en": "He ate", "ph": "Akala"}
-    ]
-  },
-  "2": {
-    "title": "Level 2: Common Foundations",
-    "words": [
-      {"ar": "كيف حالك", "en": "How are you?", "ph": "Kayfa haluk"},
-      {"ar": "إلى", "en": "To", "ph": "Ila"},
-      {"ar": "مدرسة", "en": "School", "ph": "Madrasah"},
-      {"ar": "كتاب", "en": "Book", "ph": "Kitab"},
-      {"ar": "شرب", "en": "He drank", "ph": "Shariba"},
-      {"ar": "جديد", "en": "New", "ph": "Jadeed"},
-      {"ar": "شكرا", "en": "Thank you", "ph": "Shukran"},
-      {"ar": "قلم", "en": "Pen", "ph": "Qalam"},
-      {"ar": "رجل", "en": "Man", "ph": "Rajul"},
-      {"ar": "كتب", "en": "He wrote", "ph": "Kataba"}
-    ]
-  },
-  "3": {
-    "title": "Level 3: Interactivity",
-    "words": [
-      {"ar": "مع السلامة", "en": "Goodbye", "ph": "Ma'a salama"},
-      {"ar": "على", "en": "On / Upon", "ph": "'Ala"},
-      {"ar": "امرأة", "en": "Woman", "ph": "Imra'ah"},
-      {"ar": "ولد", "en": "Boy", "ph": "Walad"},
-      {"ar": "قرأ", "en": "He read", "ph": "Qara'a"},
-      {"ar": "جميل", "en": "Beautiful", "ph": "Jameel"},
-      {"ar": "أهلاً وسهلاً", "en": "Welcome", "ph": "Ahlan wa sahlan"},
-      {"ar": "بنت", "en": "Girl", "ph": "Bint"},
-      {"ar": "مدينة", "en": "City", "ph": "Madinah"},
-      {"ar": "تكلم", "en": "He spoke", "ph": "Takallama"}
-    ]
-  },
-  "4": {
-    "title": "Level 4: Everyday Expressions",
-    "words": [
-      {"ar": "مساء الخير", "en": "Good evening", "ph": "Masa' al-khayr"},
-      {"ar": "من", "en": "From", "ph": "Min"},
-      {"ar": "طريق", "en": "Road / Path", "ph": "Tariq"},
-      {"ar": "شمس", "en": "Sun", "ph": "Shams"},
-      {"ar": "فهم", "en": "He understood", "ph": "Fahima"},
-      {"ar": "صغير", "en": "Small", "ph": "Sagheer"},
-      {"ar": "الحمد لله", "en": "Praise be to God", "ph": "Alhamdulillah"},
-      {"ar": "قمر", "en": "Moon", "ph": "Qamar"},
-      {"ar": "غرفة", "en": "Room", "ph": "Ghurfah"},
-      {"ar": "جلس", "en": "He sat", "ph": "Jalasa"}
-    ]
+      "title": "Daily Basics",
+      "words": [
+        {"id": 1, "ar": "ذهب", "en": "He went", "ph": "Dhahaba"},
+        {"id": 2, "ar": "أكل", "en": "He ate", "ph": "Akala"},
+        {"id": 3, "ar": "شرب", "en": "He drank", "ph": "Shariba"},
+        {"id": 4, "ar": "بيت", "en": "House", "ph": "Bayt"},
+        {"id": 5, "ar": "سيارة", "en": "Car", "ph": "Sayyarah"},
+        {"id": 6, "ar": "ماء", "en": "Water", "ph": "Maa'"},
+        {"id": 7, "ar": "طعام", "en": "Food", "ph": "Ta'am"},
+        {"id": 8, "ar": "كتاب", "en": "Book", "ph": "Kitaab"},
+        {"id": 9, "ar": "قلم", "en": "Pen", "ph": "Qalam"},
+        {"id": 10, "ar": "رجل", "en": "Man", "ph": "Rajul"}
+      ]
+    },
+    "2": {
+      "title": "Travel & Places",
+      "words": [
+        {"id": 11, "ar": "جاء", "en": "He came", "ph": "Jaa'a"},
+        {"id": 12, "ar": "دخل", "en": "He entered", "ph": "Dakhala"},
+        {"id": 13, "ar": "خرج", "en": "He exited", "ph": "Kharaja"},
+        {"id": 14, "ar": "مطار", "en": "Airport", "ph": "Mataar"},
+        {"id": 15, "ar": "فندق", "en": "Hotel", "ph": "Funduq"},
+        {"id": 16, "ar": "مسجد", "en": "Mosque", "ph": "Masjid"},
+        {"id": 17, "ar": "مدينة", "en": "City", "ph": "Madeenah"},
+        {"id": 18, "ar": "شارع", "en": "Street", "ph": "Shaari'"},
+        {"id": 19, "ar": "سوق", "en": "Market", "ph": "Souq"},
+        {"id": 20, "ar": "بلد", "en": "Country", "ph": "Balad"}
+      ]
+    },
+    "3": {
+      "title": "Emotions & Family",
+      "words": [
+        {"id": 21, "ar": "أحب", "en": "He loved", "ph": "Ahabba"},
+        {"id": 22, "ar": "كره", "en": "He hated", "ph": "Kariha"},
+        {"id": 23, "ar": "شكر", "en": "He thanked", "ph": "Shakara"},
+        {"id": 24, "ar": "طفل", "en": "Child", "ph": "Tifl"},
+        {"id": 25, "ar": "امرأة", "en": "Woman", "ph": "Imra'ah"},
+        {"id": 26, "ar": "أم", "en": "Mother", "ph": "Umm"},
+        {"id": 27, "ar": "أب", "en": "Father", "ph": "Ab"},
+        {"id": 28, "ar": "صديق", "en": "Friend", "ph": "Sadeeq"},
+        {"id": 29, "ar": "معلم", "en": "Teacher", "ph": "Mu'allim"},
+        {"id": 30, "ar": "طالب", "en": "Student", "ph": "Taalib"}
+      ]
+    },
+    "4": {
+      "title": "Objects & Routine",
+      "words": [
+        {"id": 31, "ar": "قرأ", "en": "He read", "ph": "Qara'a"},
+        {"id": 32, "ar": "كتب", "en": "He wrote", "ph": "Kataba"},
+        {"id": 33, "ar": "عمل", "en": "He worked", "ph": "Amila"},
+        {"id": 34, "ar": "كرسي", "en": "Chair", "ph": "Kursi"},
+        {"id": 35, "ar": "طاولة", "en": "Table", "ph": "Taawilah"},
+        {"id": 36, "ar": "هاتف", "en": "Phone", "ph": "Haatef"},
+        {"id": 37, "ar": "باب", "en": "Door", "ph": "Baab"},
+        {"id": 38, "ar": "نافذة", "en": "Window", "ph": "Naafidhah"},
+        {"id": 39, "ar": "حقيبة", "en": "Bag", "ph": "Haqeebah"},
+        {"id": 40, "ar": "ساعة", "en": "Clock/Watch", "ph": "Saa'ah"}
+      ]
   },
   "5": {
-    "title": "Level 5: Daily Routines",
-    "words": [
-      {"ar": "مرحبا", "en": "Hello", "ph": "Marhaban"},
-      {"ar": "مع", "en": "With", "ph": "Ma'a"},
-      {"ar": "باب", "en": "Door", "ph": "Bab"},
-      {"ar": "نافذة", "en": "Window", "ph": "Nafidhah"},
-      {"ar": "خرج", "en": "He exited", "ph": "Kharaja"},
-      {"ar": "قريب", "en": "Near", "ph": "Qareeb"},
-      {"ar": "لا مشكلة", "en": "No problem", "ph": "La mushkilah"},
-      {"ar": "كرسي", "en": "Chair", "ph": "Kursi"},
-      {"ar": "طاولة", "en": "Table", "ph": "Tawilah"},
-      {"ar": "دخل", "en": "He entered", "ph": "Dakhala"}
-    ]
+      "title": "Food & Drink",
+      "words": [
+        {"id": 41, "ar": "طبخ", "en": "He cooked", "ph": "Tabakha"},
+        {"id": 42, "ar": "أخذ", "en": "He took", "ph": "Akhadha"},
+        {"id": 43, "ar": "أعطى", "en": "He gave", "ph": "A'taa"},
+        {"id": 44, "ar": "خبز", "en": "Bread", "ph": "Khubz"},
+        {"id": 45, "ar": "أرز", "en": "Rice", "ph": "Arz"},
+        {"id": 46, "ar": "لحم", "en": "Meat", "ph": "Lahm"},
+        {"id": 47, "ar": "فاكهة", "en": "Fruit", "ph": "Faakihah"},
+        {"id": 48, "ar": "شاي", "en": "Tea", "ph": "Shaay"},
+        {"id": 49, "ar": "قهوة", "en": "Coffee", "ph": "Qahwah"},
+        {"id": 50, "ar": "حليب", "en": "Milk", "ph": "Haleeb"}
+      ]
   },
   "6": {
-    "title": "Level 6: Social & Practical",
-    "words": [
-      {"ar": "تفضل", "en": "Here you go", "ph": "Tafaddal"},
-      {"ar": "عن", "en": "About", "ph": "'An"},
-      {"ar": "مكتب", "en": "Office / Desk", "ph": "Maktab"},
-      {"ar": "سوق", "en": "Market", "ph": "Suq"},
-      {"ar": "عمل", "en": "He worked", "ph": "Amila"},
-      {"ar": "بعيد", "en": "Far", "ph": "Ba'eed"},
-      {"ar": "مبارك", "en": "Congratulations", "ph": "Mubarak"},
-      {"ar": "حقيبة", "en": "Bag / Case", "ph": "Haqeebah"},
-      {"ar": "ملابس", "en": "Clothes", "ph": "Malabis"},
-      {"ar": "صنع", "en": "He made", "ph": "Sana'a"}
-    ]
+      "title": "Nature & Movement",
+      "words": [
+        {"id": 51, "ar": "مشى", "en": "He walked", "ph": "Mashaa"},
+        {"id": 52, "ar": "ركض", "en": "He ran", "ph": "Rakada"},
+        {"id": 53, "ar": "جلس", "en": "He sat", "ph": "Jalasa"},
+        {"id": 54, "ar": "شمس", "en": "Sun", "ph": "Shams"},
+        {"id": 55, "ar": "قمر", "en": "Moon", "ph": "Qamar"},
+        {"id": 56, "ar": "نجم", "en": "Star", "ph": "Najm"},
+        {"id": 57, "ar": "شجرة", "en": "Tree", "ph": "Shajarah"},
+        {"id": 58, "ar": "نهر", "en": "River", "ph": "Nahr"},
+        {"id": 59, "ar": "جبل", "en": "Mountain", "ph": "Jabal"},
+        {"id": 60, "ar": "سماء", "en": "Sky", "ph": "Samaa"}
+      ]
   },
   "7": {
-    "title": "Level 7: Time & Environments",
-    "words": [
-      {"ar": "أنا آسف", "en": "I am sorry", "ph": "Ana aasif"},
-      {"ar": "بين", "en": "Between", "ph": "Bayna"},
-      {"ar": "ساعة", "en": "Hour / Clock", "ph": "Sa'ah"},
-      {"ar": "يوم", "en": "Day", "ph": "Yawm"},
-      {"ar": "عرف", "en": "He knew", "ph": "Arafa"},
-      {"ar": "طويل", "en": "Long / Tall", "ph": "Taweel"},
-      {"ar": "بكل سرور", "en": "With pleasure", "ph": "Bi-kulli suroor"},
-      {"ar": "أسبوع", "en": "Week", "ph": "Usbu'"},
-      {"ar": "شهر", "en": "Month", "ph": "Shahr"},
-      {"ar": "وجد", "en": "He found", "ph": "Wajada"}
-    ]
+      "title": "Time & Routine",
+      "words": [
+        {"id": 61, "ar": "استيقظ", "en": "He woke up", "ph": "Istayqaz"},
+        {"id": 62, "ar": "نام", "en": "He slept", "ph": "Naama"},
+        {"id": 63, "ar": "انتظر", "en": "He waited", "ph": "Intazara"},
+        {"id": 64, "ar": "يوم", "en": "Day", "ph": "Yawm"},
+        {"id": 65, "ar": "ليلة", "en": "Night", "ph": "Laylah"},
+        {"id": 66, "ar": "أسبوع", "en": "Week", "ph": "Usbu’"},
+        {"id": 67, "ar": "شهر", "en": "Month", "ph": "Shahr"},
+        {"id": 68, "ar": "سنة", "en": "Year", "ph": "Sanah"},
+        {"id": 69, "ar": "ساعة", "en": "Hour", "ph": "Saa’ah"},
+        {"id": 70, "ar": "دقيقة", "en": "Minute", "ph": "Daqeeqah"}
+      ]
   },
   "8": {
-    "title": "Level 8: Home & Social Life",
-    "words": [
-      {"ar": "أراك لاحقا", "en": "See you later", "ph": "Araka lahiqan"},
-      {"ar": "تحت", "en": "Under", "ph": "Tahta"},
-      {"ar": "سرير", "en": "Bed", "ph": "Sareer"},
-      {"ar": "مطبخ", "en": "Kitchen", "ph": "Matbakh"},
-      {"ar": "أخذ", "en": "He took", "ph": "Akhadha"},
-      {"ar": "قصير", "en": "Short", "ph": "Qaseer"},
-      {"ar": "في أمان الله", "en": "In God's safety", "ph": "Fi amani-llah"},
-      {"ar": "هاتف", "en": "Phone", "ph": "Hatif"},
-      {"ar": "نقود", "en": "Money", "ph": "Nuqud"},
-      {"ar": "طلب", "en": "He requested", "ph": "Talaba"}
-    ]
+      "title": "Religion & Culture",
+      "words": [
+        {"id": 71, "ar": "دعا", "en": "He prayed/called", "ph": "Da’aa"},
+        {"id": 72, "ar": "احتفل", "en": "He celebrated", "ph": "Ihtafala"},
+        {"id": 73, "ar": "سامح", "en": "He forgave", "ph": "Saamaha"},
+        {"id": 74, "ar": "صلاة", "en": "Prayer", "ph": "Salaah"},
+        {"id": 75, "ar": "قرآن", "en": "Qur’an", "ph": "Qur’aan"},
+        {"id": 76, "ar": "حديث", "en": "Hadith", "ph": "Hadeeth"},
+        {"id": 77, "ar": "إمام", "en": "Imam", "ph": "Imaam"},
+        {"id": 78, "ar": "عيد", "en": "Festival", "ph": "Eid"},
+        {"id": 79, "ar": "زكاة", "en": "Charity", "ph": "Zakaah"},
+        {"id": 80, "ar": "حج", "en": "Pilgrimage", "ph": "Hajj"}
+      ]
   },
   "9": {
-    "title": "Level 9: Basic Concepts",
-    "words": [
-      {"ar": "تشرفنا", "en": "Nice to meet you", "ph": "Tasharrafna"},
-      {"ar": "فوق", "en": "Above / On top", "ph": "Fawqa"},
-      {"ar": "مستشفى", "en": "Hospital", "ph": "Mustashfa"},
-      {"ar": "طبيب", "en": "Doctor", "ph": "Tabeeb"},
-      {"ar": "فتح", "en": "He opened", "ph": "Fataha"},
-      {"ar": "سريع", "en": "Fast", "ph": "Saree'"},
-      {"ar": "فرصة سعيدة", "en": "Happy occasion", "ph": "Fursah sa'eedah"},
-      {"ar": "دواء", "en": "Medicine", "ph": "Dawa'"},
-      {"ar": "رأس", "en": "Head", "ph": "Ra's"},
-      {"ar": "غلق", "en": "He closed", "ph": "Ghalaqa"}
-    ]
+      "title": "Objects & Tools",
+      "words": [
+        {"id": 81, "ar": "فتح", "en": "He opened", "ph": "Fataha"},
+        {"id": 82, "ar": "أغلق", "en": "He closed", "ph": "Aghlaqa"},
+        {"id": 83, "ar": "حمل", "en": "He carried", "ph": "Hamala"},
+        {"id": 84, "ar": "مفتاح", "en": "Key", "ph": "Miftaah"},
+        {"id": 85, "ar": "مصباح", "en": "Lamp", "ph": "Misbaah"},
+        {"id": 86, "ar": "حذاء", "en": "Shoe", "ph": "Hidhaa’"},
+        {"id": 87, "ar": "ملابس", "en": "Clothes", "ph": "Malaabis"},
+        {"id": 88, "ar": "لون", "en": "Color", "ph": "Lawn"},
+        {"id": 89, "ar": "صورة", "en": "Picture", "ph": "Soorah"},
+        {"id": 90, "ar": "حائط", "en": "Wall", "ph": "Haa’it"}
+      ]
   },
   "10": {
-    "title": "Level 10: Travel & Movement",
-    "words": [
-      {"ar": "رحلة سعيدة", "en": "Have a nice trip", "ph": "Rihlah sa'eedah"},
-      {"ar": "قبل", "en": "Before", "ph": "Qabla"},
-      {"ar": "مطار", "en": "Airport", "ph": "Matar"},
-      {"ar": "طائرة", "en": "Airplane", "ph": "Ta'irah"},
-      {"ar": "سافر", "en": "He traveled", "ph": "Safara"},
-      {"ar": "بطيء", "en": "Slow", "ph": "Batee'"},
-      {"ar": "على الرحب", "en": "You are welcome", "ph": "'Ala ar-ruhb"},
-      {"ar": "فندق", "en": "Hotel", "ph": "Funduq"},
-      {"ar": "تذكرة", "en": "Ticket", "ph": "Tadhkirah"},
-      {"ar": "وصل", "en": "He arrived", "ph": "Wasala"}
-    ]
+      "title": "Communication & Learning",
+      "words": [
+        {"id": 91, "ar": "قال", "en": "He said", "ph": "Qaala"},
+        {"id": 92, "ar": "سأل", "en": "He asked", "ph": "Sa’ala"},
+        {"id": 93, "ar": "أجاب", "en": "He answered", "ph": "Ajaaba"},
+        {"id": 94, "ar": "مدرسة", "en": "School", "ph": "Madrasa"},
+        {"id": 95, "ar": "جامعة", "en": "University", "ph": "Jaami’ah"},
+        {"id": 96, "ar": "درس", "en": "Lesson", "ph": "Dars"},
+        {"id": 97, "ar": "لغة", "en": "Language", "ph": "Lughah"},
+        {"id": 98, "ar": "كلمة", "en": "Word", "ph": "Kalima"},
+        {"id": 99, "ar": "جملة", "en": "Sentence", "ph": "Jumla"},
+        {"id": 100, "ar": "قصة", "en": "Story", "ph": "Qissah"}
+      ]
   },
   "11": {
-    "title": "Level 11: Food & Hospitality",
-    "words": [
-      {"ar": "بالهناء والشفاء", "en": "Bon appétit", "ph": "Bil-hana' wash-shifa'"},
-      {"ar": "بعد", "en": "After", "ph": "Ba'da"},
-      {"ar": "مطعم", "en": "Restaurant", "ph": "Mat'am"},
-      {"ar": "حليب", "en": "Milk", "ph": "Haleeb"},
-      {"ar": "طبخ", "en": "He cooked", "ph": "Tabakha"},
-      {"ar": "حار", "en": "Hot / Spicy", "ph": "Haar"},
-      {"ar": "الله يسلمك", "en": "May God save you", "ph": "Allah yusallimak"},
-      {"ar": "خبز", "en": "Bread", "ph": "Khubz"},
-      {"ar": "قهوة", "en": "Coffee", "ph": "Qahwah"},
-      {"ar": "اشترى", "en": "He bought", "ph": "Ishtara"}
-    ]
+      "title": "Work & Actions",
+      "words": [
+        {"id": 101, "ar": "عمل", "en": "He worked", "ph": "Amila"},
+        {"id": 102, "ar": "لعب", "en": "He played", "ph": "La’iba"},
+        {"id": 103, "ar": "فعل", "en": "He did", "ph": "Fa’ala"},
+        {"id": 104, "ar": "مكتب", "en": "Office", "ph": "Maktab"},
+        {"id": 105, "ar": "وظيفة", "en": "Job", "ph": "Wazifah"},
+        {"id": 106, "ar": "شركة", "en": "Company", "ph": "Sharika"},
+        {"id": 107, "ar": "مدير", "en": "Manager", "ph": "Mudeer"},
+        {"id": 108, "ar": "عامل", "en": "Worker", "ph": "Aamil"},
+        {"id": 109, "ar": "اجتماع", "en": "Meeting", "ph": "Ijtimaa’"},
+        {"id": 110, "ar": "مهمة", "en": "Task", "ph": "Muhimmah"}
+      ]
   },
   "12": {
-    "title": "Level 12: Work & Industry",
-    "words": [
-      {"ar": "بالتوفيق", "en": "With success", "ph": "Bit-tawfeeq"},
-      {"ar": "عند", "en": "At / With", "ph": "'Inda"},
-      {"ar": "شركة", "en": "Company", "ph": "Sharikah"},
-      {"ar": "مدير", "en": "Manager", "ph": "Mudeer"},
-      {"ar": "باع", "en": "He sold", "ph": "Baa'"},
-      {"ar": "بارد", "en": "Cold", "ph": "Barid"},
-      {"ar": "خطوة بخطوة", "en": "Step by step", "ph": "Khatwah bi-khatwah"},
-      {"ar": "ورقة", "en": "Paper", "ph": "Waraqah"},
-      {"ar": "حاسوب", "en": "Computer", "ph": "Hasub"},
-      {"ar": "دفع", "en": "He paid", "ph": "Dafa'a"}
-    ]
-  },
-  "13": {
-    "title": "Level 13: Nature & Space",
-    "words": [
-      {"ar": "سبحان الله", "en": "Glory be to God", "ph": "Subhan Allah"},
-      {"ar": "منذ", "en": "Since", "ph": "Mundhu"},
-      {"ar": "شجرة", "en": "Tree", "ph": "Shajarah"},
-      {"ar": "بحر", "en": "Sea", "ph": "Bahr"},
-      {"ar": "نظر", "en": "He looked", "ph": "Nazhara"},
-      {"ar": "نظيف", "en": "Clean", "ph": "Natheef"},
-      {"ar": "ما شاء الله", "en": "As God willed", "ph": "Ma sha' Allah"},
-      {"ar": "نهر", "en": "River", "ph": "Nahr"},
-      {"ar": "جبل", "en": "Mountain", "ph": "Jabal"},
-      {"ar": "رأى", "en": "He saw", "ph": "Ra'a"}
-    ]
-  },
-  "14": {
-    "title": "Level 14: Family & Home Life",
-    "words": [
-      {"ar": "يا إلهي", "en": "Oh my God", "ph": "Ya ilahi"},
-      {"ar": "حتى", "en": "Until", "ph": "Hatta"},
-      {"ar": "أب", "en": "Father", "ph": "Ab"},
-      {"ar": "أم", "en": "Mother", "ph": "Umm"},
-      {"ar": "أحب", "en": "He loved", "ph": "Ahabba"},
-      {"ar": "متسخ", "en": "Dirty", "ph": "Mutasikh"},
-      {"ar": "أنا سعيد", "en": "I am happy", "ph": "Ana sa'eed"},
-      {"ar": "أخ", "en": "Brother", "ph": "Akh"},
-      {"ar": "أخت", "en": "Sister", "ph": "Ukht"},
-      {"ar": "ساعد", "en": "He helped", "ph": "Saa'ada"}
-    ]
-  },
-  "15": {
-    "title": "Level 15: Public Spaces",
-    "words": [
-      {"ar": "ليس تماما", "en": "Not exactly", "ph": "Laysa tamamid"},
-      {"ar": "بدون", "en": "Without", "ph": "Bidoon"},
-      {"ar": "حديقة", "en": "Park / Garden", "ph": "Hadeeqah"},
-      {"ar": "شارع", "en": "Street", "ph": "Shari'"},
-      {"ar": "مشى", "en": "He walked", "ph": "Masha"},
-      {"ar": "غالي", "en": "Expensive", "ph": "Ghali"},
-      {"ar": "أنا مشغول", "en": "I am busy", "ph": "Ana mashghool"},
-      {"ar": "مسجد", "en": "Mosque", "ph": "Masjid"},
-      {"ar": "دكان", "en": "Shop / Stall", "ph": "Dukkan"},
-      {"ar": "جرى", "en": "He ran", "ph": "Jara"}
-    ]
-  },
-  "16": {
-    "title": "Level 16: Abstract Foundations",
-    "words": [
-      {"ar": "ليس بعد", "en": "Not yet", "ph": "Laysa ba'd"},
-      {"ar": "مثل", "en": "Like / As", "ph": "Mithla"},
-      {"ar": "وقت", "en": "Time", "ph": "Waqt"},
-      {"ar": "سنة", "en": "Year", "ph": "Sanah"},
-      {"ar": "بدأ", "en": "He started", "ph": "Bada'a"},
-      {"ar": "رخيص", "en": "Cheap", "ph": "Rakhees"},
-      {"ar": "أنا تعبان", "en": "I am tired", "ph": "Ana ta'ban"},
-      {"ar": "مكان", "en": "Place", "ph": "Makan"},
-      {"ar": "شيء", "en": "Thing", "ph": "Shay'"},
-      {"ar": "انتهى", "en": "He finished", "ph": "Intaha"}
-    ]
-  },
-  "17": {
-    "title": "Level 17: Social Dynamics",
-    "words": [
-      {"ar": "من جديد", "en": "All over again", "ph": "Min jadeed"},
-      {"ar": "خلال", "en": "During / Through", "ph": "Khilala"},
-      {"ar": "صديق", "en": "Friend", "ph": "Sadeeq"},
-      {"ar": "جار", "en": "Neighbor", "ph": "Jar"},
-      {"ar": "قابل", "en": "He met", "ph": "Qabala"},
-      {"ar": "قوي", "en": "Strong", "ph": "Qawi"},
-      {"ar": "على فكرة", "en": "By the way", "ph": "'Ala fikrah"},
-      {"ar": "ضيف", "en": "Guest", "ph": "Dayf"},
-      {"ar": "ناس", "en": "People", "ph": "Nas"},
-      {"ar": "زار", "en": "He visited", "ph": "Zara"}
-    ]
-  },
-  "18": {
-    "title": "Level 18: Living Elements",
-    "words": [
-      {"ar": "في الحقيقة", "en": "In reality", "ph": "Fi al-haqeeqah"},
-      {"ar": "نحو", "en": "Towards", "ph": "Nahwa"},
-      {"ar": "جسم", "en": "Body", "ph": "Jism"},
-      {"ar": "قلب", "en": "Heart", "ph": "Qalb"},
-      {"ar": "عاش", "en": "He lived", "ph": "'Aasha"},
-      {"ar": "ضعيف", "en": "Weak", "ph": "Da'eef"},
-      {"ar": "بالمناسبة", "en": "Incidentally", "ph": "Bil-munasabah"},
-      {"ar": "عين", "en": "Eye", "ph": "'Ayn"},
-      {"ar": "يد", "en": "Hand", "ph": "Yad"},
-      {"ar": "مات", "en": "He died", "ph": "Mata"}
-    ]
-  },
-  "19": {
-    "title": "Level 19: Weather & Climate",
-    "words": [
-      {"ar": "فيما بعد", "en": "Subsequently", "ph": "Feema ba'd"},
-      {"ar": "داخل", "en": "Inside", "ph": "Dakhila"},
-      {"ar": "طقس", "en": "Weather", "ph": "Taqs"},
-      {"ar": "مطر", "en": "Rain", "ph": "Matar"},
-      {"ar": "سقط", "en": "He fell", "ph": "Saqata"},
-      {"ar": "سهل", "en": "Easy", "ph": "Sahl"},
-      {"ar": "على الأقل", "en": "At least", "ph": "'Ala al-aqall"},
-      {"ar": "سحاب", "en": "Cloud", "ph": "Sahab"},
-      {"ar": "ريح", "en": "Wind", "ph": "Reeh"},
-      {"ar": "طار", "en": "He flew", "ph": "Tara"}
-    ]
-  },
-  "20": {
-    "title": "Level 20: Studies & Knowledge",
-    "words": [
-      {"ar": "على الأكثر", "en": "At most", "ph": "'Ala al-akthar"},
-      {"ar": "خارج", "en": "Outside", "ph": "Kharija"},
-      {"ar": "درس", "en": "Lesson / Study", "ph": "Dars"},
-      {"ar": "جامعة", "en": "University", "ph": "Jami'ah"},
-      {"ar": "علم", "en": "He taught", "ph": "Allama"},
-      {"ar": "صعب", "en": "Difficult", "ph": "Sa'b"},
-      {"ar": "منذ زمن", "en": "A long time ago", "ph": "Mundhu zaman"},
-      {"ar": "أستاذ", "en": "Professor", "ph": "Ustadh"},
-      {"ar": "امتحان", "en": "Exam", "ph": "Imtihan"},
-      {"ar": "نجح", "en": "He succeeded", "ph": "Najaha"}
-    ]
-  },
+      "title": "Travel & Transport",
+      "words": [
+        {"id": 111, "ar": "سافر", "en": "He traveled", "ph": "Saafara"},
+        {"id": 112, "ar": "ركب", "en": "He rode", "ph": "Rakiba"},
+        {"id": 113, "ar": "قاد", "en": "He drove", "ph": "Qaada"},
+        {"id": 114, "ar": "قطار", "en": "Train", "ph": "Qitaar"},
+        {"id": 115, "ar": "حافلة", "en": "Bus", "ph": "Haafilah"},
+        {"id": 116, "ar": "طائرة", "en": "Airplane", "ph": "Taa’irah"},
+        {"id": 117, "ar": "دراجة", "en": "Bicycle", "ph": "Darraajah"},
+        {"id": 118, "ar": "مركب", "en": "Boat", "ph": "Markab"},
+        {"id": 119, "ar": "شارع", "en": "Street", "ph": "Shaari’"},
+        {"id": 120, "ar": "جسر", "en": "Bridge", "ph": "Jisr"}
+      ]
+    },
+    "13": {
+      "title": "Feelings & States",
+      "words": [
+        {"id": 121, "ar": "شعر", "en": "He felt", "ph": "Sha’ara"},
+        {"id": 122, "ar": "ضحك", "en": "He laughed", "ph": "Dahika"},
+        {"id": 123, "ar": "بكى", "en": "He cried", "ph": "Baka"},
+        {"id": 124, "ar": "سعيد", "en": "Happy", "ph": "Sa’eed"},
+        {"id": 125, "ar": "حزين", "en": "Sad", "ph": "Hazeen"},
+        {"id": 126, "ar": "غاضب", "en": "Angry", "ph": "Ghaadib"},
+        {"id": 127, "ar": "تعبان", "en": "Tired", "ph": "Ta’baan"},
+        {"id": 128, "ar": "مريض", "en": "Sick", "ph": "Mareedh"},
+        {"id": 129, "ar": "قوي", "en": "Strong", "ph": "Qawi"},
+        {"id": 130, "ar": "ضعيف", "en": "Weak", "ph": "Da’eef"}
+      ]
+    },
+    "14": {  
+      "title": "Food & Kitchen",
+      "words": [
+        {"id": 131, "ar": "قطع", "en": "He cut", "ph": "Qata’a"},
+        {"id": 132, "ar": "غسل", "en": "He washed", "ph": "Ghasala"},
+        {"id": 133, "ar": "طبخ", "en": "He cooked", "ph": "Tabakha"},
+        {"id": 134, "ar": "مطبخ", "en": "Kitchen", "ph": "Matbakh"},
+        {"id": 135, "ar": "طبق", "en": "Plate", "ph": "Tabaq"},
+        {"id": 136, "ar": "ملعقة", "en": "Spoon", "ph": "Mil’aqah"},
+        {"id": 137, "ar": "شوكة", "en": "Fork", "ph": "Shawkah"},
+        {"id": 138, "ar": "سكين", "en": "Knife", "ph": "Sikkeen"},
+        {"id": 139, "ar": "كوب", "en": "Cup", "ph": "Koob"},
+        {"id": 140, "ar": "طعام", "en": "Food", "ph": "Ta’aam"}
+      ]
+    },
+    "15": {  
+    "title": "School & Study",
+      "words": [
+        {"id": 141, "ar": "تعلم", "en": "He learned", "ph": "Ta’allama"},
+        {"id": 142, "ar": "درس", "en": "He studied", "ph": "Darasa"},
+        {"id": 143, "ar": "علّم", "en": "He taught", "ph": "Allama"},
+        {"id": 144, "ar": "مدرسة", "en": "School", "ph": "Madrasa"},
+        {"id": 145, "ar": "جامعة", "en": "University", "ph": "Jaami’ah"},
+        {"id": 146, "ar": "صف", "en": "Classroom", "ph": "Saff"},
+        {"id": 147, "ar": "طالب", "en": "Student", "ph": "Taalib"},
+        {"id": 148, "ar": "معلم", "en": "Teacher", "ph": "Mu’allim"},
+        {"id": 149, "ar": "امتحان", "en": "Exam", "ph": "Imtihaan"},
+        {"id": 150, "ar": "كتاب", "en": "Book", "ph": "Kitaab"}
+      ]
+    },
+    "16": {
+      "title": "Home & Living",
+      "words": [
+        {"id": 151, "ar": "سكن", "en": "He lived", "ph": "Sakana"},
+        {"id": 152, "ar": "بنى", "en": "He built", "ph": "Banaa"},
+        {"id": 153, "ar": "نظف", "en": "He cleaned", "ph": "Nazzafa"},
+        {"id": 154, "ar": "غرفة", "en": "Room", "ph": "Ghurfah"},
+        {"id": 155, "ar": "مطبخ", "en": "Kitchen", "ph": "Matbakh"},
+        {"id": 156, "ar": "حمام", "en": "Bathroom", "ph": "Hammaam"},
+        {"id": 157, "ar": "حديقة", "en": "Garden", "ph": "Hadeeqah"},
+        {"id": 158, "ar": "سرير", "en": "Bed", "ph": "Sareer"},
+        {"id": 159, "ar": "طاولة", "en": "Table", "ph": "Taawilah"},
+        {"id": 160, "ar": "كرسي", "en": "Chair", "ph": "Kursi"}
+      ]
+    },
+    "17": {
+      "title": "Market & Shopping",
+      "words": [
+        {"id": 161, "ar": "اشترى", "en": "He bought", "ph": "Ishtaraa"},
+        {"id": 162, "ar": "باع", "en": "He sold", "ph": "Baa’a"},
+        {"id": 163, "ar": "دفع", "en": "He paid", "ph": "Dafa’a"},
+        {"id": 164, "ar": "سوق", "en": "Market", "ph": "Souq"},
+        {"id": 165, "ar": "مال", "en": "Money", "ph": "Maal"},
+        {"id": 166, "ar": "ثمن", "en": "Price", "ph": "Thaman"},
+        {"id": 167, "ar": "محل", "en": "Shop", "ph": "Mahall"},
+        {"id": 168, "ar": "بائع", "en": "Seller", "ph": "Baa’i’"},
+        {"id": 169, "ar": "مشتري", "en": "Buyer", "ph": "Mushtari"},
+        {"id": 170, "ar": "سلعة", "en": "Product", "ph": "Sil’ah"}
+      ]
+    },
+    "18": {
+      "title": "Health & Body",
+      "words": [
+        {"id": 171, "ar": "عاش", "en": "He lived", "ph": "Aasha"},
+        {"id": 172, "ar": "مات", "en": "He died", "ph": "Maata"},
+        {"id": 173, "ar": "مرض", "en": "He became sick", "ph": "Maridha"},
+        {"id": 174, "ar": "جسم", "en": "Body", "ph": "Jism"},
+        {"id": 175, "ar": "رأس", "en": "Head", "ph": "Ra’s"},
+        {"id": 176, "ar": "يد", "en": "Hand", "ph": "Yad"},
+        {"id": 177, "ar": "عين", "en": "Eye", "ph": "Ayn"},
+        {"id": 178, "ar": "أذن", "en": "Ear", "ph": "Udhun"},
+        {"id": 179, "ar": "فم", "en": "Mouth", "ph": "Fam"},
+        {"id": 180, "ar": "قدم", "en": "Foot", "ph": "Qadam"}
+      ]
+    },
+    "19": {
+      "title": "Technology & Tools",
+      "words": [
+        {"id": 181, "ar": "استخدم", "en": "He used", "ph": "Istakhdama"},
+        {"id": 182, "ar": "شغل", "en": "He operated", "ph": "Shaghala"},
+        {"id": 183, "ar": "أصلح", "en": "He repaired", "ph": "Aslaha"},
+        {"id": 184, "ar": "حاسوب", "en": "Computer", "ph": "Haasoob"},
+        {"id": 185, "ar": "هاتف", "en": "Phone", "ph": "Haatef"},
+        {"id": 186, "ar": "إنترنت", "en": "Internet", "ph": "Internet"},
+        {"id": 187, "ar": "برنامج", "en": "Program", "ph": "Barnaamaj"},
+        {"id": 188, "ar": "آلة", "en": "Machine", "ph": "Aalah"},
+        {"id": 189, "ar": "مفتاح", "en": "Key", "ph": "Miftaah"},
+        {"id": 190, "ar": "ساعة", "en": "Watch/Clock", "ph": "Saa’ah"}
+      ]
+    },
+    "20": {
+      "title": "Nature & Environment",
+      "words": [
+        {"id": 191, "ar": "زرع", "en": "He planted", "ph": "Zara’a"},
+        {"id": 192, "ar": "سقى", "en": "He watered", "ph": "Saqaa"},
+        {"id": 193, "ar": "حصد", "en": "He harvested", "ph": "Hasada"},
+        {"id": 194, "ar": "أرض", "en": "Earth", "ph": "Ardh"},
+        {"id": 195, "ar": "بحر", "en": "Sea", "ph": "Bahr"},
+        {"id": 196, "ar": "مطر", "en": "Rain", "ph": "Matar"},
+        {"id": 197, "ar": "ريح", "en": "Wind", "ph": "Reeh"},
+        {"id": 198, "ar": "ثلج", "en": "Snow", "ph": "Thalj"},
+        {"id": 199, "ar": "صحراء", "en": "Desert", "ph": "Sahraa’"},
+        {"id": 200, "ar": "زهرة", "en": "Flower", "ph": "Zahrah"}
+      ]
+    },
   "21": {
-    "title": "Level 21: Market Interactions",
-    "words": [
-      {"ar": "بكم هذا", "en": "How much is this?", "ph": "Bikam hadha"},
-      {"ar": "ضد", "en": "Against", "ph": "Didd"},
-      {"ar": "ثمن", "en": "Price", "ph": "Thaman"},
-      {"ar": "حساب", "en": "Bill / Account", "ph": "Hisab"},
-      {"ar": "خسر", "en": "He lost", "ph": "Khasira"},
-      {"ar": "غني", "en": "Rich", "ph": "Ghani"},
-      {"ar": "هذا صحيح", "en": "This is correct", "ph": "Hadha saheeh"},
-      {"ar": "صندوق", "en": "Box / Cash register", "ph": "Sunduq"},
-      {"ar": "كيس", "en": "Bag / Sack", "ph": "Kees"},
-      {"ar": "ربح", "en": "He gained", "ph": "Rabiha"}
-    ]
-  },
+      "title": "Family & Relations",
+      "words": [
+        {"id": 201, "ar": "قابل", "en": "He met", "ph": "Qaabala"},
+        {"id": 202, "ar": "زار", "en": "He visited", "ph": "Zaara"},
+        {"id": 203, "ar": "ساعد", "en": "He helped", "ph": "Sa’aada"},
+        {"id": 204, "ar": "أب", "en": "Father", "ph": "Ab"},
+        {"id": 205, "ar": "أم", "en": "Mother", "ph": "Umm"},
+        {"id": 206, "ar": "أخ", "en": "Brother", "ph": "Akh"},
+        {"id": 207, "ar": "أخت", "en": "Sister", "ph": "Ukht"},
+        {"id": 208, "ar": "جد", "en": "Grandfather", "ph": "Jadd"},
+        {"id": 209, "ar": "جدة", "en": "Grandmother", "ph": "Jaddah"},
+        {"id": 210, "ar": "عائلة", "en": "Family", "ph": "Aa’ilah"}
+      ]
+    },
   "22": {
-    "title": "Level 22: City Elements",
-    "words": [
-      {"ar": "أنا لا أعرف", "en": "I do not know", "ph": "Ana la a'rif"},
-      {"ar": "عبر", "en": "Across", "ph": "'Abra"},
-      {"ar": "جدار", "en": "Wall", "ph": "Jidar"},
-      {"ar": "مبنى", "en": "Building", "ph": "Mabna"},
-      {"ar": "بنى", "en": "He built", "ph": "Bana"},
-      {"ar": "فقير", "en": "Poor", "ph": "Faqeer"},
-      {"ar": "ليس مشكلة", "en": "Not a problem", "ph": "Laysa mushkilah"},
-      {"ar": "جسر", "en": "Bridge", "ph": "Jisr"},
-      {"ar": "محطة", "en": "Station", "ph": "Mahattah"},
-      {"ar": "هدم", "en": "He demolished", "ph": "Hadama"}
-    ]
-  },
-  "23": {
-    "title": "Level 23: Culinary Spaces",
-    "words": [
-      {"ar": "أنا جائع", "en": "I am hungry", "ph": "Ana ja'i'"},
-      {"ar": "وراء", "en": "Behind", "ph": "Wara'a"},
-      {"ar": "لحم", "en": "Meat", "ph": "Lahm"},
-      {"ar": "أرز", "en": "Rice", "ph": "Aruzz"},
-      {"ar": "قطع", "en": "He cut", "ph": "Qata'a"},
-      {"ar": "لذيذ", "en": "Delicious", "ph": "Ladheedh"},
-      {"ar": "أنا عطشان", "en": "I am thirsty", "ph": "Ana 'atshan"},
-      {"ar": "خضار", "en": "Vegetables", "ph": "Khudar"},
-      {"ar": "فاكهة", "en": "Fruit", "ph": "Fakihah"},
-      {"ar": "طبخ", "en": "He cooked", "ph": "Tabakha"}
-    ]
-  },
-  "24": {
-    "title": "Level 24: Home Details",
-    "words": [
-      {"ar": "على أي حال", "en": "In any case", "ph": "'Ala ayyi hal"},
-      {"ar": "أمام", "en": "In front of", "ph": "Amama"},
-      {"ar": "مفتاح", "en": "Key", "ph": "Miftah"},
-      {"ar": "قفل", "en": "Lock", "ph": "Qufl"},
-      {"ar": "أغلق", "en": "He locked", "ph": "Aghlaqa"},
-      {"ar": "واسع", "en": "Spacious", "ph": "Wasi'"},
-      {"ar": "من فضلك انتظر", "en": "Please wait", "ph": "Min fadlik intadhir"},
-      {"ar": "مصباح", "en": "Lamp", "ph": "Misbah"},
-      {"ar": "أرض", "en": "Floor / Earth", "ph": "Ard"},
-      {"ar": "فتح", "en": "He opened", "ph": "Fataha"}
-    ]
-  },
-  "25": {
-    "title": "Level 25: Work Schedules",
-    "words": [
-      {"ar": "في الوقت المحدد", "en": "On time", "ph": "Fi al-waqt al-muhaddad"},
-      {"ar": "تجاه", "en": "Towards", "ph": "Tijaha"},
-      {"ar": "موعد", "en": "Appointment", "ph": "Maw'id"},
-      {"ar": "مكتبة", "en": "Library / Bookstore", "ph": "Maktabah"},
-      {"ar": "حضر", "en": "He attended", "ph": "Hadara"},
-      {"ar": "ضيق", "en": "Narrow", "ph": "Dayyiq"},
-      {"ar": "لا تقلق", "en": "Do not worry", "ph": "La taqlaq"},
-      {"ar": "سجل", "en": "Register / Record", "ph": "Sijill"},
-      {"ar": "تقرير", "en": "Report", "ph": "Taqreer"},
-      {"ar": "غاب", "en": "He was absent", "ph": "Ghaba"}
-    ]
-  },
+      "title": "Colors & Clothing",
+      "words": [
+        {"id": 211, "ar": "لبس", "en": "He wore", "ph": "Labisa"},
+        {"id": 212, "ar": "غيّر", "en": "He changed", "ph": "Ghayyara"},
+        {"id": 213, "ar": "اختار", "en": "He chose", "ph": "Ikhtara"},
+        {"id": 214, "ar": "قميص", "en": "Shirt", "ph": "Qamees"},
+        {"id": 215, "ar": "بنطال", "en": "Pants", "ph": "Bintaal"},
+        {"id": 216, "ar": "حذاء", "en": "Shoe", "ph": "Hidhaa’"},
+        {"id": 217, "ar": "قبعة", "en": "Hat", "ph": "Qubba’ah"},
+        {"id": 218, "ar": "ثوب", "en": "Dress", "ph": "Thawb"},
+        {"id": 219, "ar": "لون", "en": "Color", "ph": "Lawn"},
+        {"id": 220, "ar": "أبيض", "en": "White", "ph": "Abyadh"}
+      ]
+    },
+    "23": {
+      "title": "Animals",
+      "words": [
+        {"id": 221, "ar": "رأى", "en": "He saw", "ph": "Ra’aa"},
+        {"id": 222, "ar": "سمع", "en": "He heard", "ph": "Sami’a"},
+        {"id": 223, "ar": "أمسك", "en": "He caught", "ph": "Amsaka"},
+        {"id": 224, "ar": "كلب", "en": "Dog", "ph": "Kalb"},
+        {"id": 225, "ar": "قط", "en": "Cat", "ph": "Qitt"},
+        {"id": 226, "ar": "حصان", "en": "Horse", "ph": "Hisaan"},
+        {"id": 227, "ar": "بقرة", "en": "Cow", "ph": "Baqara"},
+        {"id": 228, "ar": "غنم", "en": "Sheep", "ph": "Ghanam"},
+        {"id": 229, "ar": "جمل", "en": "Camel", "ph": "Jamal"},
+        {"id": 230, "ar": "طائر", "en": "Bird", "ph": "Taa’ir"}
+      ]
+    },
+    "24": {
+      "title": "Numbers & Counting",
+      "words": [
+        {"id": 231, "ar": "عدّ", "en": "He counted", "ph": "Adda"},
+        {"id": 232, "ar": "حسب", "en": "He calculated", "ph": "Hasaba"},
+        {"id": 233, "ar": "جمع", "en": "He gathered", "ph": "Jama’a"},
+        {"id": 234, "ar": "واحد", "en": "One", "ph": "Waahid"},
+        {"id": 235, "ar": "اثنان", "en": "Two", "ph": "Ithnaan"},
+        {"id": 236, "ar": "ثلاثة", "en": "Three", "ph": "Thalaatha"},
+        {"id": 237, "ar": "أربعة", "en": "Four", "ph": "Arba’a"},
+        {"id": 238, "ar": "خمسة", "en": "Five", "ph": "Khamsah"},
+        {"id": 239, "ar": "ستة", "en": "Six", "ph": "Sittah"},
+        {"id": 240, "ar": "سبعة", "en": "Seven", "ph": "Sab’ah"}
+      ]
+    },
+    "25": {
+      "title": "Weather & Seasons",
+      "words": [
+        {"id": 241, "ar": "برد", "en": "He became cold", "ph": "Barada"},
+        {"id": 242, "ar": "سخن", "en": "He became hot", "ph": "Sakhuna"},
+        {"id": 243, "ar": "تغيّر", "en": "It changed", "ph": "Taghayyara"},
+        {"id": 244, "ar": "مطر", "en": "Rain", "ph": "Matar"},
+        {"id": 245, "ar": "ثلج", "en": "Snow", "ph": "Thalj"},
+        {"id": 246, "ar": "رياح", "en": "Winds", "ph": "RiyaaH"},
+        {"id": 247, "ar": "شمس", "en": "Sun", "ph": "Shams"},
+        {"id": 248, "ar": "قمر", "en": "Moon", "ph": "Qamar"},
+        {"id": 249, "ar": "ربيع", "en": "Spring", "ph": "Rabee’"},
+        {"id": 250, "ar": "صيف", "en": "Summer", "ph": "Sayf"}
+      ]
+    },
   "26": {
-    "title": "Level 26: Travel Routing",
-    "words": [
-      {"ar": "رحلة موفقة", "en": "Successful trip", "ph": "Rihlah muwaffaqah"},
-      {"ar": "قرب", "en": "Near to", "ph": "Qurba"},
-      {"ar": "قطار", "en": "Train", "ph": "Qitar"},
-      {"ar": "حافلة", "en": "Bus", "ph": "Hafilah"},
-      {"ar": "ركب", "en": "He rode", "ph": "Rakiba"},
-      {"ar": "ثقيل", "en": "Heavy", "ph": "Thaqeel"},
-      {"ar": "طريق السلامة", "en": "Safe path", "ph": "Tariq as-salama"},
-      {"ar": "توقف", "en": "Stop / Station", "ph": "Tawaqquf"},
-      {"ar": "حقائب", "en": "Baggage", "ph": "Haqa'ib"},
-      {"ar": "نزل", "en": "He stepped down", "ph": "Nazala"}
-    ]
-  },
-  "27": {
-    "title": "Level 27: Nature Forms",
-    "words": [
-      {"ar": "سبحان الخالق", "en": "Glory to Creator", "ph": "Subhan al-Khaliq"},
-      {"ar": "بسبب", "en": "Because of", "ph": "Bi-sababi"},
-      {"ar": "بحر", "en": "Ocean / Sea", "ph": "Bahr"},
-      {"ar": "سماء", "en": "Sky", "ph": "Sama'"},
-      {"ar": "لمع", "en": "It shone", "ph": "Lama'a"},
-      {"ar": "خفيف", "en": "Light (weight)", "ph": "Khafeef"},
-      {"ar": "انظر هناك", "en": "Look over there", "ph": "Unzhur hunaka"},
-      {"ar": "نجم", "en": "Star", "ph": "Najm"},
-      {"ar": "سحاب", "en": "Clouds", "ph": "Sahab"},
-      {"ar": "مطر", "en": "It rained", "ph": "Amtara"}
-    ]
-  },
-  "28": {
-    "title": "Level 28: Bodily Actions",
-    "words": [
-      {"ar": "الحمد لله دائما", "en": "Praise God always", "ph": "Alhamdulillah da'iman"},
-      {"ar": "لأجل", "en": "For the sake of", "ph": "Li-ajli"},
-      {"ar": "وجه", "en": "Face", "ph": "Wajh"},
-      {"ar": "فم", "en": "Mouth", "ph": "Fam"},
-      {"ar": "تنفس", "en": "He breathed", "ph": "Tanaffasa"},
-      {"ar": "صحي", "en": "Healthy", "ph": "Sihhi"},
-      {"ar": "عافاك الله", "en": "May God heal you", "ph": "'Aafaka-llah"},
-      {"ar": "أذن", "en": "Ear", "ph": "Udhn"},
-      {"ar": "أنف", "en": "Nose", "ph": "Anf"},
-      {"ar": "لمس", "en": "He touched", "ph": "Lamasa"}
-    ]
-  },
-  "29": {
-    "title": "Level 29: Interpersonal Affairs",
-    "words": [
-      {"ar": "في أسرع وقت", "en": "As fast as possible", "ph": "Fi asra' waqt"},
-      {"ar": "رغم", "en": "Despite", "ph": "Raghma"},
-      {"ar": "عائلة", "en": "Family", "ph": "A'ilah"},
-      {"ar": "ابن", "en": "Son", "ph": "Ibn"},
-      {"ar": "ولد", "en": "He gave birth / was born", "ph": "Walada"},
-      {"ar": "مريض", "en": "Sick", "ph": "Mareed"},
-      {"ar": "الله يشفيك", "en": "May God cure you", "ph": "Allah yashfeek"},
-      {"ar": "ابنة", "en": "Daughter", "ph": "Ibnah"},
-      {"ar": "طفل", "en": "Child", "ph": "Tifl"},
-      {"ar": "كبر", "en": "He grew up", "ph": "Kabura"}
-    ]
-  },
-  "30": {
-    "title": "Level 30: Academic Tools",
-    "words": [
-      {"ar": "كل شيء تمام", "en": "Everything is fine", "ph": "Kullu shay' tamam"},
-      {"ar": "حوالى", "en": "Approximately", "ph": "Hawalay"},
-      {"ar": "صف", "en": "Classroom", "ph": "Saff"},
-      {"ar": "دفتر", "en": "Notebook", "ph": "Daftar"},
-      {"ar": "رسم", "en": "He drew", "ph": "Rasama"},
-      {"ar": "ذكي", "en": "Smart / Intelligent", "ph": "Dhaki"},
-      {"ar": "بالتأكيد", "en": "Certainly", "ph": "Bit-ta'keed"},
-      {"ar": "لوح", "en": "Board", "ph": "Lawh"},
-      {"ar": "طباشير", "en": "Chalk", "ph": "Tabasheer"},
-      {"ar": "حسب", "en": "He calculated", "ph": "Hasaba"}
-    ]
-  },
-  "31": {
-    "title": "Level 31: Shopping Logistics",
-    "words": [
-      {"ar": "كم الحساب", "en": "How much is the bill?", "ph": "Kam al-hisab"},
-      {"ar": "مثلا", "en": "For example", "ph": "Mathalan"},
-      {"ar": "متجر", "en": "Store", "ph": "Matjar"},
-      {"ar": "بضاعة", "en": "Merchandise", "ph": "Bida'ah"},
-      {"ar": "اختار", "en": "He chose", "ph": "Ikhtara"},
-      {"ar": "قديم", "en": "Old (Object)", "ph": "Qadeem"},
-      {"ar": "هذا غالي جدا", "en": "This is too costly", "ph": "Hadha ghali jiddan"},
-      {"ar": "ميزان", "en": "Scale", "ph": "Meezan"},
-      {"ar": "فاتورة", "en": "Invoice", "ph": "Fatoorah"},
-      {"ar": "وزن", "en": "He weighed", "ph": "Wazana"}
-    ]
-  },
-  "32": {
-    "title": "Level 32: Built Environments",
-    "words": [
-      {"ar": "أنا ضائع", "en": "I am lost", "ph": "Ana da'i'"},
-      {"ar": "عوضا عن", "en": "Instead of", "ph": "'Iwadan 'an"},
-      {"ar": "شقة", "en": "Apartment", "ph": "Shaqqah"},
-      {"ar": "مدخل", "en": "Entrance", "ph": "Madkhal"},
-      {"ar": "سكن", "en": "He resided", "ph": "Sakana"},
-      {"ar": "مظلم", "en": "Dark", "ph": "Muzhlim"},
-      {"ar": "أين المحطة", "en": "Where is the station?", "ph": "Ayna al-mahattah"},
-      {"ar": "مخرج", "en": "Exit", "ph": "Makhraj"},
-      {"ar": "طابق", "en": "Floor / Story", "ph": "Tabiq"},
-      {"ar": "انتقل", "en": "He relocated", "ph": "Intaqala"}
-    ]
-  },
-  "33": {
-    "title": "Level 33: Refreshments",
-    "words": [
-      {"ar": "أتمنى لك وجبة شهية", "en": "Have a nice meal", "ph": "Atamanna laka wajbah shaheeyah"},
-      {"ar": "طوال", "en": "Throughout", "ph": "Tawal"},
-      {"ar": "شاي", "en": "Tea", "ph": "Shay"},
-      {"ar": "عصير", "en": "Juice", "ph": "Aseer"},
-      {"ar": "عصر", "en": "He squeezed", "ph": "Asara"},
-      {"ar": "بارد جدا", "en": "Very cold", "ph": "Barid jiddan"},
-      {"ar": "صحة وهنا", "en": "Health and wellness", "ph": "Sihhah wa hana'"},
-      {"ar": "كوب", "en": "Cup / Glass", "ph": "Kub"},
-      {"ar": "زجاجة", "en": "Bottle", "ph": "Zujajah"},
-      {"ar": "ملأ", "en": "He filled", "ph": "Mala'a"}
-    ]
-  },
-  "34": {
-    "title": "Level 34: Tools & Hardware",
-    "words": [
-      {"ar": "أغلق الباب", "en": "Close the door", "ph": "Aghliq al-bab"},
-      {"ar": "شرق", "en": "East of", "ph": "Sharqa"},
-      {"ar": "مطرقة", "en": "Hammer", "ph": "Mitraqah"},
-      {"ar": "مسمار", "en": "Nail", "ph": "Mismar"},
-      {"ar": "ثبت", "en": "He fixed", "ph": "Thabbata"},
-      {"ar": "مستقيم", "en": "Straight", "ph": "Mustaqeem"},
-      {"ar": "افتح النافذة", "en": "Open the window", "ph": "Iftah an-nafidhah"},
-      {"ar": "خشب", "en": "Wood", "ph": "Khashab"},
-      {"ar": "حديد", "en": "Iron", "ph": "Hadeed"},
-      {"ar": "كسر", "en": "He broke", "ph": "Kasara"}
-    ]
-  },
-  "35": {
-    "title": "Level 35: Executive Actions",
-    "words": [
-      {"ar": "في الوقت المناسب", "en": "At the right time", "ph": "Fi al-waqt al-munasib"},
-      {"ar": "غرب", "en": "West of", "ph": "Gharba"},
-      {"ar": "قرار", "en": "Decision", "ph": "Qarar"},
-      {"ar": "اجتماع", "en": "Meeting", "ph": "Ijtima'"},
-      {"ar": "قرر", "en": "He decided", "ph": "Qarrara"},
-      {"ar": "مهم", "en": "Important", "ph": "Muhim"},
-      {"ar": "لا تنسى", "en": "Do not forget", "ph": "La tansa"},
-      {"ar": "ملف", "en": "File / Folder", "ph": "Milaff"},
-      {"ar": "ورقة", "en": "Paper document", "ph": "Waraqah"},
-      {"ar": "وقع", "en": "He signed", "ph": "Waqqa'a"}
-    ]
-  },
+      "title": "Travel & Directions",
+      "words": [
+        {"id": 251, "ar": "وصل", "en": "He arrived", "ph": "Wasala"},
+        {"id": 252, "ar": "غادر", "en": "He departed", "ph": "Ghaadara"},
+        {"id": 253, "ar": "بحث", "en": "He searched", "ph": "Bahatha"},
+        {"id": 254, "ar": "طريق", "en": "Road", "ph": "Tareeq"},
+        {"id": 255, "ar": "جسر", "en": "Bridge", "ph": "Jisr"},
+        {"id": 256, "ar": "ميدان", "en": "Square", "ph": "Maydaan"},
+        {"id": 257, "ar": "محطة", "en": "Station", "ph": "Mahattah"},
+        {"id": 258, "ar": "مطار", "en": "Airport", "ph": "Mataar"},
+        {"id": 259, "ar": "مدينة", "en": "City", "ph": "Madeenah"},
+        {"id": 260, "ar": "قرية", "en": "Village", "ph": "Qaryah"}
+      ]
+    },
+    "27": {
+      "title": "Work & Professions",
+      "words": [
+        {"id": 261, "ar": "كتب", "en": "He wrote", "ph": "Kataba"},
+        {"id": 262, "ar": "قرأ", "en": "He read", "ph": "Qara’a"},
+        {"id": 263, "ar": "أدار", "en": "He managed", "ph": "Adaara"},
+        {"id": 264, "ar": "طبيب", "en": "Doctor", "ph": "Tabeeb"},
+        {"id": 265, "ar": "مهندس", "en": "Engineer", "ph": "Muhandis"},
+        {"id": 266, "ar": "مزارع", "en": "Farmer", "ph": "Muzaari’"},
+        {"id": 267, "ar": "تاجر", "en": "Merchant", "ph": "Taajir"},
+        {"id": 268, "ar": "كاتب", "en": "Writer", "ph": "Kaateb"},
+        {"id": 269, "ar": "محامي", "en": "Lawyer", "ph": "Muhaami"},
+        {"id": 270, "ar": "شرطي", "en": "Police officer", "ph": "Shurti"}
+      ]
+    },
+    "28": {
+      "title": "Emotions & Mind",
+      "words": [
+        {"id": 271, "ar": "فكر", "en": "He thought", "ph": "Fakkara"},
+        {"id": 272, "ar": "عرف", "en": "He knew", "ph": "‘Arafa"},
+        {"id": 273, "ar": "تذكر", "en": "He remembered", "ph": "Tadhakkara"},
+        {"id": 274, "ar": "عقل", "en": "Mind", "ph": "‘Aql"},
+        {"id": 275, "ar": "قلب", "en": "Heart", "ph": "Qalb"},
+        {"id": 276, "ar": "فكر", "en": "Thought", "ph": "Fikr"},
+        {"id": 277, "ar": "ذكرى", "en": "Memory", "ph": "Dhikraa"},
+        {"id": 278, "ar": "حلم", "en": "Dream", "ph": "Hulm"},
+        {"id": 279, "ar": "أمل", "en": "Hope", "ph": "Amal"},
+        {"id": 280, "ar": "إيمان", "en": "Faith", "ph": "Eemaan"}
+      ]
+    },
+    "29": {
+      "title": "Food & Drink II",
+      "words": [
+        {"id": 281, "ar": "أكل", "en": "He ate", "ph": "Akala"},
+        {"id": 282, "ar": "شرب", "en": "He drank", "ph": "Shariba"},
+        {"id": 283, "ar": "ذوق", "en": "He tasted", "ph": "Dhawaqa"},
+        {"id": 284, "ar": "سمك", "en": "Fish", "ph": "Samak"},
+        {"id": 285, "ar": "دجاج", "en": "Chicken", "ph": "Dajaaj"},
+        {"id": 286, "ar": "خضار", "en": "Vegetables", "ph": "Khodaar"},
+        {"id": 287, "ar": "فاكهة", "en": "Fruit", "ph": "Faakihah"},
+        {"id": 288, "ar": "عصير", "en": "Juice", "ph": "‘Aseer"},
+        {"id": 289, "ar": "حلوى", "en": "Sweets", "ph": "Halwaa"},
+        {"id": 290, "ar": "ملح", "en": "Salt", "ph": "Milh"}
+      ]
+    },
+    "30": {
+      "title": "Religion & Worship II",
+      "words": [
+        {"id": 291, "ar": "صلى", "en": "He prayed", "ph": "Salla"},
+        {"id": 292, "ar": "صام", "en": "He fasted", "ph": "Saama"},
+        {"id": 293, "ar": "قرأ", "en": "He recited", "ph": "Qara’a"},
+        {"id": 294, "ar": "مسجد", "en": "Mosque", "ph": "Masjid"},
+        {"id": 295, "ar": "محراب", "en": "Prayer niche", "ph": "Mihrab"},
+        {"id": 296, "ar": "منبر", "en": "Pulpit", "ph": "Minbar"},
+        {"id": 297, "ar": "دعاء", "en": "Supplication", "ph": "Du’aa"},
+        {"id": 298, "ar": "زكاة", "en": "Charity", "ph": "Zakaah"},
+        {"id": 299, "ar": "صوم", "en": "Fasting", "ph": "Sawm"},
+        {"id": 300, "ar": "حج", "en": "Pilgrimage", "ph": "Hajj"}
+      ]
+    },
+     "31": {
+      "title": "Travel & Movement II",
+      "words": [
+        {"id": 301, "ar": "سار", "en": "He walked/moved", "ph": "Saara"},
+        {"id": 302, "ar": "ركض", "en": "He ran", "ph": "Rakada"},
+        {"id": 303, "ar": "قفز", "en": "He jumped", "ph": "Qafaza"},
+        {"id": 304, "ar": "طريق", "en": "Path", "ph": "Tareeq"},
+        {"id": 305, "ar": "جبل", "en": "Mountain", "ph": "Jabal"},
+        {"id": 306, "ar": "وادي", "en": "Valley", "ph": "Waadi"},
+        {"id": 307, "ar": "صحراء", "en": "Desert", "ph": "Sahraa’"},
+        {"id": 308, "ar": "غابة", "en": "Forest", "ph": "Ghaabah"},
+        {"id": 309, "ar": "شاطئ", "en": "Beach", "ph": "Shaati’"},
+        {"id": 310, "ar": "جزيرة", "en": "Island", "ph": "Jazirah"}
+      ]
+    },
+    "32": {
+      "title": "Household Items II",
+      "words": [
+        {"id": 311, "ar": "أشعل", "en": "He lit", "ph": "Ash’ala"},
+        {"id": 312, "ar": "أطفأ", "en": "He extinguished", "ph": "Atfa’a"},
+        {"id": 313, "ar": "رتب", "en": "He arranged", "ph": "Rattaba"},
+        {"id": 314, "ar": "مصباح", "en": "Lamp", "ph": "Misbaah"},
+        {"id": 315, "ar": "سجادة", "en": "Carpet", "ph": "Sajjaadah"},
+        {"id": 316, "ar": "ستارة", "en": "Curtain", "ph": "Sitaarah"},
+        {"id": 317, "ar": "مروحة", "en": "Fan", "ph": "Marwahah"},
+        {"id": 318, "ar": "ثلاجة", "en": "Fridge", "ph": "Thallaajah"},
+        {"id": 319, "ar": "غسالة", "en": "Washing machine", "ph": "Ghassaalah"},
+        {"id": 320, "ar": "مكواة", "en": "Iron", "ph": "Mikwah"}
+      ]
+    },
+    "33": {
+      "title": "School & Study II",
+      "words": [
+        {"id": 321, "ar": "راجع", "en": "He reviewed", "ph": "Raaja’a"},
+        {"id": 322, "ar": "حفظ", "en": "He memorized", "ph": "Hafidha"},
+        {"id": 323, "ar": "اختبر", "en": "He tested", "ph": "Ikhtabara"},
+        {"id": 324, "ar": "دفتر", "en": "Notebook", "ph": "Daftar"},
+        {"id": 325, "ar": "قلم رصاص", "en": "Pencil", "ph": "Qalam Rasaas"},
+        {"id": 326, "ar": "ممحاة", "en": "Eraser", "ph": "Mimhaah"},
+        {"id": 327, "ar": "سبورة", "en": "Board", "ph": "Saboorah"},
+        {"id": 328, "ar": "حقيبة", "en": "Bag", "ph": "Haqeebah"},
+        {"id": 329, "ar": "مكتبة", "en": "Library", "ph": "Maktabah"},
+        {"id": 330, "ar": "قلم حبر", "en": "Ink pen", "ph": "Qalam Hibr"}
+      ]
+    },
+    "34": {
+      "title": "Food & Kitchen II",
+      "words": [
+        {"id": 331, "ar": "مزج", "en": "He mixed", "ph": "Mazaja"},
+        {"id": 332, "ar": "خبز", "en": "He baked", "ph": "Khabaza"},
+        {"id": 333, "ar": "غلى", "en": "He boiled", "ph": "Ghalaa"},
+        {"id": 334, "ar": "زيت", "en": "Oil", "ph": "Zayt"},
+        {"id": 335, "ar": "سكر", "en": "Sugar", "ph": "Sukkar"},
+        {"id": 336, "ar": "ملح", "en": "Salt", "ph": "Milh"},
+        {"id": 337, "ar": "فلفل", "en": "Pepper", "ph": "Filfil"},
+        {"id": 338, "ar": "خضار", "en": "Vegetables", "ph": "Khodaar"},
+        {"id": 339, "ar": "فاكهة", "en": "Fruit", "ph": "Faakihah"},
+        {"id": 340, "ar": "لحم", "en": "Meat", "ph": "Lahm"}
+      ]
+    },
+    "35": {
+      "title": "Communication II",
+      "words": [
+        {"id": 341, "ar": "أخبر", "en": "He told", "ph": "Akhbara"},
+        {"id": 342, "ar": "ناقش", "en": "He discussed", "ph": "Naqasha"},
+        {"id": 343, "ar": "شرح", "en": "He explained", "ph": "Sharaha"},
+        {"id": 344, "ar": "رسالة", "en": "Letter", "ph": "Risaalah"},
+        {"id": 345, "ar": "بريد", "en": "Mail", "ph": "Bareed"},
+        {"id": 346, "ar": "هاتف", "en": "Phone", "ph": "Haatef"},
+        {"id": 347, "ar": "مكالمة", "en": "Call", "ph": "Mukaalamah"},
+        {"id": 348, "ar": "كلمة", "en": "Word", "ph": "Kalima"},
+        {"id": 349, "ar": "جملة", "en": "Sentence", "ph": "Jumla"},
+        {"id": 350, "ar": "قصة", "en": "Story", "ph": "Qissah"}
+      ]
+    },
   "36": {
-    "title": "Level 36: Transport Utilities",
-    "words": [
-      {"ar": "رحلة سعيدة وموفقة", "en": "Safe and sound trip", "ph": "Rihlah sa'eedah wa muwaffaqah"},
-      {"ar": "شمال", "en": "North of", "ph": "Shamala"},
-      {"ar": "دراجة", "en": "Bicycle", "ph": "Darrajah"},
-      {"ar": "وقود", "en": "Fuel", "ph": "Waqud"},
-      {"ar": "قاد", "en": "He drove", "ph": "Qada"},
-      {"ar": "مسرع", "en": "Speeding", "ph": "Musri'"},
-      {"ar": "انتبه للطريق", "en": "Watch the road", "ph": "Intabih lit-tariq"},
-      {"ar": "عجلة", "en": "Wheel", "ph": "Ajalah"},
-      {"ar": "محرك", "en": "Engine", "ph": "Muharrik"},
-      {"ar": "أسرع", "en": "He accelerated", "ph": "Asra'a"}
-    ]
-  },
-  "37": {
-    "title": "Level 37: Marine Elements",
-    "words": [
-      {"ar": "سبحان الله وبحمده", "en": "Glory and praise to God", "ph": "Subhan Allah wa bi-hamdihi"},
-      {"ar": "جنوب", "en": "South of", "ph": "Januba"},
-      {"ar": "سفينة", "en": "Ship", "ph": "Safeenah"},
-      {"ar": "قارب", "en": "Boat", "ph": "Qarib"},
-      {"ar": "أبحر", "en": "He sailed", "ph": "Abhara"},
-      {"ar": "عميق", "en": "Deep", "ph": "Ameeq"},
-      {"ar": "البحر جميل", "en": "The sea is beautiful", "ph": "Al-bahr jameel"},
-      {"ar": "سمك", "en": "Fish", "ph": "Samak"},
-      {"ar": "رمل", "en": "Sand", "ph": "Raml"},
-      {"ar": "سبح", "en": "He swam", "ph": "Sabaha"}
-    ]
-  },
-  "38": {
-    "title": "Level 38: Expressions of Health",
-    "words": [
-      {"ar": "الحمد لله على السلامة", "en": "Praise God for safety", "ph": "Alhamdulillah 'ala as-salama"},
-      {"ar": "فوق كل شيء", "en": "Above all else", "ph": "Fawqa kulli shay'"},
-      {"ar": "دم", "en": "Blood", "ph": "Dam"},
-      {"ar": "عظم", "en": "Bone", "ph": "Azhm"},
-      {"ar": "فحص", "en": "He examined", "ph": "Fahasa"},
-      {"ar": "مؤلم", "en": "Painful", "ph": "Mu'lim"},
-      {"ar": "بالسلامة إن شاء الله", "en": "With safety, God willing", "ph": "Bis-salamah in sha' Allah"},
-      {"ar": "ألم", "en": "Pain", "ph": "Alam"},
-      {"ar": "جرح", "en": "Wound", "ph": "Jurh"},
-      {"ar": "عالج", "en": "He treated", "ph": "Aalaja"}
-    ]
-  },
-  "39": {
-    "title": "Level 39: Relative Networks",
-    "words": [
-      {"ar": "في غضون دقائق", "en": "Within minutes", "ph": "Fi ghudoon daqa'iq"},
-      {"ar": "من جانب آخر", "en": "On another note", "ph": "Min janib akhar"},
-      {"ar": "جد", "en": "Grandfather", "ph": "Jadd"},
-      {"ar": "جدة", "en": "Grandmother", "ph": "Jaddah"},
-      {"ar": "تجمع", "en": "They gathered", "ph": "Tajamma'a"},
-      {"ar": "كبير في السن", "en": "Elderly", "ph": "Kabeer fi as-sin"},
-      {"ar": "كيف حال العائلة", "en": "How is the family?", "ph": "Kayfa hal al-a'ilah"},
-      {"ar": "عم", "en": "Paternal Uncle", "ph": "Amm"},
-      {"ar": "عمة", "en": "Paternal Aunt", "ph": "Ammah"},
-      {"ar": "تحدث", "en": "He conversed", "ph": "Tahaddatha"}
-    ]
-  },
-  "40": {
-    "title": "Level 40: High Class tools",
-    "words": [
-      {"ar": "كل شيء على ما يرام", "en": "Everything is in order", "ph": "Kullu shay' 'ala ma yuram"},
-      {"ar": "فيما يتعلق ب", "en": "With regards to", "ph": "Feema yata'allaqu bi"},
-      {"ar": "مدرسة", "en": "School grounds", "ph": "Madrasah"},
-      {"ar": "قاموس", "en": "Dictionary", "ph": "Qamus"},
-      {"ar": "ترجم", "en": "He translated", "ph": "Tarjama"},
-      {"ar": "ممتاز", "en": "Excellent", "ph": "Mumtaz"},
-      {"ar": "أنت ذكي جدا", "en": "You are very smart", "ph": "Anta dhaki jiddan"},
-      {"ar": "خريطة", "en": "Map", "ph": "Kharitah"},
-      {"ar": "امتحان", "en": "Examination paper", "ph": "Imtihan"},
-      {"ar": "راجع", "en": "He reviewed", "ph": "Raja'a"}
-    ]
-  },
+      "title": "Travel & Transport III",
+      "words": [
+        {"id": 351, "ar": "قاد", "en": "He drove", "ph": "Qaada"},
+        {"id": 352, "ar": "ركب", "en": "He rode", "ph": "Rakiba"},
+        {"id": 353, "ar": "سافر", "en": "He traveled", "ph": "Saafara"},
+        {"id": 354, "ar": "سيارة", "en": "Car", "ph": "Sayyaarah"},
+        {"id": 355, "ar": "قطار", "en": "Train", "ph": "Qitaar"},
+        {"id": 356, "ar": "حافلة", "en": "Bus", "ph": "Haafilah"},
+        {"id": 357, "ar": "طائرة", "en": "Airplane", "ph": "Taa’irah"},
+        {"id": 358, "ar": "دراجة", "en": "Bicycle", "ph": "Darraajah"},
+        {"id": 359, "ar": "مركب", "en": "Boat", "ph": "Markab"},
+        {"id": 360, "ar": "مطار", "en": "Airport", "ph": "Mataar"}
+      ]
+    },
+    "37": {
+      "title": "Nature & Environment II",
+      "words": [
+        {"id": 361, "ar": "زرع", "en": "He planted", "ph": "Zara’a"},
+        {"id": 362, "ar": "سقى", "en": "He watered", "ph": "Saqaa"},
+        {"id": 363, "ar": "حصد", "en": "He harvested", "ph": "Hasada"},
+        {"id": 364, "ar": "شجرة", "en": "Tree", "ph": "Shajarah"},
+        {"id": 365, "ar": "زهرة", "en": "Flower", "ph": "Zahrah"},
+        {"id": 366, "ar": "عشب", "en": "Grass", "ph": "‘Ushb"},
+        {"id": 367, "ar": "وردة", "en": "Rose", "ph": "Wardah"},
+        {"id": 368, "ar": "نهر", "en": "River", "ph": "Nahr"},
+        {"id": 369, "ar": "بحر", "en": "Sea", "ph": "Bahr"},
+        {"id": 370, "ar": "جبل", "en": "Mountain", "ph": "Jabal"}
+      ]
+    },
+    "38": {
+      "title": "Emotions & Feelings II",
+      "words": [
+        {"id": 371, "ar": "ابتسم", "en": "He smiled", "ph": "Ibtasama"},
+        {"id": 372, "ar": "غضب", "en": "He got angry", "ph": "Ghadiba"},
+        {"id": 373, "ar": "فرح", "en": "He rejoiced", "ph": "Fariha"},
+        {"id": 374, "ar": "سعادة", "en": "Happiness", "ph": "Sa’aadah"},
+        {"id": 375, "ar": "حزن", "en": "Sadness", "ph": "Huzn"},
+        {"id": 376, "ar": "خوف", "en": "Fear", "ph": "Khawf"},
+        {"id": 377, "ar": "أمل", "en": "Hope", "ph": "Amal"},
+        {"id": 378, "ar": "حب", "en": "Love", "ph": "Hubb"},
+        {"id": 379, "ar": "كره", "en": "Hatred", "ph": "Karahiyyah"},
+        {"id": 380, "ar": "طمأنينة", "en": "Calmness", "ph": "Tuma’neenah"}
+      ]
+    },
+    "39": {
+      "title": "Objects & Tools II",
+      "words": [
+        {"id": 381, "ar": "فتح", "en": "He opened", "ph": "Fataha"},
+        {"id": 382, "ar": "أغلق", "en": "He closed", "ph": "Aghlaqa"},
+        {"id": 383, "ar": "كسر", "en": "He broke", "ph": "Kasara"},
+        {"id": 384, "ar": "باب", "en": "Door", "ph": "Baab"},
+        {"id": 385, "ar": "نافذة", "en": "Window", "ph": "Naafidhah"},
+        {"id": 386, "ar": "مفتاح", "en": "Key", "ph": "Miftaah"},
+        {"id": 387, "ar": "صندوق", "en": "Box", "ph": "Sundooq"},
+        {"id": 388, "ar": "كرسي", "en": "Chair", "ph": "Kursi"},
+        {"id": 389, "ar": "طاولة", "en": "Table", "ph": "Taawilah"},
+        {"id": 390, "ar": "مصباح", "en": "Lamp", "ph": "Misbaah"}
+      ]
+    },
+    "40": {
+      "title": "Communication III",
+      "words": [
+        {"id": 391, "ar": "أجاب", "en": "He answered", "ph": "Ajaaba"},
+        {"id": 392, "ar": "استمع", "en": "He listened", "ph": "Istama’a"},
+        {"id": 393, "ar": "تحدث", "en": "He spoke", "ph": "Tahaddatha"},
+        {"id": 394, "ar": "صوت", "en": "Voice", "ph": "Sawt"},
+        {"id": 395, "ar": "لغة", "en": "Language", "ph": "Lughah"},
+        {"id": 396, "ar": "كلمة", "en": "Word", "ph": "Kalima"},
+        {"id": 397, "ar": "جملة", "en": "Sentence", "ph": "Jumla"},
+        {"id": 398, "ar": "نقاش", "en": "Discussion", "ph": "Niqaash"},
+        {"id": 399, "ar": "حوار", "en": "Dialogue", "ph": "Hiwaar"},
+        {"id": 400, "ar": "خطاب", "en": "Speech", "ph": "Khitaab"}
+      ]
+    },
   "41": {
-    "title": "Level 41: Advanced Purchasing",
-    "words": [
-      {"ar": "كم سعر هذا من فضلك", "en": "How much is this please?", "ph": "Kam si'r hadha min fadlik"},
-      {"ar": "بناء على ذلك", "en": "Based on that", "ph": "Bina'an 'ala dhalika"},
-      {"ar": "سوبرماركت", "en": "Supermarket", "ph": "Supermarket"},
-      {"ar": "عربة", "en": "Cart", "ph": "Arabah"},
-      {"ar": "دفع", "en": "He paid cash", "ph": "Dafa'a"},
-      {"ar": "رخيص الثمن", "en": "Low-priced", "ph": "Rakhees ath-thaman"},
-      {"ar": "أريد الفاتورة", "en": "I want the invoice", "ph": "Ureed al-fatoorah"},
-      {"ar": "بطاقة مالي", "en": "Bank card", "ph": "Bitaqah mali"},
-      {"ar": "نقد", "en": "Cash money", "ph": "Naqd"},
-      {"ar": "حسب", "en": "He added up", "ph": "Hasaba"}
-    ]
-  },
-  "42": {
-    "title": "Level 42: Civil Layouts",
-    "words": [
-      {"ar": "أنا أبحث عن العنوان", "en": "I am looking for address", "ph": "Ana abhathu 'an al-'unwan"},
-      {"ar": "بالمقارنة مع", "en": "In comparison with", "ph": "Bil-muqaranah ma'a"},
-      {"ar": "حي", "en": "Neighborhood / District", "ph": "Hayy"},
-      {"ar": "ساحة", "en": "Square / Plaza", "ph": "Sahah"},
-      {"ar": "عبر", "en": "He crossed over", "ph": "Abara"},
-      {"ar": "مزدحم", "en": "Crowded", "ph": "Muzdahim"},
-      {"ar": "أين الطريق الرئيسي", "en": "Where is main road?", "ph": "Ayna at-tariq ar-ra'isi"},
-      {"ar": "رصيف", "en": "Sidewalk / Pavement", "ph": "Raseef"},
-      {"ar": "إشارة", "en": "Signal / Sign", "ph": "Isharah"},
-      {"ar": "التف", "en": "He turned around", "ph": "Iltaffa"}
-    ]
-  },
-  "43": {
-    "title": "Level 43: Dining & Banquet",
-    "words": [
-      {"ar": "أتمنى لك وجبة لذيذة", "en": "Enjoy a tasty meal", "ph": "Atamanna laka wajbah ladheedhah"},
-      {"ar": "منذ ذلك الحين", "en": "Ever since then", "ph": "Mundhu dhalika al-heen"},
-      {"ar": "طبق", "en": "Dish / Plate", "ph": "Tabaq"},
-      {"ar": "ملعقة", "en": "Spoon", "ph": "Mil'aqah"},
-      {"ar": "سكب", "en": "He poured out", "ph": "Sakaba"},
-      {"ar": "حلو", "en": "Sweet", "ph": "Hulu"},
-      {"ar": "الطعام لذيذ جدا", "en": "Food is delicious", "ph": "At-ta'am ladheedh jiddan"},
-      {"ar": "شوكة", "en": "Fork", "ph": "Shawkah"},
-      {"ar": "سكين", "en": "Knife", "ph": "Sikkeen"},
-      {"ar": "قطع", "en": "He sliced", "ph": "Qata'a"}
-    ]
-  },
-  "44": {
-    "title": "Level 44: Complex Machinery",
-    "words": [
-      {"ar": "افتح الباب من فضلك", "en": "Open the door please", "ph": "Iftah al-bab min fadlik"},
-      {"ar": "في نهاية المطاف", "en": "Ultimately", "ph": "Fi nihayat al-mataf"},
-      {"ar": "آلة", "en": "Machine / Device", "ph": "Aalah"},
-      {"ar": "مفك", "en": "Screwdriver", "ph": "Mufakk"},
-      {"ar": "صلح", "en": "He repaired", "ph": "Sallaha"},
-      {"ar": "متين", "en": "Sturdy / Solid", "ph": "Mateen"},
-      {"ar": "النافذة مكسورة", "en": "The window is broken", "ph": "An-nafidhah maksoorah"},
-      {"ar": "برغي", "en": "Screw", "ph": "Burghi"},
-      {"ar": "سلك", "en": "Wire / Cable", "ph": "Silk"},
-      {"ar": "ربط", "en": "He tied up", "ph": "Rabata"}
-    ]
-  },
-  "45": {
-    "title": "Level 45: Corporate Actions",
-    "words": [
-      {"ar": "في الوقت ذاته", "en": "At the same time", "ph": "Fi al-waqtid-dhatih"},
-      {"ar": "من هذا المنطلق", "en": "From this perspective", "ph": "Min hadha al-muntalaq"},
-      {"ar": "مشروع", "en": "Project", "ph": "Mashru'"},
-      {"ar": "عقد", "en": "Contract", "ph": "Aqd"},
-      {"ar": "أمضى", "en": "He signed / executed", "ph": "Amda"},
-      {"ar": "رسمي", "en": "Official", "ph": "Rasmi"},
-      {"ar": "لا تقلق بشأن العمل", "en": "Don't worry about work", "ph": "La taqlaq bi-sha'n al-'amal"},
-      {"ar": "مذكرة", "en": "Memo / Note", "ph": "Mudhakkirah"},
-      {"ar": "ختم", "en": "Stamp / Seal", "ph": "Khatam"},
-      {"ar": "أرسل", "en": "He dispatched", "ph": "Arsala"}
-    ]
-  },
-  "46": {
-    "title": "Level 46: Advanced Transit",
-    "words": [
-      {"ar": "أتمنى لك سلامة الوصول", "en": "Wishing you safe arrival", "ph": "Atamanna laka salamat al-wusool"},
-      {"ar": "على وجه الخصوص", "en": "Particularly", "ph": "'Ala wajh al-khusoos"},
-      {"ar": "شاحنة", "en": "Truck", "ph": "Shahinah"},
-      {"ar": "محرك سيارة", "en": "Car engine", "ph": "Muharrik sayyarah"},
-      {"ar": "أوقف", "en": "He stopped / braked", "ph": "Awqafa"},
-      {"ar": "معطل", "en": "Broken down / Defective", "ph": "Mu'attal"},
-      {"ar": "السيارة لا تعمل", "en": "The car won't start", "ph": "As-sayyarah la ta'mal"},
-      {"ar": "عجلة احتياطية", "en": "Spare tire", "ph": "Ajalah ihtiyatiyyah"},
-      {"ar": "فرامل", "en": "Brakes", "ph": "Faramil"},
-      {"ar": "صلح", "en": "He fixed mechanics", "ph": "Sallaha"}
-    ]
-  },
-  "47": {
-    "title": "Level 47: Geography & Landscapes",
-    "words": [
-      {"ar": "سبحان ربي العظيم", "en": "Glory to my Lord Great", "ph": "Subhan Rabbi al-'Azheem"},
-      {"ar": "على نطاق واسع", "en": "On a large scale", "ph": "'Ala nitaq wasi'"},
-      {"ar": "صحراء", "en": "Desert", "ph": "Sahra'"},
-      {"ar": "غابة", "en": "Forest / Jungle", "ph": "Ghabah"},
-      {"ar": "اكتشف", "en": "He discovered", "ph": "Iktashafa"},
-      {"ar": "جاف", "en": "Dry / Arid", "ph": "Jaff"},
-      {"ar": "الجو حار جدا", "en": "The weather is very hot", "ph": "Al-jaww haar jiddan"},
-      {"ar": "واحة", "en": "Oasis", "ph": "Wahah"},
-      {"ar": "وادي", "en": "Valley", "ph": "Wadi"},
-      {"ar": "تسلق", "en": "He climbed", "ph": "Tasal-laqa"}
-    ]
-  },
-  "48": {
-    "title": "Level 48: Medical Consultations",
-    "words": [
-      {"ar": "الحمد لله على كل حال", "en": "Praise God in all states", "ph": "Alhamdulillah 'ala kulli hal"},
-      {"ar": "من وجهة نظري", "en": "From my point of view", "ph": "Min wajhat nazhari"},
-      {"ar": "عيادة", "en": "Clinic", "ph": "'Iyadah"},
-      {"ar": "وصفة طبي", "en": "Prescription", "ph": "Wasfah tibbiyyah"},
-      {"ar": "شخص", "en": "He diagnosed", "ph": "Shakh-khasa"},
-      {"ar": "خطير", "en": "Dangerous / Serious", "ph": "Khateer"},
-      {"ar": "أتمنى لك الشفاء العاجل", "en": "Wish you speedy recovery", "ph": "Atamanna laka ash-shifa' al-'ajil"},
-      {"ar": "صيدلية", "en": "Pharmacy", "ph": "Saydaliyyah"},
-      {"ar": "مرض", "en": "Disease", "ph": "Marad"},
-      {"ar": "تناول دواء", "en": "He took medication", "ph": "Tanawala dawa'"}
-    ]
-  },
-  "49": {
-    "title": "Level 49: Extended Genealogy",
-    "words": [
-      {"ar": "في أسرع وقت ممكن", "en": "As quickly as possible", "ph": "Fi asra' waqt mumkin"},
-      {"ar": "من هذا القبيل", "en": "Of this sort", "ph": "Min hadha al-qabeel"},
-      {"ar": "خال", "en": "Maternal Uncle", "ph": "Khal"},
-      {"ar": "خالة", "en": "Maternal Aunt", "ph": "Khalah"},
-      {"ar": "تواصل", "en": "He kept in touch", "ph": "Tawasala"},
-      {"ar": "قريب جدا", "en": "Very close family", "ph": "Qareeb jiddan"},
-      {"ar": "سأزور أقاربي اليوم", "en": "I'll visit relatives today", "ph": "Sa-azoor aqaribi al-yawm"},
-      {"ar": "حفيد", "en": "Grandson", "ph": "Hafeed"},
-      {"ar": "حفيدة", "en": "Granddaughter", "ph": "Hafeedah"},
-      {"ar": "اجتمع", "en": "He met up", "ph": "Ijtama'a"}
-    ]
-  },
-  "50": {
-    "title": "Level 50: Specialized Courses",
-    "words": [
-      {"ar": "كل شيء يسير بشكل جيد", "en": "Everything goes well", "ph": "Kullu shay' yaseer bi-shakln jayyid"},
-      {"ar": "بشكل غير مباشر", "en": "Indirectly", "ph": "Bi-shakln ghayr mubashir"},
-      {"ar": "معهد", "en": "Institute", "ph": "Ma'had"},
-      {"ar": "شهادة", "en": "Certificate / Degree", "ph": "Shahadah"},
-      {"ar": "تخرج", "en": "He graduated", "ph": "Takharraja"},
-      {"ar": "ناجح", "en": "Successful academic", "ph": "Najih"},
-      {"ar": "مبروك على التخرج", "en": "Congrats on graduation", "ph": "Mabrook 'ala at-takhajjuj"},
-      {"ar": "محاضرة", "en": "Lecture", "ph": "Muhadarah"},
-      {"ar": "قاعة", "en": "Hall / Auditorium", "ph": "Qa'ah"},
-      {"ar": "سجل", "en": "He enrolled", "ph": "Sajjala"}
-    ]
-  },
+      "title": "Work & Office II",
+      "words": [
+        {"id": 401, "ar": "اجتمع", "en": "He gathered/met", "ph": "Ijtamaa’"},
+        {"id": 402, "ar": "نظم", "en": "He organized", "ph": "Nazzama"},
+        {"id": 403, "ar": "خطط", "en": "He planned", "ph": "Khattata"},
+        {"id": 404, "ar": "مكتب", "en": "Office", "ph": "Maktab"},
+        {"id": 405, "ar": "ملف", "en": "File", "ph": "Milaff"},
+        {"id": 406, "ar": "حاسوب", "en": "Computer", "ph": "Haasoob"},
+        {"id": 407, "ar": "طابعة", "en": "Printer", "ph": "Taabi’ah"},
+        {"id": 408, "ar": "هاتف", "en": "Phone", "ph": "Haatef"},
+        {"id": 409, "ar": "ورقة", "en": "Paper", "ph": "Waraqah"},
+        {"id": 410, "ar": "قلم", "en": "Pen", "ph": "Qalam"}
+      ]
+    },
+    "42": {
+      "title": "Travel & Directions II",
+      "words": [
+        {"id": 411, "ar": "سلك", "en": "He followed a path", "ph": "Salaka"},
+        {"id": 412, "ar": "أشار", "en": "He pointed", "ph": "Ashara"},
+        {"id": 413, "ar": "دلّ", "en": "He guided", "ph": "Dalla"},
+        {"id": 414, "ar": "يمين", "en": "Right", "ph": "Yameen"},
+        {"id": 415, "ar": "يسار", "en": "Left", "ph": "Yasaar"},
+        {"id": 416, "ar": "شمال", "en": "North", "ph": "Shimaal"},
+        {"id": 417, "ar": "جنوب", "en": "South", "ph": "Janoob"},
+        {"id": 418, "ar": "شرق", "en": "East", "ph": "Sharq"},
+        {"id": 419, "ar": "غرب", "en": "West", "ph": "Gharb"},
+        {"id": 420, "ar": "خريطة", "en": "Map", "ph": "Khareetah"}
+      ]
+    },
+    "43": {
+      "title": "Family & Relations II",
+      "words": [
+        {"id": 421, "ar": "تزوج", "en": "He married", "ph": "Tazawwaja"},
+        {"id": 422, "ar": "طلق", "en": "He divorced", "ph": "Tallaqa"},
+        {"id": 423, "ar": "أنجب", "en": "He fathered", "ph": "Anjaba"},
+        {"id": 424, "ar": "زوج", "en": "Husband", "ph": "Zawj"},
+        {"id": 425, "ar": "زوجة", "en": "Wife", "ph": "Zawjah"},
+        {"id": 426, "ar": "ابن", "en": "Son", "ph": "Ibn"},
+        {"id": 427, "ar": "ابنة", "en": "Daughter", "ph": "Bint"},
+        {"id": 428, "ar": "عم", "en": "Uncle (paternal)", "ph": "Amm"},
+        {"id": 429, "ar": "خال", "en": "Uncle (maternal)", "ph": "Khaal"},
+        {"id": 430, "ar": "عائلة", "en": "Family", "ph": "Aa’ilah"}
+      ]
+    },
+    "44": {
+      "title": "Food & Drink III",
+      "words": [
+        {"id": 431, "ar": "طبخ", "en": "He cooked", "ph": "Tabakha"},
+        {"id": 432, "ar": "غلى", "en": "He boiled", "ph": "Ghalaa"},
+        {"id": 433, "ar": "قلى", "en": "He fried", "ph": "Qalaa"},
+        {"id": 434, "ar": "خبز", "en": "Bread", "ph": "Khubz"},
+        {"id": 435, "ar": "أرز", "en": "Rice", "ph": "Arz"},
+        {"id": 436, "ar": "لحم", "en": "Meat", "ph": "Lahm"},
+        {"id": 437, "ar": "سمك", "en": "Fish", "ph": "Samak"},
+        {"id": 438, "ar": "دجاج", "en": "Chicken", "ph": "Dajaaj"},
+        {"id": 439, "ar": "خضار", "en": "Vegetables", "ph": "Khodaar"},
+        {"id": 440, "ar": "فاكهة", "en": "Fruit", "ph": "Faakihah"}
+      ]
+    },
+    "45": {
+      "title": "Religion & Worship III",
+      "words": [
+        {"id": 441, "ar": "ذكر", "en": "He remembered/mentioned", "ph": "Dhakara"},
+        {"id": 442, "ar": "دعا", "en": "He supplicated", "ph": "Da’aa"},
+        {"id": 443, "ar": "قرأ", "en": "He recited", "ph": "Qara’a"},
+        {"id": 444, "ar": "مسجد", "en": "Mosque", "ph": "Masjid"},
+        {"id": 445, "ar": "محراب", "en": "Prayer niche", "ph": "Mihrab"},
+        {"id": 446, "ar": "منبر", "en": "Pulpit", "ph": "Minbar"},
+        {"id": 447, "ar": "صلاة", "en": "Prayer", "ph": "Salaah"},
+        {"id": 448, "ar": "زكاة", "en": "Charity", "ph": "Zakaah"},
+        {"id": 449, "ar": "صوم", "en": "Fasting", "ph": "Sawm"},
+        {"id": 450, "ar": "حج", "en": "Pilgrimage", "ph": "Hajj"}
+      ]
+    },
+    "46": {
+      "title": "Daily Routine III",
+      "words": [
+        {"id": 451, "ar": "استيقظ", "en": "He woke up", "ph": "Istayqaz"},
+        {"id": 452, "ar": "نام", "en": "He slept", "ph": "Naama"},
+        {"id": 453, "ar": "اغتسل", "en": "He bathed", "ph": "Ightasala"},
+        {"id": 454, "ar": "فراش", "en": "Bed", "ph": "Firaash"},
+        {"id": 455, "ar": "بطانية", "en": "Blanket", "ph": "Bataaniyah"},
+        {"id": 456, "ar": "وسادة", "en": "Pillow", "ph": "Wisaadah"},
+        {"id": 457, "ar": "حمام", "en": "Bathroom", "ph": "Hammaam"},
+        {"id": 458, "ar": "مرآة", "en": "Mirror", "ph": "Mir’aah"},
+        {"id": 459, "ar": "مغسلة", "en": "Sink", "ph": "Maghsalah"},
+        {"id": 460, "ar": "منشفة", "en": "Towel", "ph": "Manshafah"}
+      ]
+    },
+    "47": {
+      "title": "Market & Shopping II",
+      "words": [
+        {"id": 461, "ar": "اشترى", "en": "He bought", "ph": "Ishtaraa"},
+        {"id": 462, "ar": "باع", "en": "He sold", "ph": "Baa’a"},
+        {"id": 463, "ar": "عرض", "en": "He offered/displayed", "ph": "‘Arada"},
+        {"id": 464, "ar": "سوق", "en": "Market", "ph": "Souq"},
+        {"id": 465, "ar": "محل", "en": "Shop", "ph": "Mahall"},
+        {"id": 466, "ar": "بائع", "en": "Seller", "ph": "Baa’i’"},
+        {"id": 467, "ar": "مشتري", "en": "Buyer", "ph": "Mushtari"},
+        {"id": 468, "ar": "سلعة", "en": "Product", "ph": "Sil’ah"},
+        {"id": 469, "ar": "ثمن", "en": "Price", "ph": "Thaman"},
+        {"id": 470, "ar": "مال", "en": "Money", "ph": "Maal"}
+      ]
+    },
+    "48": {
+      "title": "Health & Body II",
+      "words": [
+        {"id": 471, "ar": "تنفس", "en": "He breathed", "ph": "Tanaffasa"},
+        {"id": 472, "ar": "سعل", "en": "He coughed", "ph": "Sa’ala"},
+        {"id": 473, "ar": "ابتسم", "en": "He smiled", "ph": "Ibtasama"},
+        {"id": 474, "ar": "رأس", "en": "Head", "ph": "Ra’s"},
+        {"id": 475, "ar": "عين", "en": "Eye", "ph": "Ayn"},
+        {"id": 476, "ar": "أذن", "en": "Ear", "ph": "Udhun"},
+        {"id": 477, "ar": "فم", "en": "Mouth", "ph": "Fam"},
+        {"id": 478, "ar": "أنف", "en": "Nose", "ph": "Anf"},
+        {"id": 479, "ar": "يد", "en": "Hand", "ph": "Yad"},
+        {"id": 480, "ar": "قدم", "en": "Foot", "ph": "Qadam"}
+      ]
+    },
+    "49": {
+      "title": "Technology & Tools II",
+      "words": [
+        {"id": 481, "ar": "كتب", "en": "He typed/wrote", "ph": "Kataba"},
+        {"id": 482, "ar": "اتصل", "en": "He called", "ph": "Ittasala"},
+        {"id": 483, "ar": "بحث", "en": "He searched", "ph": "Bahatha"},
+        {"id": 484, "ar": "حاسوب", "en": "Computer", "ph": "Haasoob"},
+        {"id": 485, "ar": "هاتف", "en": "Phone", "ph": "Haatef"},
+        {"id": 486, "ar": "إنترنت", "en": "Internet", "ph": "Internet"},
+        {"id": 487, "ar": "برنامج", "en": "Program", "ph": "Barnaamaj"},
+        {"id": 488, "ar": "آلة", "en": "Machine", "ph": "Aalah"},
+        {"id": 489, "ar": "مفتاح", "en": "Key", "ph": "Miftaah"},
+        {"id": 490, "ar": "ساعة", "en": "Watch/Clock", "ph": "Saa’ah"}
+      ]
+    },
+    "50": {
+      "title": "Nature & Environment III",
+      "words": [
+        {"id": 491, "ar": "أضاء", "en": "He illuminated", "ph": "Ada’a"},
+        {"id": 492, "ar": "أظلم", "en": "It became dark", "ph": "Azlama"},
+        {"id": 493, "ar": "أمطر", "en": "It rained", "ph": "Amtara"},
+        {"id": 494, "ar": "شمس", "en": "Sun", "ph": "Shams"},
+        {"id": 495, "ar": "قمر", "en": "Moon", "ph": "Qamar"},
+        {"id": 496, "ar": "نجم", "en": "Star", "ph": "Najm"},
+        {"id": 497, "ar": "سماء", "en": "Sky", "ph": "Samaa"},
+        {"id": 498, "ar": "سحاب", "en": "Cloud", "ph": "Sahaab"},
+        {"id": 499, "ar": "مطر", "en": "Rain", "ph": "Matar"},
+        {"id": 500, "ar": "ثلج", "en": "Snow", "ph": "Thalj"}
+      ]
+    },
   "51": {
-    "title": "Level 51: Financial Inquiries",
-    "words": [
-      {"ar": "بكم هذا الكيلو من فضلك", "en": "How much for a kilo please?", "ph": "Bikam hadha al-keelo min fadlik"},
-      {"ar": "بشكل عام", "en": "In general", "ph": "Bi-shakln 'aam"},
-      {"ar": "صراف", "en": "Money changer / ATM", "ph": "Sarraf"},
-      {"ar": "عملة", "en": "Currency", "ph": "'Umlah"},
-      {"ar": "حول مالي", "en": "He exchanged currency", "ph": "Hawwala mali"},
-      {"ar": "مرتفع الثمن", "en": "High-priced item", "ph": "Murtafi' ath-thaman"},
-      {"ar": "أين أجد الصراف الآلي", "en": "Where is the ATM?", "ph": "Ayna ajid as-sarraf al-aali"},
-      {"ar": "حساب مصرفي", "en": "Bank account", "ph": "Hisab masriki"},
-      {"ar": "قرض", "en": "Loan", "ph": "Qard"},
-      {"ar": "سحب مالي", "en": "He withdrew money", "ph": "Sahaba mali"}
-    ]
-  },
-  "52": {
-    "title": "Level 52: Commercial Areas",
-    "words": [
-      {"ar": "أنا أبحث عن مكتب البريد", "en": "I am looking for post office", "ph": "Ana abhathu 'an maktab al-bareed"},
-      {"ar": "بشكل خاص", "en": "Specifically", "ph": "Bi-shakln khaas"},
-      {"ar": "مركز", "en": "Center / Mall", "ph": "Markaz"},
-      {"ar": "محل", "en": "Storefront / Shop", "ph": "Mahall"},
-      {"ar": "اشترى", "en": "He purchased goods", "ph": "Ishtara"},
-      {"ar": "حديث", "en": "Modern", "ph": "Hadeeth"},
-      {"ar": "المحل مغلق الآن", "en": "The shop is closed now", "ph": "Al-mahall mughlaq al-aan"},
-      {"ar": "بوابة", "en": "Gate / Portal", "ph": "Bawwabah"},
-      {"ar": "ساحة الانتظار", "en": "Waiting area / Parking", "ph": "Sahat al-intidhar"},
-      {"ar": "بحث", "en": "He searched for", "ph": "Bahatha"}
-    ]
-  },
-  "53": {
-    "title": "Level 53: Kitchen Utilities",
-    "words": [
-      {"ar": "أتمنى لك سهرة سعيدة", "en": "Have a wonderful evening", "ph": "Atamanna laka sahrah sa'eedah"},
-      {"ar": "بشكل مستمر", "en": "Continuously", "ph": "Bi-shakln mustamirr"},
-      {"ar": "فرن", "en": "Oven", "ph": "Furn"},
-      {"ar": "ثلاجة", "en": "Refrigerator", "ph": "Thallajah"},
-      {"ar": "سخن", "en": "He heated up", "ph": "Sakh-khana"},
-      {"ar": "طازج", "en": "Fresh", "ph": "Tazij"},
-      {"ar": "هذا الطعام طازج", "en": "This food is fresh", "ph": "Hadha at-ta'am tazij"},
-      {"ar": "طنجرة", "en": "Cooking pot", "ph": "Tanjarah"},
-      {"ar": "غلاية", "en": "Kettle", "ph": "Ghallayah"},
-      {"ar": "غسل", "en": "He washed dishes", "ph": "Ghasala"}
-    ]
-  },
-  "54": {
-    "title": "Level 54: Heavy Hardware",
-    "words": [
-      {"ar": "افتح النافذة من فضلك", "en": "Open the window please", "ph": "Iftah an-nafidhah min fadlik"},
-      {"ar": "بشكل مفاجئ", "en": "Suddenly", "ph": "Bi-shakln mufaji'"},
-      {"ar": "منشار", "en": "Saw", "ph": "Minshar"},
-      {"ar": "دهان", "en": "Paint", "ph": "Dihan"},
-      {"ar": "دهن", "en": "He painted walls", "ph": "Dahana"},
-      {"ar": "ملون", "en": "Colorful", "ph": "Mulawwan"},
-      {"ar": "الجدار جاف تماما", "en": "The wall is fully dry", "ph": "Al-jidar jaff tamamid"},
-      {"ar": "فرشاة", "en": "Brush", "ph": "Furshah"},
-      {"ar": "سلم", "en": "Ladder", "ph": "Sullam"},
-      {"ar": "صعد", "en": "He climbed up", "ph": "Sa'ida"}
-    ]
-  },
-  "55": {
-    "title": "Level 55: Workspace Tasks",
-    "words": [
-      {"ar": "في غضون أيام قليلة", "en": "Within a few days", "ph": "Fi ghudoon ayyam qaleelah"},
-      {"ar": "بشكل تدريجي", "en": "Gradually", "ph": "Bi-shakln tadreeji"},
-      {"ar": "مهمة", "en": "Task / Assignment", "ph": "Muhimmah"},
-      {"ar": "جدول", "en": "Schedule / Table", "ph": "Jadwal"},
-      {"ar": "نظم", "en": "He organized", "ph": "Nazh-zhama"},
-      {"ar": "منظم", "en": "Well-organized", "ph": "Munazh-zham"},
-      {"ar": "الجدول مزدحم جدا اليوم", "en": "The schedule is tight today", "ph": "Al-jadwal muzdahim jiddan al-yawm"},
-      {"ar": "تنبيه", "en": "Notification / Alert", "ph": "Tanbeeh"},
-      {"ar": "مفكرة", "en": "Planner / Diary", "ph": "Mufakkirah"},
-      {"ar": "أجل", "en": "He postponed", "ph": "Ajjala"}
-    ]
-  },
+      "title": "Work & Professions II",
+      "words": [
+        {"id": 501, "ar": "عمل", "en": "He worked", "ph": "Amila"},
+        {"id": 502, "ar": "أدار", "en": "He managed", "ph": "Adaara"},
+        {"id": 503, "ar": "درّس", "en": "He taught", "ph": "Darrasa"},
+        {"id": 504, "ar": "طبيب", "en": "Doctor", "ph": "Tabeeb"},
+        {"id": 505, "ar": "مهندس", "en": "Engineer", "ph": "Muhandis"},
+        {"id": 506, "ar": "مزارع", "en": "Farmer", "ph": "Muzaari’"},
+        {"id": 507, "ar": "تاجر", "en": "Merchant", "ph": "Taajir"},
+        {"id": 508, "ar": "كاتب", "en": "Writer", "ph": "Kaateb"},
+        {"id": 509, "ar": "محامي", "en": "Lawyer", "ph": "Muhaami"},
+        {"id": 510, "ar": "شرطي", "en": "Police officer", "ph": "Shurti"}
+      ]
+    },
+    "52": {
+      "title": "Travel & Places III",
+      "words": [
+        {"id": 511, "ar": "زار", "en": "He visited", "ph": "Zaara"},
+        {"id": 512, "ar": "غادر", "en": "He departed", "ph": "Ghaadara"},
+        {"id": 513, "ar": "وصل", "en": "He arrived", "ph": "Wasala"},
+        {"id": 514, "ar": "مدينة", "en": "City", "ph": "Madeenah"},
+        {"id": 515, "ar": "قرية", "en": "Village", "ph": "Qaryah"},
+        {"id": 516, "ar": "شارع", "en": "Street", "ph": "Shaari’"},
+        {"id": 517, "ar": "ميدان", "en": "Square", "ph": "Maydaan"},
+        {"id": 518, "ar": "جسر", "en": "Bridge", "ph": "Jisr"},
+        {"id": 519, "ar": "مطار", "en": "Airport", "ph": "Mataar"},
+        {"id": 520, "ar": "فندق", "en": "Hotel", "ph": "Funduq"}
+      ]
+    },
+    "53": {
+      "title": "Emotions & Mind II",
+      "words": [
+        {"id": 521, "ar": "تذكر", "en": "He remembered", "ph": "Tadhakkara"},
+        {"id": 522, "ar": "نسي", "en": "He forgot", "ph": "Nasiya"},
+        {"id": 523, "ar": "اعتقد", "en": "He believed", "ph": "I‘taqada"},
+        {"id": 524, "ar": "عقل", "en": "Mind", "ph": "‘Aql"},
+        {"id": 525, "ar": "قلب", "en": "Heart", "ph": "Qalb"},
+        {"id": 526, "ar": "فكر", "en": "Thought", "ph": "Fikr"},
+        {"id": 527, "ar": "ذكرى", "en": "Memory", "ph": "Dhikraa"},
+        {"id": 528, "ar": "حلم", "en": "Dream", "ph": "Hulm"},
+        {"id": 529, "ar": "أمل", "en": "Hope", "ph": "Amal"},
+        {"id": 530, "ar": "إيمان", "en": "Faith", "ph": "Eemaan"}
+      ]
+    },
+    "54": {
+      "title": "Animals II",
+      "words": [
+        {"id": 531, "ar": "أطعم", "en": "He fed", "ph": "At’ama"},
+        {"id": 532, "ar": "ربى", "en": "He raised", "ph": "Rabba"},
+        {"id": 533, "ar": "حرس", "en": "He guarded", "ph": "Harasa"},
+        {"id": 534, "ar": "كلب", "en": "Dog", "ph": "Kalb"},
+        {"id": 535, "ar": "قط", "en": "Cat", "ph": "Qitt"},
+        {"id": 536, "ar": "حصان", "en": "Horse", "ph": "Hisaan"},
+        {"id": 537, "ar": "بقرة", "en": "Cow", "ph": "Baqara"},
+        {"id": 538, "ar": "غنم", "en": "Sheep", "ph": "Ghanam"},
+        {"id": 539, "ar": "جمل", "en": "Camel", "ph": "Jamal"},
+        {"id": 540, "ar": "طائر", "en": "Bird", "ph": "Taa’ir"}
+      ]
+    },
+    "55": {
+      "title": "Numbers & Counting II",
+      "words": [
+        {"id": 541, "ar": "جمع", "en": "He gathered", "ph": "Jama’a"},
+        {"id": 542, "ar": "طرح", "en": "He subtracted", "ph": "Taraha"},
+        {"id": 543, "ar": "قسّم", "en": "He divided", "ph": "Qassama"},
+        {"id": 544, "ar": "ثمانية", "en": "Eight", "ph": "Thamaaniyah"},
+        {"id": 545, "ar": "تسعة", "en": "Nine", "ph": "Tis’ah"},
+        {"id": 546, "ar": "عشرة", "en": "Ten", "ph": "‘Asharah"},
+        {"id": 547, "ar": "مئة", "en": "Hundred", "ph": "Mi’ah"},
+        {"id": 548, "ar": "ألف", "en": "Thousand", "ph": "Alf"},
+        {"id": 549, "ar": "عدد", "en": "Number", "ph": "Adad"},
+        {"id": 550, "ar": "حساب", "en": "Calculation", "ph": "Hisaab"}
+      ]
+    },
   "56": {
-    "title": "Level 56: Traffic Emergencies",
-    "words": [
-      {"ar": "أتمنى لك رحلة آمنة", "en": "Wishing you a safe journey", "ph": "Atamanna laka rihlah aminah"},
-      {"ar": "بشكل مؤقت", "en": "Temporarily", "ph": "Bi-shakln muaqqat"},
-      {"ar": "حادث", "en": "Accident", "ph": "Hadith"},
-      {"ar": "إسعاف", "en": "Ambulance", "ph": "Is'af"},
-      {"ar": "اصطدم", "en": "It collided", "ph": "Istadama"},
-      {"ar": "خطير جدا", "en": "Highly dangerous", "ph": "Khateer jiddan"},
-      {"ar": "اتصل بالإسعاف فورا", "en": "Call ambulance immediately", "ph": "Ittasil bil-is'af fawran"},
-      {"ar": "شرطة", "en": "Police", "ph": "Shurtah"},
-      {"ar": "طوارئ", "en": "Emergency", "ph": "Tawari'"},
-      {"ar": "ساعد", "en": "He assisted", "ph": "Saa'ada"}
-    ]
-  },
-  "57": {
-    "title": "Level 57: Environmental Weather",
-    "words": [
-      {"ar": "سبحان الذي سخر لنا هذا", "en": "Glory to Him who bound this", "ph": "Subhan alladhi sakh-khara lana hadha"},
-      {"ar": "بشكل دائم", "en": "Permanently", "ph": "Bi-shakln da'im"},
-      {"ar": "عاصفة", "en": "Storm", "ph": "Asifah"},
-      {"ar": "ثلج", "en": "Snow / Ice", "ph": "Thalj"},
-      {"ar": "أثلج", "en": "It snowed", "ph": "Athlaja"},
-      {"ar": "قارس", "en": "Freezing / Bitter", "ph": "Qaris"},
-      {"ar": "الطقس بارد قارس", "en": "The weather is freezing cold", "ph": "At-taqs barid qaris"},
-      {"ar": "برق", "en": "Lightning", "ph": "Barq"},
-      {"ar": "رعد", "en": "Thunder", "ph": "Ra'd"},
-      {"ar": "هب", "en": "It blew (wind)", "ph": "Habba"}
-    ]
-  },
-  "58": {
-    "title": "Level 58: Hospital Wards",
-    "words": [
-      {"ar": "الحمد لله الذي عافاني", "en": "Praise God who healed me", "ph": "Alhamdulillah alladhi 'aafani"},
-      {"ar": "بشكل كامل", "en": "Completely", "ph": "Bi-shakln kamil"},
-      {"ar": "ممرض", "en": "Nurse", "ph": "Mumarrid"},
-      {"ar": "غرفة العمليات", "en": "Operating room", "ph": "Ghurfat al-'amaliyyat"},
-      {"ar": "أجرى جراحة", "en": "He performed surgery", "ph": "Ajra jirahah"},
-      {"ar": "معافى", "ph": "Cured / Well", "en": "Mu'afa"},
-      {"ar": "الحمد لله على نجاح العملية", "en": "Thank God surgery succeeded", "ph": "Alhamdulillah 'ala najah al-'amaliyyah"},
-      {"ar": "سرير المريض", "en": "Patient bed", "ph": "Sareer al-mareed"},
-      {"ar": "تخدير", "en": "Anesthesia", "ph": "Takhdeer"},
-      {"ar": "أفاق", "en": "He woke up / recovered", "ph": "Afaqa"}
-    ]
-  },
-  "59": {
-    "title": "Level 59: Family Celebrations",
-    "words": [
-      {"ar": "عيد ميلاد سعيد", "en": "Happy birthday", "ph": "Eed meelad sa'eed"},
-      {"ar": "بشكل صحيح", "en": "Correctly", "ph": "Bi-shakln saheeh"},
-      {"ar": "حفلة", "en": "Party / Celebration", "ph": "Haflah"},
-      {"ar": "هدية", "en": "Gift / Present", "ph": "Hadiyyah"},
-      {"ar": "احتفل", "en": "He celebrated", "ph": "Ihtafala"},
-      {"ar": "مسرور", "en": "Joyful / Glad", "ph": "Masroor"},
-      {"ar": "كل عام وأنت بخير", "en": "May you be well every year", "ph": "Kullu 'aam wa anta bi-khayr"},
-      {"ar": "كعكة", "en": "Cake", "ph": "Ka'kah"},
-      {"ar": "شمعة", "en": "Candle", "ph": "Sham'ah"},
-      {"ar": "أطفأ", "en": "He blew out", "ph": "Atfa'a"}
-    ]
-  },
-  "60": {
-    "title": "Level 60: Educational Terms",
-    "words": [
-      {"ar": "أتمنى لك النجاح والتوفيق", "en": "Wish you success and luck", "ph": "Atamanna laka an-najah wat-tawfeeq"},
-      {"ar": "بشكل سريع", "en": "Rapidly", "ph": "Bi-shakln saree'"},
-      {"ar": "فصل دراسي", "en": "Semester / Term", "ph": "Fasl dirasi"},
-      {"ar": "منهج", "en": "Curriculum / Syllabus", "ph": "Manhaj"},
-      {"ar": "ذاكر", "en": "He memorized / studied", "ph": "Dhakara"},
-      {"ar": "مجتهد", "en": "Hardworking", "ph": "Mujtahid"},
-      {"ar": "أنت طالب مجتهد جدا", "en": "You are a very diligent student", "ph": "Anta talib mujtahid jiddan"},
-      {"ar": "جدول الحصص", "en": "Class timetable", "ph": "Jadwal al-hisas"},
-      {"ar": "مختبر", "en": "Laboratory", "ph": "Mukhtabar"},
-      {"ar": "أجرى تجربة", "en": "He ran an experiment", "ph": "Ajra tajribah"}
-    ]
-  },
+      "title": "Daily Routine IV",
+      "words": [
+        {"id": 551, "ar": "استعد", "en": "He prepared", "ph": "Ista’adda"},
+        {"id": 552, "ar": "غسل", "en": "He washed", "ph": "Ghasala"},
+        {"id": 553, "ar": "نظف", "en": "He cleaned", "ph": "Nazzafa"},
+        {"id": 554, "ar": "مطبخ", "en": "Kitchen", "ph": "Matbakh"},
+        {"id": 555, "ar": "حمام", "en": "Bathroom", "ph": "Hammaam"},
+        {"id": 556, "ar": "غرفة", "en": "Room", "ph": "Ghurfah"},
+        {"id": 557, "ar": "سرير", "en": "Bed", "ph": "Sareer"},
+        {"id": 558, "ar": "طاولة", "en": "Table", "ph": "Taawilah"},
+        {"id": 559, "ar": "كرسي", "en": "Chair", "ph": "Kursi"},
+        {"id": 560, "ar": "نافذة", "en": "Window", "ph": "Naafidhah"}
+      ]
+    },
+    "57": {
+      "title": "Market & Shopping III",
+      "words": [
+        {"id": 561, "ar": "قارن", "en": "He compared", "ph": "Qaarana"},
+        {"id": 562, "ar": "اختار", "en": "He chose", "ph": "Ikhtara"},
+        {"id": 563, "ar": "أخذ", "en": "He took", "ph": "Akhadha"},
+        {"id": 564, "ar": "سوق", "en": "Market", "ph": "Souq"},
+        {"id": 565, "ar": "محل", "en": "Shop", "ph": "Mahall"},
+        {"id": 566, "ar": "بائع", "en": "Seller", "ph": "Baa’i’"},
+        {"id": 567, "ar": "مشتري", "en": "Buyer", "ph": "Mushtari"},
+        {"id": 568, "ar": "سلعة", "en": "Product", "ph": "Sil’ah"},
+        {"id": 569, "ar": "ثمن", "en": "Price", "ph": "Thaman"},
+        {"id": 570, "ar": "مال", "en": "Money", "ph": "Maal"}
+      ]
+    },
+    "58": {
+      "title": "Health & Body III",
+      "words": [
+        {"id": 571, "ar": "عالج", "en": "He treated", "ph": "‘Aalaja"},
+        {"id": 572, "ar": "فحص", "en": "He examined", "ph": "Fahasa"},
+        {"id": 573, "ar": "شعر", "en": "He felt", "ph": "Sha’ara"},
+        {"id": 574, "ar": "دم", "en": "Blood", "ph": "Dam"},
+        {"id": 575, "ar": "قلب", "en": "Heart", "ph": "Qalb"},
+        {"id": 576, "ar": "رئة", "en": "Lung", "ph": "Ri’ah"},
+        {"id": 577, "ar": "معدة", "en": "Stomach", "ph": "Ma’idah"},
+        {"id": 578, "ar": "عظم", "en": "Bone", "ph": "‘Adhm"},
+        {"id": 579, "ar": "جلد", "en": "Skin", "ph": "Jild"},
+        {"id": 580, "ar": "دماغ", "en": "Brain", "ph": "Dimaagh"}
+      ]
+    },
+    "59": {
+      "title": "Technology & Tools III",
+      "words": [
+        {"id": 581, "ar": "برمج", "en": "He programmed", "ph": "Barmaja"},
+        {"id": 582, "ar": "شغل", "en": "He operated", "ph": "Shaghala"},
+        {"id": 583, "ar": "أصلح", "en": "He repaired", "ph": "Aslaha"},
+        {"id": 584, "ar": "حاسوب", "en": "Computer", "ph": "Haasoob"},
+        {"id": 585, "ar": "هاتف", "en": "Phone", "ph": "Haatef"},
+        {"id": 586, "ar": "إنترنت", "en": "Internet", "ph": "Internet"},
+        {"id": 587, "ar": "برنامج", "en": "Program", "ph": "Barnaamaj"},
+        {"id": 588, "ar": "آلة", "en": "Machine", "ph": "Aalah"},
+        {"id": 589, "ar": "مفتاح", "en": "Key", "ph": "Miftaah"},
+        {"id": 590, "ar": "ساعة", "en": "Watch/Clock", "ph": "Saa’ah"}
+      ]
+    },
+    "60": {
+      "title": "Nature & Environment IV",
+      "words": [
+        {"id": 591, "ar": "أضاء", "en": "He illuminated", "ph": "Ada’a"},
+        {"id": 592, "ar": "أظلم", "en": "It became dark", "ph": "Azlama"},
+        {"id": 593, "ar": "أمطر", "en": "It rained", "ph": "Amtara"},
+        {"id": 594, "ar": "شمس", "en": "Sun", "ph": "Shams"},
+        {"id": 595, "ar": "قمر", "en": "Moon", "ph": "Qamar"},
+        {"id": 596, "ar": "نجم", "en": "Star", "ph": "Najm"},
+        {"id": 597, "ar": "سماء", "en": "Sky", "ph": "Samaa"},
+        {"id": 598, "ar": "سحاب", "en": "Cloud", "ph": "Sahaab"},
+        {"id": 599, "ar": "مطر", "en": "Rain", "ph": "Matar"},
+        {"id": 600, "ar": "ثلج", "en": "Snow", "ph": "Thalj"}
+      ]
+    },
   "61": {
-    "title": "Level 61: Trade Operations",
-    "words": [
-      {"ar": "كم ثمن هذا الاجمالي", "en": "What's total price for this?", "ph": "Kam thaman hadha al-ijmali"},
-      {"ar": "من الآن فصاعدا", "en": "From now on", "ph": "Min al-aan fa-sa'idan"},
-      {"ar": "زبون", "en": "Customer / Client", "ph": "Zaboon"},
-      {"ar": "خصم مالي", "en": "Discount / Rebate", "ph": "Khasm mali"},
-      {"ar": "خفض السعر", "en": "He lowered the price", "ph": "Khaffada as-si'r"},
-      {"ar": "مخفض", "en": "Discounted", "ph": "Mukhaffad"},
-      {"ar": "هل هناك خصم على هذا", "en": "Is there a discount on this?", "ph": "Hal hunaka khasm 'ala hadha"},
-      {"ar": "إيصال", "en": "Receipt", "ph": "Eesal"},
-      {"ar": "سلعة", "en": "Item / Commodity", "ph": "Sil'ah"},
-      {"ar": "استرجع مالي", "en": "He refunded money", "ph": "Istarja'a mali"}
-    ]
-  },
-  "62": {
-    "title": "Level 62: City Suburbs",
-    "words": [
-      {"ar": "أنا أبحث عن محطة الحافلات", "en": "I am looking for bus station", "ph": "Ana abhathu 'an mahattat al-hafilat"},
-      {"ar": "في وقت لاحق", "en": "At a later time", "ph": "Fi waqt lahiq"},
-      {"ar": "ضاحية", "en": "Suburb / Outskirts", "ph": "Dahiyah"},
-      {"ar": "ركن السيارات", "en": "Car parking lot", "ph": "Rukn as-sayyarat"},
-      {"ar": "ركن السيارة", "en": "He parked the car", "ph": "Rakana as-sayyarah"},
-      {"ar": "مزدحم جدا", "en": "Highly congested", "ph": "Muzdahim jiddan"},
-      {"ar": "المواقف مزدحمة بالسيارات", "en": "The parking lots are packed", "ph": "Al-mawaqif muzdahimah bis-sayyarat"},
-      {"ar": "عداد المواقف", "en": "Parking meter", "ph": "Addad al-mawaqif"},
-      {"ar": "رخصة قيادة", "en": "Driver license", "ph": "Rukhsat qiyadah"},
-      {"ar": "مخر الكراج", "en": "He exited garage", "ph": "Khara j al-garaj"}
-    ]
-  },
-  "63": {
-    "title": "Level 63: Dinner Gatherings",
-    "words": [
-      {"ar": "أتمنى لك وقتا ممتعا", "en": "Have an enjoyable time", "ph": "Atamanna laka waqtan mumti'an"},
-      {"ar": "في وقت سابق", "en": "At an earlier time", "ph": "Fi waqt sabiq"},
-      {"ar": "وليمة", "en": "Feast / Banquet", "ph": "Waleemah"},
-      {"ar": "طباخ", "en": "Chef / Cook", "ph": "Tabbakh"},
-      {"ar": "جهز الطعام", "en": "He set up the food", "ph": "Jahhaza at-ta'am"},
-      {"ar": "شهي", "en": "Appetizing / Delicious", "ph": "Shahee"},
-      {"ar": "الوليمة كانت رائعة جدا", "en": "The feast was truly wonderful", "ph": "Al-waleemah kanat ra'i'ah jiddan"},
-      {"ar": "مائدة", "en": "Dining table", "ph": "Ma'idah"},
-      {"ar": "منديل", "en": "Napkin / Tissue", "ph": "Mandeel"},
-      {"ar": "نظف المائدة", "en": "He cleared the table", "ph": "Nazh-zhafa al-ma'idah"}
-    ]
-  },
-  "64": {
-    "title": "Level 64: Power Tools",
-    "words": [
-      {"ar": "افتح القفل من فضلك", "en": "Open the lock please", "ph": "Iftah al-qufl min fadlik"},
-      {"ar": "في الوقت الراهن", "en": "At current moment", "ph": "Fi al-waqt ar-raheen"},
-      {"ar": "مثقاب", "en": "Power drill", "ph": "Mithqab"},
-      {"ar": "صندوق أدوات", "en": "Toolbox", "ph": "Sunduq adawat"},
-      {"ar": "ثقب الجدار", "en": "He drilled the wall", "ph": "Thaqaba al-jidar"},
-      {"ar": "حاد", "en": "Sharp / Keen", "ph": "Haad"},
-      {"ar": "المثقاب حاد جدا احذر", "en": "The drill is very sharp, watch out", "ph": "Al-mithqab haad jiddan ihdhar"},
-      {"ar": "شريط قياس", "en": "Measuring tape", "ph": "Shareet qiyas"},
-      {"ar": "كماشة", "en": "Pliers", "ph": "Kammashah"},
-      {"ar": "خلع المسمار", "en": "He pulled the nail", "ph": "Khala'a al-mismar"}
-    ]
-  },
-  "65": {
-    "title": "Level 65: Business Strategy",
-    "words": [
-      {"ar": "في نهاية الأسبوع", "en": "At the weekend", "ph": "Fi nihayat al-usbu'"},
-      {"ar": "من هذا المنظور", "en": "From this viewpoint", "ph": "Min hadha al-manzhoor"},
-      {"ar": "خطة عمل", "en": "Business plan", "ph": "Khittat 'amal"},
-      {"ar": "ميزانية", "en": "Budget", "ph": "Meezaniyyah"},
-      {"ar": "درس السوق", "en": "He analyzed the market", "ph": "Darasa as-suq"},
-      {"ar": "مربح", "en": "Profitable", "ph": "Murbih"},
-      {"ar": "المشروع مربح للغاية الحمد لله", "en": "The project is highly profitable", "ph": "Al-mashru' murbih lil-ghayah"},
-      {"ar": "شريك", "en": "Partner / Associate", "ph": "Shareek"},
-      {"ar": "أسهم مالي", "en": "Company shares", "ph": "Ashum mali"},
-      {"ar": "استثمر مالي", "en": "He invested funds", "ph": "Istathmara mali"}
-    ]
-  },
+      "title": "Family & Relations III",
+      "words": [
+        {"id": 601, "ar": "زار", "en": "He visited", "ph": "Zaara"},
+        {"id": 602, "ar": "قابل", "en": "He met", "ph": "Qaabala"},
+        {"id": 603, "ar": "ساعد", "en": "He helped", "ph": "Sa’aada"},
+        {"id": 604, "ar": "أب", "en": "Father", "ph": "Ab"},
+        {"id": 605, "ar": "أم", "en": "Mother", "ph": "Umm"},
+        {"id": 606, "ar": "أخ", "en": "Brother", "ph": "Akh"},
+        {"id": 607, "ar": "أخت", "en": "Sister", "ph": "Ukht"},
+        {"id": 608, "ar": "ابن", "en": "Son", "ph": "Ibn"},
+        {"id": 609, "ar": "ابنة", "en": "Daughter", "ph": "Bint"},
+        {"id": 610, "ar": "عائلة", "en": "Family", "ph": "Aa’ilah"}
+      ]
+    },
+    "62": {
+      "title": "Colors & Clothing II",
+      "words": [
+        {"id": 611, "ar": "لبس", "en": "He wore", "ph": "Labisa"},
+        {"id": 612, "ar": "غيّر", "en": "He changed", "ph": "Ghayyara"},
+        {"id": 613, "ar": "اختار", "en": "He chose", "ph": "Ikhtara"},
+        {"id": 614, "ar": "قميص", "en": "Shirt", "ph": "Qamees"},
+        {"id": 615, "ar": "بنطال", "en": "Pants", "ph": "Bintaal"},
+        {"id": 616, "ar": "حذاء", "en": "Shoe", "ph": "Hidhaa’"},
+        {"id": 617, "ar": "قبعة", "en": "Hat", "ph": "Qubba’ah"},
+        {"id": 618, "ar": "ثوب", "en": "Dress", "ph": "Thawb"},
+        {"id": 619, "ar": "لون", "en": "Color", "ph": "Lawn"},
+        {"id": 620, "ar": "أحمر", "en": "Red", "ph": "Ahmar"}
+      ]
+    },
+    "63": {
+      "title": "Animals III",
+      "words": [
+        {"id": 621, "ar": "رأى", "en": "He saw", "ph": "Ra’aa"},
+        {"id": 622, "ar": "سمع", "en": "He heard", "ph": "Sami’a"},
+        {"id": 623, "ar": "أمسك", "en": "He caught", "ph": "Amsaka"},
+        {"id": 624, "ar": "أسد", "en": "Lion", "ph": "Asad"},
+        {"id": 625, "ar": "نمر", "en": "Tiger", "ph": "Nimr"},
+        {"id": 626, "ar": "فيل", "en": "Elephant", "ph": "Feel"},
+        {"id": 627, "ar": "غزال", "en": "Deer", "ph": "Ghazaal"},
+        {"id": 628, "ar": "ثعلب", "en": "Fox", "ph": "Tha’lab"},
+        {"id": 629, "ar": "ذئب", "en": "Wolf", "ph": "Dhi’b"},
+        {"id": 630, "ar": "دب", "en": "Bear", "ph": "Dubb"}
+      ]
+    },
+    "64": {
+      "title": "Numbers & Counting III",
+      "words": [
+        {"id": 631, "ar": "عدّ", "en": "He counted", "ph": "Adda"},
+        {"id": 632, "ar": "حسب", "en": "He calculated", "ph": "Hasaba"},
+        {"id": 633, "ar": "جمع", "en": "He gathered", "ph": "Jama’a"},
+        {"id": 634, "ar": "أحد عشر", "en": "Eleven", "ph": "Ahad ‘Ashar"},
+        {"id": 635, "ar": "اثنا عشر", "en": "Twelve", "ph": "Ithnaa ‘Ashar"},
+        {"id": 636, "ar": "ثلاثة عشر", "en": "Thirteen", "ph": "Thalaathata ‘Ashar"},
+        {"id": 637, "ar": "أربعة عشر", "en": "Fourteen", "ph": "Arba’ata ‘Ashar"},
+        {"id": 638, "ar": "خمسة عشر", "en": "Fifteen", "ph": "Khamsata ‘Ashar"},
+        {"id": 639, "ar": "ستة عشر", "en": "Sixteen", "ph": "Sittata ‘Ashar"},
+        {"id": 640, "ar": "سبعة عشر", "en": "Seventeen", "ph": "Sab’ata ‘Ashar"}
+      ]
+    },
+    "65": {
+      "title": "Weather & Seasons II",
+      "words": [
+        {"id": 641, "ar": "برد", "en": "He became cold", "ph": "Barada"},
+        {"id": 642, "ar": "سخن", "en": "He became hot", "ph": "Sakhuna"},
+        {"id": 643, "ar": "تغيّر", "en": "It changed", "ph": "Taghayyara"},
+        {"id": 644, "ar": "خريف", "en": "Autumn", "ph": "Khareef"},
+        {"id": 645, "ar": "شتاء", "en": "Winter", "ph": "Shitaa’"},
+        {"id": 646, "ar": "ربيع", "en": "Spring", "ph": "Rabee’"},
+        {"id": 647, "ar": "صيف", "en": "Summer", "ph": "Sayf"},
+        {"id": 648, "ar": "مطر", "en": "Rain", "ph": "Matar"},
+        {"id": 649, "ar": "ثلج", "en": "Snow", "ph": "Thalj"},
+        {"id": 650, "ar": "رياح", "en": "Winds", "ph": "RiyaaH"}
+      ]
+    },
   "66": {
-    "title": "Level 66: Travel Highway",
-    "words": [
-      {"ar": "أتمنى لك رحلة سعيدة", "en": "Have a pleasant journey", "ph": "Atamanna laka rihlah sa'eedah"},
-      {"ar": "على وجه العموم", "en": "Generally speaking", "ph": "'Ala wajh al-'umoom"},
-      {"ar": "طريق سريع", "en": "Highway / Expressway", "ph": "Tariq saree'"},
-      {"ar": "محطة وقود", "en": "Gas station / Service area", "ph": "Mahattat waqud"},
-      {"ar": "عبأ خزان", "en": "He filled up the tank", "ph": "Abba'a khazzan"},
-      {"ar": "مزدحم بالسيارات", "en": "Packed with cars", "ph": "Muzdahim bis-sayyarat"},
-      {"ar": "الطريق السريع مزدحم اليوم", "en": "The highway is congested today", "ph": "At-tariq as-saree' muzdahim al-yawm"},
-      {"ar": "رسوم الطريق", "en": "Toll fee", "ph": "Rusoom at-tariq"},
-      {"ar": "لوحة الاتجاهات", "en": "Road sign board", "ph": "Lawhat al-itijahat"},
-      {"ar": "واصل السير", "en": "He continued driving", "ph": "Wasala as-sayr"}
-    ]
-  },
+      "title": "Work & Actions III",
+      "words": [
+        {"id": 651, "ar": "كتب", "en": "He wrote", "ph": "Kataba"},
+        {"id": 652, "ar": "قرأ", "en": "He read", "ph": "Qara’a"},
+        {"id": 653, "ar": "عمل", "en": "He worked", "ph": "Amila"},
+        {"id": 654, "ar": "وظيفة", "en": "Job", "ph": "Wazifah"},
+        {"id": 655, "ar": "شركة", "en": "Company", "ph": "Sharika"},
+        {"id": 656, "ar": "مدير", "en": "Manager", "ph": "Mudeer"},
+        {"id": 657, "ar": "عامل", "en": "Worker", "ph": "Aamil"},
+        {"id": 658, "ar": "اجتماع", "en": "Meeting", "ph": "Ijtimaa’"},
+        {"id": 659, "ar": "مهمة", "en": "Task", "ph": "Muhimmah"},
+        {"id": 660, "ar": "مكتب", "en": "Office", "ph": "Maktab"}
+      ]
+    },
   "67": {
-    "title": "Level 67: Farming Landscapes",
-    "words": [
-      {"ar": "سبحان رب السموات", "en": "Glory to Lord of Heavens", "ph": "Subhan Rabbi as-samawat"},
-      {"ar": "على المدى الطويل", "en": "In the long term", "ph": "'Ala al-mada at-taweel"},
-      {"ar": "حقل", "en": "Field / Meadow", "ph": "Haql"},
-      {"ar": "مزرعة", "en": "Farm", "ph": "Mazra'ah"},
-      {"ar": "زرع بذور", "en": "He planted seeds", "ph": "Zara'a budhoor"},
-      {"ar": "خصب", "en": "Fertile / Productive", "ph": "Khasib"},
-      {"ar": "الأرض هنا خصبة جدا", "en": "The soil here is very fertile", "ph": "Al-ard huna khasbah jiddan"},
-      {"ar": "بئر ماء", "en": "Water well", "ph": "Bi'r maa'"},
-      {"ar": "جرار", "en": "Tractor", "ph": "Jarrar"},
-      {"ar": "حصد المحصول", "en": "He reaped the harvest", "ph": "Hasada al-mahsool"}
-    ]
-  },
-  "68": {
-    "title": "Level 68: Pharmacy Checkups",
-    "words": [
-      {"ar": "الحمد لله على نعمة الصحة", "en": "Praise God for gift of health", "ph": "Alhamdulillah 'ala ni'mat as-sihhah"},
-      {"ar": "على المدى القصير", "en": "In the short term", "ph": "'Ala al-mada al-qaseer"},
-      {"ar": "صيدلي", "en": "Pharmacist", "ph": "Saydali"},
-      {"ar": "أقراص دواء", "en": "Pills / Tablets", "ph": "Aqras dawa'"},
-      {"ar": "صرف الوصفة", "en": "He dispensed prescription", "ph": "Sarafa al-wasfah"},
-      {"ar": "فعال", "en": "Effective / Potent", "ph": "Fa'aal"},
-      {"ar": "هذا الدواء فعال جدا للألم", "en": "This medicine is highly effective", "ph": "Hadha ad-dawa' fa'aal jiddan"},
-      {"ar": "شراب مسكن", "en": "Syrup medicine", "ph": "Sharab musakkin"},
-      {"ar": "ضمادة", "en": "Bandage / Dressing", "ph": "Dimadah"},
-      {"ar": "لف الجرح", "en": "He bandaged the wound", "ph": "Laffa al-jurh"}
-    ]
-  },
-  "69": {
-    "title": "Level 69: Family Reunion",
-    "words": [
-      {"ar": "أتمنى لك عاما سعيدا", "en": "Wish you a happy year", "ph": "Atamanna laka 'aam sa'eedan"},
-      {"ar": "من زاوية أخرى", "en": "From another angle", "ph": "Min zawiyah ukhra"},
-      {"ar": "أقارب", "en": "Relatives / Kin", "ph": "Aqarib"},
-      {"ar": "مناسبة عائلية", "en": "Family occasion", "ph": "Munasabah 'a'iliyyah"},
-      {"ar": "رحب بالضيوف", "en": "He welcomed the guests", "ph": "Rahhaba bid-duyoof"},
-      {"ar": "محبوب", "en": "Beloved / Popular", "ph": "Mahboob"},
-      {"ar": "الجد شخص محبوب من الجميع", "en": "Grandfather is loved by all", "ph": "Al-jadd shakhas mahboob"},
-      {"ar": "مجلس", "en": "Sitting room / Lounge", "ph": "Majlis"},
-      {"ar": "بخور", "en": "Incense", "ph": "Bukhoor"},
-      {"ar": "طيب الجو", "en": "He scented the room", "ph": "Tayyaba al-jaww"}
-    ]
-  },
-  "70": {
-    "title": "Level 70: University Research",
-    "words": [
-      {"ar": "أتمنى لك مستقبل باهر", "en": "Wish you a brilliant future", "ph": "Atamanna laka mustaqbal bahir"},
-      {"ar": "من وجهة نظر علمية", "en": "From a scientific view", "ph": "Min wajhat nazhar 'ilmiyyah"},
-      {"ar": "بحث علمي", "en": "Research paper", "ph": "Bahath 'ilmi"},
-      {"ar": "مشرف أكاديمي", "en": "Academic supervisor", "ph": "Mushrif akademid"},
-      {"ar": "ناقش رسالة", "en": "He defended thesis", "ph": "Naqasha risalah"},
-      {"ar": "ممتاز مع مرتبة الشرف", "en": "With honors", "ph": "Mumtaz ma'a martabat al-sharaf"},
-      {"ar": "الرسالة كانت ممتازة جدا", "en": "The thesis was excellent", "ph": "Al-risalah kanat mumtazah jiddan"},
-      {"ar": "مكتبة الجامعة", "en": "University library", "ph": "Maktabat al-jami'ah"},
-      {"ar": "مصادر", "en": "Sources / References", "ph": "Masadir"},
-      {"ar": "جمع المعلومات", "en": "He collected data", "ph": "Jama'a al-ma'lumat"}
-    ]
-  },
+      "title": "Travel & Transport IV",
+      "words": [
+        {"id": 661, "ar": "سافر", "en": "He traveled", "ph": "Saafara"},
+        {"id": 662, "ar": "قاد", "en": "He drove", "ph": "Qaada"},
+        {"id": 663, "ar": "ركب", "en": "He rode", "ph": "Rakiba"},
+        {"id": 664, "ar": "سيارة", "en": "Car", "ph": "Sayyaarah"},
+        {"id": 665, "ar": "قطار", "en": "Train", "ph": "Qitaar"},
+        {"id": 666, "ar": "حافلة", "en": "Bus", "ph": "Haafilah"},
+        {"id": 667, "ar": "طائرة", "en": "Airplane", "ph": "Taa’irah"},
+        {"id": 668, "ar": "دراجة", "en": "Bicycle", "ph": "Darraajah"},
+        {"id": 669, "ar": "مركب", "en": "Boat", "ph": "Markab"},
+        {"id": 670, "ar": "مطار", "en": "Airport", "ph": "Mataar"}
+      ]
+    },
+    "68": {
+      "title": "Emotions & Mind III",
+      "words": [
+        {"id": 671, "ar": "فكر", "en": "He thought", "ph": "Fakkara"},
+        {"id": 672, "ar": "عرف", "en": "He knew", "ph": "‘Arafa"},
+        {"id": 673, "ar": "تذكر", "en": "He remembered", "ph": "Tadhakkara"},
+        {"id": 674, "ar": "عقل", "en": "Mind", "ph": "‘Aql"},
+        {"id": 675, "ar": "قلب", "en": "Heart", "ph": "Qalb"},
+        {"id": 676, "ar": "فكر", "en": "Thought", "ph": "Fikr"},
+        {"id": 677, "ar": "ذكرى", "en": "Memory", "ph": "Dhikraa"},
+        {"id": 678, "ar": "حلم", "en": "Dream", "ph": "Hulm"},
+        {"id": 679, "ar": "أمل", "en": "Hope", "ph": "Amal"},
+        {"id": 680, "ar": "إيمان", "en": "Faith", "ph": "Eemaan"}
+      ]
+    },
+    "69": {
+      "title": "Food & Kitchen III",
+      "words": [
+        {"id": 681, "ar": "مزج", "en": "He mixed", "ph": "Mazaja"},
+        {"id": 682, "ar": "خبز", "en": "He baked", "ph": "Khabaza"},
+        {"id": 683, "ar": "غلى", "en": "He boiled", "ph": "Ghalaa"},
+        {"id": 684, "ar": "زيت", "en": "Oil", "ph": "Zayt"},
+        {"id": 685, "ar": "سكر", "en": "Sugar", "ph": "Sukkar"},
+        {"id": 686, "ar": "ملح", "en": "Salt", "ph": "Milh"},
+        {"id": 687, "ar": "فلفل", "en": "Pepper", "ph": "Filfil"},
+        {"id": 688, "ar": "خضار", "en": "Vegetables", "ph": "Khodaar"},
+        {"id": 689, "ar": "فاكهة", "en": "Fruit", "ph": "Faakihah"},
+        {"id": 690, "ar": "لحم", "en": "Meat", "ph": "Lahm"}
+      ]
+    },
+    "70": {
+      "title": "Communication IV",
+      "words": [
+        {"id": 691, "ar": "أخبر", "en": "He told", "ph": "Akhbara"},
+        {"id": 692, "ar": "ناقش", "en": "He discussed", "ph": "Naqasha"},
+        {"id": 693, "ar": "شرح", "en": "He explained", "ph": "Sharaha"},
+        {"id": 694, "ar": "رسالة", "en": "Letter", "ph": "Risaalah"},
+        {"id": 695, "ar": "بريد", "en": "Mail", "ph": "Bareed"},
+        {"id": 696, "ar": "هاتف", "en": "Phone", "ph": "Haatef"},
+        {"id": 697, "ar": "مكالمة", "en": "Call", "ph": "Mukaalamah"},
+        {"id": 698, "ar": "كلمة", "en": "Word", "ph": "Kalima"},
+        {"id": 699, "ar": "جملة", "en": "Sentence", "ph": "Jumla"},
+        {"id": 700, "ar": "قصة", "en": "Story", "ph": "Qissah"}
+      ]
+    },
   "71": {
-    "title": "Level 71: Wholesale Deals",
-    "words": [
-      {"ar": "كم ثمن الجملة من فضلك", "en": "What's wholesale price please?", "ph": "Kam thaman al-jumlah min fadlik"},
-      {"ar": "من وجهة نظر قانونية", "en": "From a legal view", "ph": "Min wajhat nazhar qanooniyyah"},
-      {"ar": "تاجر جملة", "en": "Wholesaler", "ph": "Tajir jumlah"},
-      {"ar": "كمية كبيرة", "en": "Bulk quantity", "ph": "Kamiyyah kabeerah"},
-      {"ar": "وقع الصفقة", "en": "He closed the deal", "ph": "Waqqa'a as-safqah"},
-      {"ar": "قانوني", "en": "Legal / Valid", "ph": "Qanooni"},
-      {"ar": "الصفقة قانونية تماما الحمد لله", "en": "The transaction is fully legal", "ph": "As-safqah qanooniyyah tamamid"},
-      {"ar": "مخزن", "en": "Warehouse / Depot", "ph": "Makhzan"},
-      {"ar": "شاحنة نقل", "en": "Delivery truck", "ph": "Shahinat naql"},
-      {"ar": "شحن البضاعة", "en": "He shipped the cargo", "ph": "Shahana al-bida'ah"}
-    ]
-  },
-  "72": {
-    "title": "Level 72: Town Center",
-    "words": [
-      {"ar": "أنا أبحث عن وسط المدينة", "en": "I am looking for city center", "ph": "Ana abhathu 'an wast al-madinah"},
-      {"ar": "في الوقت نفسه تقريبا", "en": "Around the same time", "ph": "Fi al-waqt nafsihi taqreeban"},
-      {"ar": "وسط المدينة", "en": "Downtown / City center", "ph": "Wast al-madinah"},
-      {"ar": "ميدان عام", "en": "Public square", "ph": "Meydan 'aam"},
-      {"ar": "سار في الشارع", "en": "He walked the street", "ph": "Sara fi ash-shari'"},
-      {"ar": "جميل جدا", "en": "Highly beautiful", "ph": "Jameel jiddan"},
-      {"ar": "وسط المدينة جميل جدا الليلة", "en": "Downtown looks stunning tonight", "ph": "Wast al-madinah jameel jiddan"},
-      {"ar": "مكتب السياحة", "en": "Tourism office", "ph": "Maktab as-siyahah"},
-      {"ar": "دليل المدينة", "en": "City guide map", "ph": "Daleel al-madinah"},
-      {"ar": "التقط صورا", "en": "He took photographs", "ph": "Iltaqata suwaran"}
-    ]
-  },
-  "73": {
-    "title": "Level 73: Dinner Dessert",
-    "words": [
-      {"ar": "أتمنى لك وجبة هنيئة", "en": "Wishing you a healthy meal", "ph": "Atamanna laka wajbah haneeyah"},
-      {"ar": "منذ عهد قريب", "en": "Since recent times", "ph": "Mundhu 'ahd qareeb"},
-      {"ar": "الحلويات", "en": "Desserts / Sweets", "ph": "Al-hulawiyyat"},
-      {"ar": "مخبز", "en": "Bakery", "ph": "Makhbaz"},
-      {"ar": "خبز الكعك", "en": "He baked the pastry", "ph": "Khabaza al-ka'k"},
-      {"ar": "لذيذ الطعم", "en": "Excellent tasting", "ph": "Ladheedh ath-thaman"},
-      {"ar": "الكعك لذيذ الطعم جدا اليوم", "en": "The pastry tastes fantastic today", "ph": "Al-ka'k ladheedh ath-thaman"},
-      {"ar": "صينية", "en": "Baking tray", "ph": "Seeneeyah"},
-      {"ar": "قالب كعك", "en": "Cake mold", "ph": "Qalib ka'k"},
-      {"ar": "زين الكعك", "en": "He decorated the cake", "ph": "Zayyana al-ka'k"}
-    ]
-  },
-  "74": {
-    "title": "Level 74: Electrical Hardware",
-    "words": [
-      {"ar": "افتح الجهاز من فضلك", "en": "Turn on device please", "ph": "Iftah al-jihaz min fadlik"},
-      {"ar": "في أغلب الأحيان", "en": "In most cases", "ph": "Fi aghlab al-ahyan"},
-      {"ar": "مفك فحص كهرباء", "en": "Voltage tester", "ph": "Mufakk fahs"},
-      {"ar": "شريط لاصق كهربائي", "en": "Electrical tape", "ph": "Shareet lasiq"},
-      {"ar": "عزل السلك", "en": "He insulated the wire", "ph": "Azala al-silk"},
-      {"ar": "آمن", "en": "Safe / Secure", "ph": "Aamin"},
-      {"ar": "السلك آمن الآن لا تقلق", "en": "The wire is safe now, don't worry", "ph": "Al-silk aamin al-aan"},
-      {"ar": "قاطع كهربائي", "en": "Circuit breaker", "ph": "Qati' كهربائي"},
-      {"ar": "مقبس كهرباء", "en": "Wall socket", "ph": "Maqbis كهرباء"},
-      {"ar": "قطع التيار", "en": "He cut the power", "ph": "Qata'a at-tayyar"}
-    ]
-  },
-  "75": {
-    "title": "Level 75: Project Launch",
-    "words": [
-      {"ar": "في نهاية المطاف دائما", "en": "Always in the long run", "ph": "Fi nihayat al-mataf da'iman"},
-      {"ar": "من هذا المنطلق دائما", "en": "Always from this basis", "ph": "Min hadha al-muntalaq da'iman"},
-      {"ar": "إطلاق مشروع", "en": "Project launch", "ph": "Itlaq mashru'"},
-      {"ar": "حملة إعلانية", "en": "Ad campaign", "ph": "Hamlah i'laniyyah"},
-      {"ar": "بدأ العمل ترويجي", "en": "He started promo work", "ph": "Bada'a al-'amal"},
-      {"ar": "واسع الانتشار", "en": "Widespread", "ph": "Wasi' al-intishar"},
-      {"ar": "الحملة واسعة الانتشار الحمد لله", "en": "The campaign is widespread", "ph": "Al-hamlah wasi'at al-intishar"},
-      {"ar": "فريق عمل", "en": "Work team / Staff", "ph": "Fareeq 'amal"},
-      {"ar": "مكتب تنسيق", "en": "Coordination office", "ph": "Maktab tanseeq"},
-      {"ar": "تابع التقدم", "en": "He monitored progress", "ph": "Tabi'a at-taqaddum"}
-    ]
-  },
+      "title": "Work & Professions III",
+      "words": [
+        {"id": 701, "ar": "أدار", "en": "He managed", "ph": "Adaara"},
+        {"id": 702, "ar": "صنع", "en": "He made", "ph": "San’a"},
+        {"id": 703, "ar": "خدم", "en": "He served", "ph": "Khadama"},
+        {"id": 704, "ar": "طبيب", "en": "Doctor", "ph": "Tabeeb"},
+        {"id": 705, "ar": "مهندس", "en": "Engineer", "ph": "Muhandis"},
+        {"id": 706, "ar": "مزارع", "en": "Farmer", "ph": "Muzaari’"},
+        {"id": 707, "ar": "تاجر", "en": "Merchant", "ph": "Taajir"},
+        {"id": 708, "ar": "كاتب", "en": "Writer", "ph": "Kaateb"},
+        {"id": 709, "ar": "محامي", "en": "Lawyer", "ph": "Muhaami"},
+        {"id": 710, "ar": "شرطي", "en": "Police officer", "ph": "Shurti"}
+      ]
+    },
+    "72": {
+      "title": "Travel & Places IV",
+      "words": [
+        {"id": 711, "ar": "زار", "en": "He visited", "ph": "Zaara"},
+        {"id": 712, "ar": "غادر", "en": "He departed", "ph": "Ghaadara"},
+        {"id": 713, "ar": "وصل", "en": "He arrived", "ph": "Wasala"},
+        {"id": 714, "ar": "مدينة", "en": "City", "ph": "Madeenah"},
+        {"id": 715, "ar": "قرية", "en": "Village", "ph": "Qaryah"},
+        {"id": 716, "ar": "شارع", "en": "Street", "ph": "Shaari’"},
+        {"id": 717, "ar": "ميدان", "en": "Square", "ph": "Maydaan"},
+        {"id": 718, "ar": "جسر", "en": "Bridge", "ph": "Jisr"},
+        {"id": 719, "ar": "مطار", "en": "Airport", "ph": "Mataar"},
+        {"id": 720, "ar": "فندق", "en": "Hotel", "ph": "Funduq"}
+      ]
+    },
+    "73": {
+      "title": "Emotions & Mind IV",
+      "words": [
+        {"id": 721, "ar": "تذكر", "en": "He remembered", "ph": "Tadhakkara"},
+        {"id": 722, "ar": "نسي", "en": "He forgot", "ph": "Nasiya"},
+        {"id": 723, "ar": "اعتقد", "en": "He believed", "ph": "I‘taqada"},
+        {"id": 724, "ar": "عقل", "en": "Mind", "ph": "‘Aql"},
+        {"id": 725, "ar": "قلب", "en": "Heart", "ph": "Qalb"},
+        {"id": 726, "ar": "فكر", "en": "Thought", "ph": "Fikr"},
+        {"id": 727, "ar": "ذكرى", "en": "Memory", "ph": "Dhikraa"},
+        {"id": 728, "ar": "حلم", "en": "Dream", "ph": "Hulm"},
+        {"id": 729, "ar": "أمل", "en": "Hope", "ph": "Amal"},
+        {"id": 730, "ar": "إيمان", "en": "Faith", "ph": "Eemaan"}
+      ]
+    },
+    "74": {
+      "title": "Animals IV",
+      "words": [
+        {"id": 731, "ar": "أطعم", "en": "He fed", "ph": "At’ama"},
+        {"id": 732, "ar": "ربى", "en": "He raised", "ph": "Rabba"},
+        {"id": 733, "ar": "حرس", "en": "He guarded", "ph": "Harasa"},
+        {"id": 734, "ar": "أسد", "en": "Lion", "ph": "Asad"},
+        {"id": 735, "ar": "نمر", "en": "Tiger", "ph": "Nimr"},
+        {"id": 736, "ar": "فيل", "en": "Elephant", "ph": "Feel"},
+        {"id": 737, "ar": "غزال", "en": "Deer", "ph": "Ghazaal"},
+        {"id": 738, "ar": "ثعلب", "en": "Fox", "ph": "Tha’lab"},
+        {"id": 739, "ar": "ذئب", "en": "Wolf", "ph": "Dhi’b"},
+        {"id": 740, "ar": "دب", "en": "Bear", "ph": "Dubb"}
+      ]
+    },
+    "75": {
+      "title": "Numbers & Counting IV",
+      "words": [
+        {"id": 741, "ar": "جمع", "en": "He gathered", "ph": "Jama’a"},
+        {"id": 742, "ar": "طرح", "en": "He subtracted", "ph": "Taraha"},
+        {"id": 743, "ar": "قسّم", "en": "He divided", "ph": "Qassama"},
+        {"id": 744, "ar": "ثمانية عشر", "en": "Eighteen", "ph": "Thamaaniyata ‘Ashar"},
+        {"id": 745, "ar": "تسعة عشر", "en": "Nineteen", "ph": "Tis’ata ‘Ashar"},
+        {"id": 746, "ar": "عشرون", "en": "Twenty", "ph": "‘Ishroon"},
+        {"id": 747, "ar": "ثلاثون", "en": "Thirty", "ph": "Thalaathoon"},
+        {"id": 748, "ar": "أربعون", "en": "Forty", "ph": "Arba’oon"},
+        {"id": 749, "ar": "خمسون", "en": "Fifty", "ph": "Khamsoon"},
+        {"id": 750, "ar": "ستون", "en": "Sixty", "ph": "Sittoon"}
+      ]
+    },
   "76": {
-    "title": "Level 76: Airport Boarding",
-    "words": [
-      {"ar": "أتمنى لك رحلة سعيدة وموفقة", "en": "Have a safe and happy flight", "ph": "Atamanna laka rihlah sa'eedah"},
-      {"ar": "على وجه التحديد", "en": "Specifically speaking", "ph": "'Ala wajh at-tahdeed"},
-      {"ar": "صالة المغادرة", "en": "Departure lounge", "ph": "Salat al-mughadarah"},
-      {"ar": "بطاقة صعود الطائرة", "en": "Boarding pass", "ph": "Bitaqat su'ood"},
-      {"ar": "صعد إلى الطائرة", "en": "He boarded the plane", "ph": "Sa'ida ila at-ta'irah"},
-      {"ar": "جاهز للإقلاع", "en": "Ready for takeoff", "ph": "Jahiz lil-iqla'"},
-      {"ar": "الطائرة جاهزة للإقلاع الآن", "en": "The plane is ready for takeoff", "ph": "At-ta'irah jahizah lil-iqla'"},
-      {"ar": "مضيف الطيران", "en": "Flight attendant", "ph": "Mudeef at-tayaran"},
-      {"ar": "مقعد الطائرة", "en": "Airplane seat", "ph": "Maq'ad at-ta'irah"},
-      {"ar": "ربط الحزام", "en": "He fastened seatbelt", "ph": "Rabata al-hizam"}
-    ]
-  },
-  "77": {
-    "title": "Level 77: Country Orchard",
-    "words": [
-      {"ar": "سبحان رب العرش العظيم", "en": "Glory to Lord of Supreme Throne", "ph": "Subhan Rabbi al-'Arsh al-'Azheem"},
-      {"ar": "على المدى المتوسط", "en": "In the medium term", "ph": "'Ala al-mada al-mutawassit"},
-      {"ar": "بستان", "en": "Orchard / Grove", "ph": "Bustan"},
-      {"ar": "أشجار الفاكهة", "en": "Fruit trees", "ph": "Ashjar al-fakihah"},
-      {"ar": "سقى الأشجار", "en": "He watered the trees", "ph": "Saqa al-ashjar"},
-      {"ar": "ناضج", "en": "Ripe / Mature", "ph": "Nadhij"},
-      {"ar": "الفاكهة هنا ناضجة وجاهزة", "en": "The fruit here is ripe and ready", "ph": "Al-fakihah huna nadhijah"},
-      {"ar": "قنوات الري", "en": "Irrigation canals", "ph": "Qanawat ar-ray"},
-      {"ar": "صندوق قطف", "en": "Harvesting crate", "ph": "Sunduq qatf"},
-      {"ar": "قطف الثمار", "en": "He picked the fruits", "ph": "Qatafa ath-thimar"}
-    ]
-  },
-  "78": {
-    "title": "Level 78: Clinic Therapy",
-    "words": [
-      {"ar": "الحمد لله الذي شفاني وعافاني", "en": "Praise God who cured me fully", "ph": "Alhamdulillah alladhi shafani"},
-      {"ar": "من دون أدنى شك", "en": "Without a shadow of doubt", "ph": "Min dooni adna shakk"},
-      {"ar": "طبيب علاج طبيعي", "en": "Physiotherapist", "ph": "Tabeeb 'ilaj"},
-      {"ar": "تمارين علاجية", "en": "Therapy exercises", "ph": "Tamareen 'ilajiyyah"},
-      {"ar": "عمل الجلسة", "en": "He ran the session", "ph": "Amila al-jalsah"},
-      {"ar": "مفيد", "en": "Beneficial / Helpful", "ph": "Mufeed"},
-      {"ar": "العلاج الطبيعي مفيد جدا لحالتي", "en": "The therapy is very beneficial", "ph": "Al-'ilaj al-tabi'i mufeed jiddan"},
-      {"ar": "مركز التأهيل", "en": "Rehab center", "ph": "Markaz at-ta'heel"},
-      {"ar": "أجهزة العلاج", "en": "Therapy equipment", "ph": "Ajhizat al-'ilaj"},
-      {"ar": "تحسن بشكل ملحوظ", "en": "He improved noticeably", "ph": "Tahassana shakln"}
-    ]
-  },
-  "79": {
-    "title": "Level 79: Family Gathering",
-    "words": [
-      {"ar": "أتمنى لك حياة عائلية سعيدة", "en": "Wish you happy family life", "ph": "Atamanna laka hayat 'a'iliyyah"},
-      {"ar": "من منظور تاريخي", "en": "From historical perspective", "ph": "Min manzhoor tareekhi"},
-      {"ar": "ألبوم صور عائلي", "en": "Family photo album", "ph": "Album suwar"},
-      {"ar": "ذكريات قديمة", "en": "Old memories", "ph": "Dhikrayat qadeemah"},
-      {"ar": "تصفح الألبوم", "en": "He flipped through album", "ph": "Tasaffaha al-album"},
-      {"ar": "مؤثر", "en": "Touching / Moving", "ph": "Mu'aththir"},
-      {"ar": "الصور القديمة مؤثرة جدا لنا", "en": "The old photos are very moving", "ph": "As-suwar al-qadeemah mu'aththirah"},
-      {"ar": "خزانة الذكريات", "en": "Memory cabinet", "ph": "Khizanat adh-dhikrayat"},
-      {"ar": "رسائل قديمة", "en": "Old letters", "ph": "Rasa'il qadeemah"},
-      {"ar": "استرجع الذكريات", "en": "He recalled memories", "ph": "Istarja'a adh-dhikrayat"}
-    ]
-  },
-  "80": {
-    "title": "Level 80: Digital Campus",
-    "words": [
-      {"ar": "أتمنى لك توفيقا دائما", "en": "Wish you permanent success", "ph": "Atamanna laka tawfeeqan da'iman"},
-      {"ar": "من منظور تكنولوجي", "en": "From a tech perspective", "ph": "Min manzhoor tiknolooji"},
-      {"ar": "منصة تعليمية رقمية", "en": "E-learning platform", "ph": "Manassah ta'leemiyyah"},
-      {"ar": "ملف المحاضرة الرقمي", "en": "Digital lecture file", "ph": "Milaff al-muhadarah"},
-      {"ar": "حمل الملف الدراسي", "en": "He downloaded the file", "ph": "Hammala al-milaff"},
-      {"ar": "سهل الاستخدام", "en": "User friendly", "ph": "Sahl al-istikhdam"},
-      {"ar": "المنصة التعليمية سهلة الاستخدام", "en": "The platform is user friendly", "ph": "Al-manassah sahlat al-istikhdam"},
-      {"ar": "بريد الكتروني جامعي", "en": "University email", "ph": "Bareed liktrooni"},
-      {"ar": "رابط المحاضرة المباشر", "en": "Live lecture link", "ph": "Rabit al-muhadarah"},
-      {"ar": "دخل إلى صف الرقمي", "en": "He joined online class", "ph": "Dakhala ila as-saff"}
-    ]
-  },
+      "title": "Daily Routine V",
+      "words": [
+        {"id": 751, "ar": "استيقظ", "en": "He woke up", "ph": "Istayqaz"},
+        {"id": 752, "ar": "اغتسل", "en": "He bathed", "ph": "Ightasala"},
+        {"id": 753, "ar": "تجهز", "en": "He got ready", "ph": "Tajahhaz"},
+        {"id": 754, "ar": "فراش", "en": "Bed", "ph": "Firaash"},
+        {"id": 755, "ar": "بطانية", "en": "Blanket", "ph": "Bataaniyah"},
+        {"id": 756, "ar": "وسادة", "en": "Pillow", "ph": "Wisaadah"},
+        {"id": 757, "ar": "حمام", "en": "Bathroom", "ph": "Hammaam"},
+        {"id": 758, "ar": "مرآة", "en": "Mirror", "ph": "Mir’aah"},
+        {"id": 759, "ar": "مغسلة", "en": "Sink", "ph": "Maghsalah"},
+        {"id": 760, "ar": "منشفة", "en": "Towel", "ph": "Manshafah"}
+      ]
+    },
+    "77": {
+      "title": "Market & Shopping IV",
+      "words": [
+        {"id": 761, "ar": "اشترى", "en": "He bought", "ph": "Ishtaraa"},
+        {"id": 762, "ar": "باع", "en": "He sold", "ph": "Baa’a"},
+        {"id": 763, "ar": "عرض", "en": "He offered/displayed", "ph": "‘Arada"},
+        {"id": 764, "ar": "سوق", "en": "Market", "ph": "Souq"},
+        {"id": 765, "ar": "محل", "en": "Shop", "ph": "Mahall"},
+        {"id": 766, "ar": "بائع", "en": "Seller", "ph": "Baa’i’"},
+        {"id": 767, "ar": "مشتري", "en": "Buyer", "ph": "Mushtari"},
+        {"id": 768, "ar": "سلعة", "en": "Product", "ph": "Sil’ah"},
+        {"id": 769, "ar": "ثمن", "en": "Price", "ph": "Thaman"},
+        {"id": 770, "ar": "مال", "en": "Money", "ph": "Maal"}
+      ]
+    },
+    "78": {
+      "title": "Health & Body IV",
+      "words": [
+        {"id": 771, "ar": "عالج", "en": "He treated", "ph": "‘Aalaja"},
+        {"id": 772, "ar": "فحص", "en": "He examined", "ph": "Fahasa"},
+        {"id": 773, "ar": "شعر", "en": "He felt", "ph": "Sha’ara"},
+        {"id": 774, "ar": "دم", "en": "Blood", "ph": "Dam"},
+        {"id": 775, "ar": "قلب", "en": "Heart", "ph": "Qalb"},
+        {"id": 776, "ar": "رئة", "en": "Lung", "ph": "Ri’ah"},
+        {"id": 777, "ar": "معدة", "en": "Stomach", "ph": "Ma’idah"},
+        {"id": 778, "ar": "عظم", "en": "Bone", "ph": "‘Adhm"},
+        {"id": 779, "ar": "جلد", "en": "Skin", "ph": "Jild"},
+        {"id": 780, "ar": "دماغ", "en": "Brain", "ph": "Dimaagh"}
+      ]
+    },
+    "79": {
+      "title": "Technology & Tools IV",
+      "words": [
+        {"id": 781, "ar": "برمج", "en": "He programmed", "ph": "Barmaja"},
+        {"id": 782, "ar": "شغل", "en": "He operated", "ph": "Shaghala"},
+        {"id": 783, "ar": "أصلح", "en": "He repaired", "ph": "Aslaha"},
+        {"id": 784, "ar": "حاسوب", "en": "Computer", "ph": "Haasoob"},
+        {"id": 785, "ar": "هاتف", "en": "Phone", "ph": "Haatef"},
+        {"id": 786, "ar": "إنترنت", "en": "Internet", "ph": "Internet"},
+        {"id": 787, "ar": "برنامج", "en": "Program", "ph": "Barnaamaj"},
+        {"id": 788, "ar": "آلة", "en": "Machine", "ph": "Aalah"},
+        {"id": 789, "ar": "مفتاح", "en": "Key", "ph": "Miftaah"},
+        {"id": 790, "ar": "ساعة", "en": "Watch/Clock", "ph": "Saa’ah"}
+      ]
+    },
+    "80": {
+      "title": "Nature & Environment V",
+      "words": [
+        {"id": 791, "ar": "أضاء", "en": "He illuminated", "ph": "Ada’a"},
+        {"id": 792, "ar": "أظلم", "en": "It became dark", "ph": "Azlama"},
+        {"id": 793, "ar": "أمطر", "en": "It rained", "ph": "Amtara"},
+        {"id": 794, "ar": "شمس", "en": "Sun", "ph": "Shams"},
+        {"id": 795, "ar": "قمر", "en": "Moon", "ph": "Qamar"},
+        {"id": 796, "ar": "نجم", "en": "Star", "ph": "Najm"},
+        {"id": 797, "ar": "سماء", "en": "Sky", "ph": "Samaa"},
+        {"id": 798, "ar": "سحاب", "en": "Cloud", "ph": "Sahaab"},
+        {"id": 799, "ar": "مطر", "en": "Rain", "ph": "Matar"},
+        {"id": 800, "ar": "ثلج", "en": "Snow", "ph": "Thalj"}
+      ]
+    },
   "81": {
-    "title": "Level 81: International Customs",
-    "words": [
-      {"ar": "كم الرسوم الجمركية من فضلك", "en": "What are customs fees please?", "ph": "Kam ar-rusoom al-jumrukiyyah"},
-      {"ar": "من منظور اقتصادي", "en": "From an economic view", "ph": "Min manzhoor iqtisadi"},
-      {"ar": "مكتب الجمارك", "en": "Customs office", "ph": "Maktab al-jamarik"},
-      {"ar": "بيان جمركي ورق", "en": "Customs declaration", "ph": "Bayan jumruki"},
-      {"ar": "فحص البضائع المستوردة", "en": "He inspected imports", "ph": "Fahasa al-bida'i'"},
-      {"ar": "معفى من رسوم", "en": "Duty free / Exempt", "ph": "Mu'fa min ar-rusoom"},
-      {"ar": "هل هذه البضائع معفاة من الرسوم", "en": "Are these items duty free?", "ph": "Hal hadhihi al-bida'i' mu'fah"},
-      {"ar": "مستودع الجمارك", "en": "Customs bond store", "ph": "Mustawda' al-jamarik"},
-      {"ar": "ختم الإفراج الجمركي", "en": "Customs clearance stamp", "ph": "Khatam al-ifraj"},
-      {"ar": "أفرج عن الشحنة", "en": "He cleared the cargo", "ph": "Afraja 'an ash-shuhnah"}
-    ]
-  },
-  "82": {
-    "title": "Level 82: Historic Square",
-    "words": [
-      {"ar": "أنا أبحث عن المتاحف الأثرية", "en": "I am looking for historic museums", "ph": "Ana abhathu 'an al-matahif"},
-      {"ar": "في غضون ساعات قليلة", "en": "Within a few hours", "ph": "Fi ghudoon sa'at qaleelah"},
-      {"ar": "منطقة أثرية", "en": "Historic district / Ruins", "ph": "Mintaqah athariyyah"},
-      {"ar": "متحف التاريخ الوطني", "en": "History museum", "ph": "Mathaf ات-تاريخ"},
-      {"ar": "زار المعالم القديمة", "en": "He toured ancient landmarks", "ph": "Zara al-ma'alim"},
-      {"ar": "أثري قديم", "en": "Ancient / Antique", "ph": "Athari qadeem"},
-      {"ar": "المتحف الأثري رائع جدا اليوم", "en": "The historic museum is awesome", "ph": "Al-mathaf al-athari ra'i'"},
-      {"ar": "مرشد سياحي مرخص", "en": "Tourist tour guide", "ph": "Murshid siyahi"},
-      {"ar": "بطاقة دخول المتحف", "en": "Museum entry ticket", "ph": "Bitaqat dhukhool"},
-      {"ar": "اشترى تذكار من محل", "en": "He bought a souvenir", "ph": "Ishtara tadhkaran"}
-    ]
-  },
-  "83": {
-    "title": "Level 83: Traditional Bakery",
-    "words": [
-      {"ar": "أتمنى لك عشاء شهي ولذيذ", "en": "Have a wonderful tasty dinner", "ph": "Atamanna laka 'asha'an shaheean"},
-      {"ar": "منذ فجر التاريخ تقريبا", "en": "Since dawn of history", "ph": "Mundhu fajr at-tareekh"},
-      {"ar": "خبز تنور تقليدي", "en": "Tannour oven bread", "ph": "Khubz tannoor"},
-      {"ar": "فرن الطين القديم", "en": "Clay oven", "ph": "Furn at-teen"},
-      {"ar": "أشعل حطب الفرن", "en": "He lit oven firewood", "ph": "Ash'ala hatab"},
-      {"ar": "ساخن طازج", "en": "Piping hot fresh", "ph": "Sakhin tazij"},
-      {"ar": "خبز التنور ساخن طازج الآن", "en": "The tannour bread is piping hot", "ph": "Khubz at-tannoor sakhin tazij"},
-      {"ar": "طحين قمح نقي", "en": "Pure wheat flour", "ph": "Taheen qamh"},
-      {"ar": "عجانة آلي كبيرة", "en": "Dough mixer", "ph": "'Ajjanah"},
-      {"ar": "عجن عجين الخبز", "en": "He kneaded the dough", "ph": "Ajana 'ajeen"}
-    ]
-  },
-  "84": {
-    "title": "Level 84: Plumbing Toolkit",
-    "words": [
-      {"ar": "افتح صنبور الماء من فضلك", "en": "Turn on water tap please", "ph": "Iftah sunboor al-maa' min fadlik"},
-      {"ar": "في معظم الأوقات دائما", "en": "In most cases always", "ph": "Fi mu'zham al-awqat da'iman"},
-      {"ar": "مفتاح ربط مواسير", "en": "Pipe wrench tool", "ph": "Miftah rabt"},
-      {"ar": "أنبوب ماء جديد", "en": "Water pipe / Conduit", "ph": "Anboob maa'"},
-      {"ar": "صلح تسريب مواسير", "en": "He fixed pipe leak", "ph": "Sallaha tasreeb"},
-      {"ar": "محكم الإغلاق", "en": "Leakproof / Airtight", "ph": "Muhkam al-ighlaq"},
-      {"ar": "الأنبوب محكم الإغلاق الآن الحمد لله", "en": "The pipe is leakproof now", "ph": "Al-anboob muhkam al-ighlaq"},
-      {"ar": "شريط مانع تسرب", "en": "Teflon thread tape", "ph": "Shareet mani'"},
-      {"ar": "عداد مياه منزلي", "en": "Water meter", "ph": "Addad miyah"},
-      {"ar": "فتح صمام مياه رئيسي", "en": "He opened main valve", "ph": "Fataha simam"}
-    ]
-  },
-  "85": {
-    "title": "Level 85: Venture Capital",
-    "words": [
-      {"ar": "في نهاية المطاف دائما وأبدا", "en": "Inevitably in the long run", "ph": "Fi nihayat al-mataf"},
-      {"ar": "من هذا المنطلق الأساسي", "en": "From this fundamental basis", "ph": "Min hadha al-muntalaq"},
-      {"ar": "جولة تمويل مالي", "en": "Funding investment round", "ph": "Jawlat tamweel"},
-      {"ar": "مستثمر رأس مال", "en": "Venture capitalist", "ph": "Mustathmir ra's"},
-      {"ar": "قدم العرض مالي ترويجي", "en": "He pitched business proposal", "ph": "Qaddama al-'ard"},
-      {"ar": "عالي النمو اقتصاديا", "en": "High growth business", "ph": "'Aali an-namoo'"},
-      {"ar": "الشركة عالية النمو للغاية الحمد لله", "en": "The company is high growth", "ph": "Al-sharikah 'aaliyat an-namoo'"},
-      {"ar": "حاضنة أعمال ناشئة", "en": "Business incubator", "ph": "Hadinat a'mal"},
-      {"ar": "تقييم مالي للشركة", "en": "Company valuation", "ph": "Taqyeem mali"},
-      {"ar": "وقع اتفاقية استثمار", "en": "He signed investment deal", "ph": "Waqqa'a ittifaqiyyah"}
-    ]
-  },
+      "title": "Work & Actions IV",
+      "words": [
+        {"id": 801, "ar": "عمل", "en": "He worked", "ph": "Amila"},
+        {"id": 802, "ar": "بنى", "en": "He built", "ph": "Banaa"},
+        {"id": 803, "ar": "أصلح", "en": "He repaired", "ph": "Aslaha"},
+        {"id": 804, "ar": "وظيفة", "en": "Job", "ph": "Wazifah"},
+        {"id": 805, "ar": "شركة", "en": "Company", "ph": "Sharika"},
+        {"id": 806, "ar": "مدير", "en": "Manager", "ph": "Mudeer"},
+        {"id": 807, "ar": "عامل", "en": "Worker", "ph": "Aamil"},
+        {"id": 808, "ar": "اجتماع", "en": "Meeting", "ph": "Ijtimaa’"},
+        {"id": 809, "ar": "مهمة", "en": "Task", "ph": "Muhimmah"},
+        {"id": 810, "ar": "مكتب", "en": "Office", "ph": "Maktab"}
+      ]
+    },
+    "82": {
+      "title": "Travel & Transport V",
+      "words": [
+        {"id": 811, "ar": "سافر", "en": "He traveled", "ph": "Saafara"},
+        {"id": 812, "ar": "قاد", "en": "He drove", "ph": "Qaada"},
+        {"id": 813, "ar": "ركب", "en": "He rode", "ph": "Rakiba"},
+        {"id": 814, "ar": "سيارة", "en": "Car", "ph": "Sayyaarah"},
+        {"id": 815, "ar": "قطار", "en": "Train", "ph": "Qitaar"},
+        {"id": 816, "ar": "حافلة", "en": "Bus", "ph": "Haafilah"},
+        {"id": 817, "ar": "طائرة", "en": "Airplane", "ph": "Taa’irah"},
+        {"id": 818, "ar": "دراجة", "en": "Bicycle", "ph": "Darraajah"},
+        {"id": 819, "ar": "مركب", "en": "Boat", "ph": "Markab"},
+        {"id": 820, "ar": "مطار", "en": "Airport", "ph": "Mataar"}
+      ]
+    },
+    "83": {
+      "title": "Emotions & Mind V",
+      "words": [
+        {"id": 821, "ar": "فكر", "en": "He thought", "ph": "Fakkara"},
+        {"id": 822, "ar": "عرف", "en": "He knew", "ph": "‘Arafa"},
+        {"id": 823, "ar": "تذكر", "en": "He remembered", "ph": "Tadhakkara"},
+        {"id": 824, "ar": "عقل", "en": "Mind", "ph": "‘Aql"},
+        {"id": 825, "ar": "قلب", "en": "Heart", "ph": "Qalb"},
+        {"id": 826, "ar": "فكر", "en": "Thought", "ph": "Fikr"},
+        {"id": 827, "ar": "ذكرى", "en": "Memory", "ph": "Dhikraa"},
+        {"id": 828, "ar": "حلم", "en": "Dream", "ph": "Hulm"},
+        {"id": 829, "ar": "أمل", "en": "Hope", "ph": "Amal"},
+        {"id": 830, "ar": "إيمان", "en": "Faith", "ph": "Eemaan"}
+      ]
+    },
+    "84": {
+      "title": "Food & Kitchen IV",
+      "words": [
+        {"id": 831, "ar": "مزج", "en": "He mixed", "ph": "Mazaja"},
+        {"id": 832, "ar": "خبز", "en": "He baked", "ph": "Khabaza"},
+        {"id": 833, "ar": "غلى", "en": "He boiled", "ph": "Ghalaa"},
+        {"id": 834, "ar": "زيت", "en": "Oil", "ph": "Zayt"},
+        {"id": 835, "ar": "سكر", "en": "Sugar", "ph": "Sukkar"},
+        {"id": 836, "ar": "ملح", "en": "Salt", "ph": "Milh"},
+        {"id": 837, "ar": "فلفل", "en": "Pepper", "ph": "Filfil"},
+        {"id": 838, "ar": "خضار", "en": "Vegetables", "ph": "Khodaar"},
+        {"id": 839, "ar": "فاكهة", "en": "Fruit", "ph": "Faakihah"},
+        {"id": 840, "ar": "لحم", "en": "Meat", "ph": "Lahm"}
+      ]
+    },
+    "85": {
+      "title": "Communication V",
+      "words": [
+        {"id": 841, "ar": "أخبر", "en": "He told", "ph": "Akhbara"},
+        {"id": 842, "ar": "ناقش", "en": "He discussed", "ph": "Naqasha"},
+        {"id": 843, "ar": "شرح", "en": "He explained", "ph": "Sharaha"},
+        {"id": 844, "ar": "رسالة", "en": "Letter", "ph": "Risaalah"},
+        {"id": 845, "ar": "بريد", "en": "Mail", "ph": "Bareed"},
+        {"id": 846, "ar": "هاتف", "en": "Phone", "ph": "Haatef"},
+        {"id": 847, "ar": "مكالمة", "en": "Call", "ph": "Mukaalamah"},
+        {"id": 848, "ar": "كلمة", "en": "Word", "ph": "Kalima"},
+        {"id": 849, "ar": "جملة", "en": "Sentence", "ph": "Jumla"},
+        {"id": 850, "ar": "قصة", "en": "Story", "ph": "Qissah"}
+      ]
+    },
   "86": {
-    "title": "Level 86: Flight Departure",
-    "words": [
-      {"ar": "أتمنى لك رحلة سعيدة ومريحة", "en": "Have a happy comfortable flight", "ph": "Atamanna laka rihlah sa'eedah"},
-      {"ar": "على وجه الخصوص والتحديد", "en": "With absolute specificity", "ph": "'Ala wajh al-khusoos"},
-      {"ar": "ممر الطائرة داخلي", "en": "Airplane cabin aisle", "ph": "Mamarr at-ta'irah"},
-      {"ar": "خزانة أمتعة علوية", "en": "Overhead luggage locker", "ph": "Khizanat amti'ah"},
-      {"ar": "وضع حقيبة يد في أعلى", "en": "He stowed cabin bag overhead", "ph": "Wada'a haqeebeht"},
-      {"ar": "مريح جدا مقعد", "en": "Highly comfortable seat", "ph": "Mureeh jiddan"},
-      {"ar": "مقعد الطائرة مريح جدا لي", "en": "The airplane seat is comfy", "ph": "Maq'ad at-ta'irah mureeh jiddan"},
-      {"ar": "شاشة عرض مقعد", "en": "In-flight seat screen", "ph": "Shashat 'ard"},
-      {"ar": "سماعات رأس لاسلكي", "en": "Audio headphones", "ph": "Samma'at ra's"},
-      {"ar": "شغل فيلم سينمائي", "en": "He played a movie clip", "ph": "Shagh-ghala feelman"}
-    ]
-  },
-  "87": {
-    "title": "Level 87: Rural Vineyard",
-    "words": [
-      {"ar": "سبحان رب العرش العظيم وبحمده", "en": "Glory to Lord of Supreme Throne always", "ph": "Subhan Rabbi al-'Arsh"},
-      {"ar": "على المدى الطويل والقصير", "en": "In long and short term", "ph": "'Ala al-mada at-taweel"},
-      {"ar": "حقل عنب كبير", "en": "Vineyard / Grape field", "ph": "Haql 'inab"},
-      {"ar": "دالية عنب خضراء", "en": "Grapevines", "ph": "Daliyat 'inab"},
-      {"ar": "قلم دالية العنب", "en": "He pruned the grapevines", "ph": "Qallama daliyat"},
-      {"ar": "حلو المذاق ثمر", "en": "Sweet-tasting fruit", "ph": "Hulu al-madhaq"},
-      {"ar": "العنب هنا حلو المذاق جدا الليلة", "en": "The grapes are sweet-tasting", "ph": "Al-'inab huna hulu al-madhaq"},
-      {"ar": "مقص تقليم أشجار", "en": "Pruning shears / Secateurs", "ph": "Miqass taqleem"},
-      {"ar": "سلة خشبية صغيرة", "en": "Wooden harvest basket", "ph": "Sallah khashabiyyah"},
-      {"ar": "جمع عناقيد العنب", "en": "He picked grape clusters", "ph": "Jama'a 'anaqeed"}
-    ]
-  },
-  "88": {
-    "title": "Level 88: Medical Ward Treatment",
-    "words": [
-      {"ar": "الحمد لله الذي يعافي المرضى", "en": "Praise God who heals the sick", "ph": "Alhamdulillah alladhi yu'afi"},
-      {"ar": "من دون أي شك على إطلاق", "en": "Without any doubt whatsoever", "ph": "Min dooni ayyi shakk"},
-      {"ar": "طبيب جراح اختصاصي", "en": "Specialist surgeon", "ph": "Tabeeb jarrah"},
-      {"ar": "غرفة الأشعة س", "en": "X-ray imaging room", "ph": "Ghurfat al-ashi'ah"},
-      {"ar": "أخذ صورة أشعة لكسر", "en": "He took an X-ray scan", "ph": "Akhadha soorat"},
-      {"ar": "واضح جدا كسر", "en": "Highly clear fracture", "ph": "Wadih jiddan"},
-      {"ar": "الكسر واضح جدا في الأشعة السينية", "en": "The break is very clear on scan", "ph": "Al-kasr wadih jiddan"},
-      {"ar": "جهاز جبس طبي", "en": "Orthopedic plaster cast", "ph": "Jihaz jabs"},
-      {"ar": "عكاز مشي طبي", "en": "Walking crutches", "ph": "'Ukaz mashee"},
-      {"ar": "وضع الجبس على كسر", "en": "He casted the broken leg", "ph": "Wada'a al-jabs"}
-    ]
-  },
-  "89": {
-    "title": "Level 89: Family Anniversary",
-    "words": [
-      {"ar": "أتمنى لك عيد زواج سعيد", "en": "Happy wedding anniversary", "ph": "Atamanna laka 'eed zawaj"},
-      {"ar": "من منظور اجتماعي شامل", "en": "From broad social view", "ph": "Min manzhoor ijtima'i"},
-      {"ar": "حفلة عيد زواج عائلي", "en": "Wedding anniversary party", "ph": "Haflat 'eed zawaj"},
-      {"ar": "قاعة احتفالات فندق", "en": "Hotel ballroom / Banquet hall", "ph": "Qa'at ihtifalat"},
-      {"ar": "حجز القاعة الكبيرة للحفلة", "en": "He booked hotel ballroom", "ph": "Hajaza al-qa'ah"},
-      {"ar": "فخم جدا صالون", "en": "Highly luxurious venue", "ph": "Fakhm jiddan"},
-      {"ar": "قاعة الاحتفالات فخمة جدا الليلة", "en": "The ballroom looks luxurious", "ph": "Qa'at al-ihtifalat fakhmah"},
-      {"ar": "بطاقات دعوة حفل", "en": "Party invitation cards", "ph": "Bitaqat da'wah"},
-      {"ar": "فرقة موسيقى كلاسيكي", "en": "Live musical band", "ph": "Fareeq mooseeqa"},
-      {"ar": "استقبل المدعوين للحفل", "en": "He received dinner guests", "ph": "Istaqbala al-mad'uwwen"}
-    ]
-  },
-  "90": {
-    "title": "Level 90: Science Complex",
-    "words": [
-      {"ar": "أتمنى لك مسيرة علمية ممتازة", "en": "Wish you elite science career", "ph": "Atamanna laka maseerah"},
-      {"ar": "من منظور فلسفي عميق", "en": "From deep philosophical view", "ph": "Min manzhoor falsafi"},
-      {"ar": "مختبر أبحاث الكيمياء", "en": "Chemistry research lab", "ph": "Mukhtabar abhadh"},
-      {"ar": "مجهر الكتروني متطور", "en": "Electron microscope", "ph": "Mijhar liktrooni"},
-      {"ar": "فحص العينة تحت مجهر", "en": "He scanned sample under lens", "ph": "Fahasa al-'ayyinah"},
-      {"ar": "دقيق جدا رصد", "en": "Highly precise tracking", "ph": "Daqeeq jiddan"},
-      {"ar": "المجهر الالكتروني دقيق جدا في رصد", "en": "The microscope is highly precise", "ph": "Al-mijhar al-liktrooni daqeeq"},
-      {"ar": "أنابيب اختبار زجاجي", "en": "Glass test tubes", "ph": "Anabeeb ikhtibar"},
-      {"ar": "مواد كيميائية تفاعلي", "en": "Chemical compounds", "ph": "Mawadd keemya'iyyah"},
-      {"ar": "خلط المركبات الكيميائية", "en": "He mixed chemical elements", "ph": "Khalata al-murakkabat"}
-    ]
-  },
+      "title": "Family & Relations IV",
+      "words": [
+        {"id": 851, "ar": "تزوج", "en": "He married", "ph": "Tazawwaja"},
+        {"id": 852, "ar": "طلق", "en": "He divorced", "ph": "Tallaqa"},
+        {"id": 853, "ar": "أنجب", "en": "He fathered", "ph": "Anjaba"},
+        {"id": 854, "ar": "زوج", "en": "Husband", "ph": "Zawj"},
+        {"id": 855, "ar": "زوجة", "en": "Wife", "ph": "Zawjah"},
+        {"id": 856, "ar": "ابن", "en": "Son", "ph": "Ibn"},
+        {"id": 857, "ar": "ابنة", "en": "Daughter", "ph": "Bint"},
+        {"id": 858, "ar": "عم", "en": "Uncle (paternal)", "ph": "Amm"},
+        {"id": 859, "ar": "خال", "en": "Uncle (maternal)", "ph": "Khaal"},
+        {"id": 860, "ar": "عائلة", "en": "Family", "ph": "Aa’ilah"}
+      ]
+    },
+    "87": {
+      "title": "Colors & Clothing III",
+      "words": [
+        {"id": 861, "ar": "لبس", "en": "He wore", "ph": "Labisa"},
+        {"id": 862, "ar": "غيّر", "en": "He changed", "ph": "Ghayyara"},
+        {"id": 863, "ar": "اختار", "en": "He chose", "ph": "Ikhtara"},
+        {"id": 864, "ar": "قميص", "en": "Shirt", "ph": "Qamees"},
+        {"id": 865, "ar": "بنطال", "en": "Pants", "ph": "Bintaal"},
+        {"id": 866, "ar": "حذاء", "en": "Shoe", "ph": "Hidhaa’"},
+        {"id": 867, "ar": "قبعة", "en": "Hat", "ph": "Qubba’ah"},
+        {"id": 868, "ar": "ثوب", "en": "Dress", "ph": "Thawb"},
+        {"id": 869, "ar": "أزرق", "en": "Blue", "ph": "Azraq"},
+        {"id": 870, "ar": "أخضر", "en": "Green", "ph": "AkhDhar"}
+      ]
+    },
+    "88": {
+      "title": "Animals V",
+      "words": [
+        {"id": 871, "ar": "رأى", "en": "He saw", "ph": "Ra’aa"},
+        {"id": 872, "ar": "سمع", "en": "He heard", "ph": "Sami’a"},
+        {"id": 873, "ar": "أمسك", "en": "He caught", "ph": "Amsaka"},
+        {"id": 874, "ar": "بطة", "en": "Duck", "ph": "Batta"},
+        {"id": 875, "ar": "ديك", "en": "Rooster", "ph": "Deek"},
+        {"id": 876, "ar": "عصفور", "en": "Sparrow", "ph": "‘Usfoor"},
+        {"id": 877, "ar": "نحلة", "en": "Bee", "ph": "Nahlah"},
+        {"id": 878, "ar": "سمكة", "en": "Fish", "ph": "Samakah"},
+        {"id": 879, "ar": "كلب البحر", "en": "Seal", "ph": "Kalb al-Bahr"},
+        {"id": 880, "ar": "قرد", "en": "Monkey", "ph": "Qird"}
+      ]
+    },
+    "89": {
+      "title": "Numbers & Counting V",
+      "words": [
+        {"id": 881, "ar": "عدّ", "en": "He counted", "ph": "Adda"},
+        {"id": 882, "ar": "حسب", "en": "He calculated", "ph": "Hasaba"},
+        {"id": 883, "ar": "جمع", "en": "He gathered", "ph": "Jama’a"},
+        {"id": 884, "ar": "سبعون", "en": "Seventy", "ph": "Sab’oon"},
+        {"id": 885, "ar": "ثمانون", "en": "Eighty", "ph": "Thamaanoon"},
+        {"id": 886, "ar": "تسعون", "en": "Ninety", "ph": "Tis’oon"},
+        {"id": 887, "ar": "مئة", "en": "Hundred", "ph": "Mi’ah"},
+        {"id": 888, "ar": "ألف", "en": "Thousand", "ph": "Alf"},
+        {"id": 889, "ar": "مليون", "en": "Million", "ph": "Milyoon"},
+        {"id": 890, "ar": "عدد", "en": "Number", "ph": "Adad"}
+      ]
+    },
+    "90": {
+      "title": "Weather & Seasons III",
+      "words": [
+        {"id": 891, "ar": "برد", "en": "He became cold", "ph": "Barada"},
+        {"id": 892, "ar": "سخن", "en": "He became hot", "ph": "Sakhuna"},
+        {"id": 893, "ar": "تغيّر", "en": "It changed", "ph": "Taghayyara"},
+        {"id": 894, "ar": "خريف", "en": "Autumn", "ph": "Khareef"},
+        {"id": 895, "ar": "شتاء", "en": "Winter", "ph": "Shitaa’"},
+        {"id": 896, "ar": "ربيع", "en": "Spring", "ph": "Rabee’"},
+        {"id": 897, "ar": "صيف", "en": "Summer", "ph": "Sayf"},
+        {"id": 898, "ar": "مطر", "en": "Rain", "ph": "Matar"},
+        {"id": 899, "ar": "ثلج", "en": "Snow", "ph": "Thalj"},
+        {"id": 900, "ar": "رياح", "en": "Winds", "ph": "RiyaaH"}
+      ]
+    },
   "91": {
-    "title": "Level 91: Maritime Cargo Logistics",
-    "words": [
-      {"ar": "كم رسوم شحن البضاعة من فضلك", "en": "What are freight fees please?", "ph": "Kam rusoom shahn al-bida'ah"},
-      {"ar": "من وجهة نظر تجارية دولية", "en": "From global trade view", "ph": "Min wajhat nazhar tijariyyah"},
-      {"ar": "مرفأ شحن سفن", "en": "Cargo seaport / Shipping harbor", "ph": "Marfa' shahn"},
-      {"ar": "حاوية شحن بحري كبيرة", "en": "Intermodal shipping container", "ph": "Hawiyat shahn"},
-      {"ar": "شحن الحاوية على سفينة", "en": "He loaded container on ship", "ph": "Shahana al-hawiyah"},
-      {"ar": "ضخم جدا مركب", "en": "Highly massive vessel", "ph": "Dhakhm jiddan"},
-      {"ar": "سفينة الشحن ضخمة جدا في بحر", "en": "The cargo ship is massive", "ph": "Safeenat ash-shahn dhakhmah"},
-      {"ar": "رافعات رصيف ميناء", "en": "Quayside container cranes", "ph": "Rafi'at raseef"},
-      {"ar": "بيان شحن حمولة سفينة", "en": "Cargo manifest logbook", "ph": "Bayan shahn"},
-      {"ar": "أبحرت سفينة شحن بحري", "en": "The container ship set sail", "ph": "Abharat safeenat"}
-    ]
-  },
-  "92": {
-    "title": "Level 92: Botanical Park Routes",
-    "words": [
-      {"ar": "أنا أبحث عن حديقة النباتات الدولية", "en": "I'm searching for botanical park", "ph": "Ana abhathu 'an hadeeqat"},
-      {"ar": "في غضون أيام قليلة جدا", "en": "Within a few short days", "ph": "Fi ghudoon ayyam qaleelah"},
-      {"ar": "حديقة نباتات أثرية", "en": "Botanical gardens / Arboretum", "ph": "Hadeeqat nabatat"},
-      {"ar": "بيت زجاجي لنباتات نادرة", "en": "Greenhouse / Conservatory", "ph": "Bayt zujaji"},
-      {"ar": "شاهد زهور نادرة في دفيئة", "en": "He saw exotic flowers in house", "ph": "Shahada zuhooran"},
-      {"ar": "نادر جدا نبات", "en": "Highly exotic / Rare flora", "ph": "Nadir jiddan"},
-      {"ar": "الزهور في بيت زجاجي نادرة جدا", "en": "The greenhouse flowers are rare", "ph": "Az-zuhoor fi bayt zujaji nadirah"},
-      {"ar": "كتيب دليل تصنيف نباتات", "en": "Botanical field guide booklet", "ph": "Kutayyib daleel"},
-      {"ar": "تذكرة دخول مجمع حدائق", "en": "Park complex entry ticket", "ph": "Bitaqat dhukhool"},
-      {"ar": "التقط صورا لزهور نادرة", "en": "He photographed exotic orchids", "ph": "Iltaqata suwaran lizuhoor"}
-    ]
-  },
-  "93": {
-    "title": "Level 93: Automated Pastry Oven",
-    "words": [
-      {"ar": "أتمنى لك وجبة فطور شهية ولذيذة", "en": "Enjoy a delicious breakfast", "ph": "Atamanna laka wajbah ftoor"},
-      {"ar": "منذ بداية العام الحالي تقريبا", "en": "Since start of current year", "ph": "Mundhu bidayat al-'aam"},
-      {"ar": "كرواسون زبدة فرنسي طازج", "en": "Fresh butter croissants", "ph": "Croissant zubdah"},
-      {"ar": "فرن خبز آلي حديث", "en": "Industrial convection oven", "ph": "Furn khabz aali"},
-      {"ar": "ضبط درجة حرارة فرن آلي", "en": "He programmed oven temperature", "ph": "Dabata darajat"},
-      {"ar": "ذهبي اللون مخبوز", "en": "Golden-brown baked pastry", "ph": "Dhahabi al-lawn"},
-      {"ar": "الكرواسون ذهبي اللون طازج الليلة", "en": "The croissants are golden brown", "ph": "Al-croissant dhahabi al-lawn"},
-      {"ar": "زبدة حليب بقري نقي", "en": "Pure dairy butter fats", "ph": "Zubdat haleeb"},
-      {"ar": "صواني خبز ألومنيوم كبيرة", "en": "Aluminum baking sheets", "ph": "Sawanee khabz"},
-      {"ar": "رتب معجنات الكرواسون في صينية", "en": "He arranged pastries on sheet", "ph": "Rattaba mu'ajjanat"}
-    ]
-  },
-  "94": {
-    "title": "Level 94: Complex Network Server",
-    "words": [
-      {"ar": "افتح لوحة تحكم سيرفر من فضلك", "en": "Open server control panel please", "ph": "Iftah lawhat tahakkum"},
-      {"ar": "في معظم الأوقات دون انقطاع", "en": "Most of the time without fail", "ph": "Fi mu'zham al-awqat"},
-      {"ar": "خادم شبكة بيانات مركزي سيرفر", "en": "Central mainframe network server", "ph": "Khadim shabakah"},
-      {"ar": "كابل ألياف ضوئية سريع إنترنت", "en": "Fiber optic network cable", "ph": "Kabil alyaf"},
-      {"ar": "فحص سرعة اتصال شبكة إنترنت", "en": "He tested internet bandwidth", "ph": "Fahasa sur'at"},
-      {"ar": "فائق السرعة اتصال بروتوكول", "en": "Ultrafast network connection", "ph": "Fa'iq as-sur'ah"},
-      {"ar": "اتصال ألياف ضوئية فائق السرعة الآن", "en": "Fiber line is ultrafast now", "ph": "Ittisal alyaf daw'iyyah"},
-      {"ar": "جدار حماية شبكة بيانات سيرفر", "en": "Enterprise network firewall", "ph": "Jidar himayah"},
-      {"ar": "خزانة سيرفرات شبكة مركزية", "en": "Server rack chassis enclosure", "ph": "Khizanat servers"},
-      {"ar": "أعاد تشغيل خادم شبكة بيانات", "en": "He rebooted the network server", "ph": "A'ada tashgheel khadim"}
-    ]
-  },
-  "95": {
-    "title": "Level 95: Enterprise Scale Expansion",
-    "words": [
-      {"ar": "في نهاية المطاف دائما وأبدا للجميع", "en": "Inevitably in the end for everyone", "ph": "Fi nihayat al-mataf"},
-      {"ar": "من هذا المنطلق الاستراتيجي الأساسي", "en": "From this key strategic basis", "ph": "Min hadha al-muntalaq"},
-      {"ar": "جولة تمويل مالي استثماري ج", "en": "Series C venture capital round", "ph": "Jawlat tamweel"},
-      {"ar": "صندوق استثمار مالي دولي كبير", "en": "Global institutional investment fund", "ph": "Sunduq istithmar"},
-      {"ar": "قدم استراتيجية توسع سوقي دولي", "en": "He pitched global growth strategy", "ph": "Qaddama istira-teejiyyah"},
-      {"ar": "عالي العائد مالي استثمار", "en": "High-yield financial asset", "ph": "'Aali al-'a'id"},
-      {"ar": "الاستثمار عالي العائد مالي للغاية", "en": "The asset investment is high yield", "ph": "Al-istithmar 'aali al-'a'id"},
-      {"ar": "حاضنة شركات تكنولوجية ناشئة", "en": "Tech startup firm incubator", "ph": "Hadinat sharikat"},
-      {"ar": "تقييم مالي اجمالي لأصول شركة", "en": "Total assets market valuation", "ph": "Taqyeem mali ijmali"},
-      {"ar": "وقع اتفاقية شراكة استراتيجية دولية", "en": "He executed global venture treaty", "ph": "Waqqa'a ittifaqiyyah sharakah"}
-    ]
-  },
+      "title": "Work & Office III",
+      "words": [
+        {"id": 901, "ar": "اجتمع", "en": "He gathered/met", "ph": "Ijtamaa’"},
+        {"id": 902, "ar": "نظم", "en": "He organized", "ph": "Nazzama"},
+        {"id": 903, "ar": "خطط", "en": "He planned", "ph": "Khattata"},
+        {"id": 904, "ar": "مكتب", "en": "Office", "ph": "Maktab"},
+        {"id": 905, "ar": "ملف", "en": "File", "ph": "Milaff"},
+        {"id": 906, "ar": "حاسوب", "en": "Computer", "ph": "Haasoob"},
+        {"id": 907, "ar": "طابعة", "en": "Printer", "ph": "Taabi’ah"},
+        {"id": 908, "ar": "هاتف", "en": "Phone", "ph": "Haatef"},
+        {"id": 909, "ar": "ورقة", "en": "Paper", "ph": "Waraqah"},
+        {"id": 910, "ar": "قلم", "en": "Pen", "ph": "Qalam"}
+      ]
+    },
+    "92": {
+      "title": "Travel & Directions III",
+      "words": [
+        {"id": 911, "ar": "سلك", "en": "He followed a path", "ph": "Salaka"},
+        {"id": 912, "ar": "أشار", "en": "He pointed", "ph": "Ashara"},
+        {"id": 913, "ar": "دلّ", "en": "He guided", "ph": "Dalla"},
+        {"id": 914, "ar": "يمين", "en": "Right", "ph": "Yameen"},
+        {"id": 915, "ar": "يسار", "en": "Left", "ph": "Yasaar"},
+        {"id": 916, "ar": "شمال", "en": "North", "ph": "Shimaal"},
+        {"id": 917, "ar": "جنوب", "en": "South", "ph": "Janoob"},
+        {"id": 918, "ar": "شرق", "en": "East", "ph": "Sharq"},
+        {"id": 919, "ar": "غرب", "en": "West", "ph": "Gharb"},
+        {"id": 920, "ar": "خريطة", "en": "Map", "ph": "Khareetah"}
+      ]
+    },
+    "93": {
+      "title": "Family & Relations V",
+      "words": [
+        {"id": 921, "ar": "تزوج", "en": "He married", "ph": "Tazawwaja"},
+        {"id": 922, "ar": "طلق", "en": "He divorced", "ph": "Tallaqa"},
+        {"id": 923, "ar": "أنجب", "en": "He fathered", "ph": "Anjaba"},
+        {"id": 924, "ar": "زوج", "en": "Husband", "ph": "Zawj"},
+        {"id": 925, "ar": "زوجة", "en": "Wife", "ph": "Zawjah"},
+        {"id": 926, "ar": "ابن", "en": "Son", "ph": "Ibn"},
+        {"id": 927, "ar": "ابنة", "en": "Daughter", "ph": "Bint"},
+        {"id": 928, "ar": "عم", "en": "Uncle (paternal)", "ph": "Amm"},
+        {"id": 929, "ar": "خال", "en": "Uncle (maternal)", "ph": "Khaal"},
+        {"id": 930, "ar": "عائلة", "en": "Family", "ph": "Aa’ilah"}
+      ]
+    },
+    "94": {
+      "title": "Food & Drink IV",
+      "words": [
+        {"id": 931, "ar": "طبخ", "en": "He cooked", "ph": "Tabakha"},
+        {"id": 932, "ar": "غلى", "en": "He boiled", "ph": "Ghalaa"},
+        {"id": 933, "ar": "قلى", "en": "He fried", "ph": "Qalaa"},
+        {"id": 934, "ar": "خبز", "en": "Bread", "ph": "Khubz"},
+        {"id": 935, "ar": "أرز", "en": "Rice", "ph": "Arz"},
+        {"id": 936, "ar": "لحم", "en": "Meat", "ph": "Lahm"},
+        {"id": 937, "ar": "سمك", "en": "Fish", "ph": "Samak"},
+        {"id": 938, "ar": "دجاج", "en": "Chicken", "ph": "Dajaaj"},
+        {"id": 939, "ar": "خضار", "en": "Vegetables", "ph": "Khodaar"},
+        {"id": 940, "ar": "فاكهة", "en": "Fruit", "ph": "Faakihah"}
+      ]
+    },
+    "95": {
+      "title": "Religion & Worship IV",
+      "words": [
+        {"id": 941, "ar": "ذكر", "en": "He remembered/mentioned", "ph": "Dhakara"},
+        {"id": 942, "ar": "دعا", "en": "He supplicated", "ph": "Da’aa"},
+        {"id": 943, "ar": "قرأ", "en": "He recited", "ph": "Qara’a"},
+        {"id": 944, "ar": "مسجد", "en": "Mosque", "ph": "Masjid"},
+        {"id": 945, "ar": "محراب", "en": "Prayer niche", "ph": "Mihrab"},
+        {"id": 946, "ar": "منبر", "en": "Pulpit", "ph": "Minbar"},
+        {"id": 947, "ar": "صلاة", "en": "Prayer", "ph": "Salaah"},
+        {"id": 948, "ar": "زكاة", "en": "Charity", "ph": "Zakaah"},
+        {"id": 949, "ar": "صوم", "en": "Fasting", "ph": "Sawm"},
+        {"id": 950, "ar": "حج", "en": "Pilgrimage", "ph": "Hajj"}
+      ]
+    },
   "96": {
-    "title": "Level 96: Wide-Body Aircraft Transits",
-    "words": [
-      {"ar": "أتمنى لك رحلة سعيدة وموفقة دائما", "en": "Have a safe happy flight always", "ph": "Atamanna laka rihlah sa'eedah"},
-      {"ar": "على وجه الخصوص والتحديد التام", "en": "With ultimate micro precision", "ph": "'Ala wajh al-khusoos"},
-      {"ar": "ممر طائرة تجارية عريضة البدن", "en": "Twin-aisle wide-body aircraft cabin", "ph": "Mamarr ta'irah"},
-      {"ar": "خزانة أمتعة علوية هيدروليكية", "en": "Hydraulic overhead baggage bin", "ph": "Khizanat amti'ah 'alawiyyah"},
-      {"ar": "وضع حقيبة السفر علوية في طائرة", "en": "He stowed twin cabin bags overhead", "ph": "Wada'a haqeebeht as-safar"},
-      {"ar": "مريح جدا مقعد درجة أعمال", "en": "Premium business class seat cradle", "ph": "Mureeh jiddan maq'ad"},
-      {"ar": "مقعد درجة الأعمال مريح جدا للطيران", "en": "The business class seat is cozy", "ph": "Maq'ad darajat al-a'mal"},
-      {"ar": "شاشة عرض ترفيهية لمقعد طائرة", "en": "Seatback entertainment touch screen", "ph": "Shashat 'ard tarfeeniyyah"},
-      {"ar": "سماعات رأس لاسلكية عازلة لصوت", "en": "Noise-canceling head headphones", "ph": "Samma'at ra's lasilkiyyah"},
-      {"ar": "شغل فيلم سينمائي طويل في طائرة", "en": "He standard long-haul movie track", "ph": "Shagh-ghala feelman saenama'eean"}
-    ]
-  },
-  "97": {
-    "title": "Level 97: Commercial Vineyard Estates",
-    "words": [
-      {"ar": "سبحان رب العرش العظيم وبحمده دائما", "en": "Glory to Lord of Supreme Throne ever", "ph": "Subhan Rabbi al-'Arsh"},
-      {"ar": "على المدى الطويل والقصير والمتوسط", "en": "In long short and medium term", "ph": "'Ala al-mada at-taweel"},
-      {"ar": "حقل عنب كبير لإنتاج العصائر", "en": "Commercial grape vineyard estate", "ph": "Haql 'inab kabeer"},
-      {"ar": "دالية عنب خضراء مثمرة في حقل", "en": "Fruit-bearing emerald grapevines", "ph": "Daliyat 'inab khadra'"},
-      {"ar": "قلم دالية العنب في موسم ربيع", "en": "He pruned spring vineyard lines", "ph": "Qallama daliyat al-'inab"},
-      {"ar": "حلو المذاق ثمر العنب طازج", "en": "Sweet juice-filled grape clusters", "ph": "Hulu al-madhaq thamar"},
-      {"ar": "ثمر العنب هنا حلو المذاق جدا اليوم", "en": "The estate grapes are sweet juice", "ph": "Thamar al-'inab huna hulu"},
-      {"ar": "مقص تقليم أشجار هيدروليكي صغير", "en": "Mechanical vine pruning secateurs", "ph": "Miqass taqleem ashjar"},
-      {"ar": "سلة خشبية كلاسيكية لجمع ثمار", "en": "Woven wicker grape harvesting basket", "ph": "Sallah khashabiyyah"},
-      {"ar": "جمع عناقيد العنب ناضجة في سلة", "en": "He picked premium ripe grape loads", "ph": "Jama'a 'anaqeed al-'inab"}
-    ]
-  },
-  "98": {
-    "title": "Level 98: Advanced Trauma Orthopedics",
-    "words": [
-      {"ar": "الحمد لله الذي يعافي المرضى دائما", "en": "Praise God who heals patients always", "ph": "Alhamdulillah alladhi yu'afi"},
-      {"ar": "من دون أي شك على إطلاق بتاتا", "en": "Without a single shred of doubt", "ph": "Min dooni ayyi shakk batatan"},
-      {"ar": "طبيب جراح اختصاصي في كسر عظام", "en": "Consultant trauma orthopedic surgeon", "ph": "Tabeeb jarrah ikhtisasi"},
-      {"ar": "غرفة الأشعة السينية فحص طبي مسبق", "en": "Diagnostic digital X-ray imaging lab", "ph": "Ghurfat al-ashi'ah al-seeneeyah"},
-      {"ar": "أخذ صورة أشعة لكسر عظام ساق", "en": "He ran dynamic leg bone X-ray scans", "ph": "Akhadha soorat ashi'ah likasr"},
-      {"ar": "واضح جدا كسر عظام في أشعة", "en": "Highly visible compound bone fracture", "ph": "Wadih jiddan kasr 'izham"},
-      {"ar": "كسر العظام في ساق واضح جدا اليوم", "en": "The compound shin break is visible", "ph": "Kasr al-'izham fi saq wadih"},
-      {"ar": "جهاز جبس طبي لعلاج كسر عظام", "en": "Medical fiberglass orthopedic cast line", "ph": "Jihaz jabs tibbi li'ilaj"},
-      {"ar": "عكاز مشي طبي مساعد لحركة ساق", "en": "Adjustable aluminum forearm crutches", "ph": "'Ukaz mashee tibbi musa'id"},
-      {"ar": "وضع الجبس طبي على كسر عظام ساق", "en": "He applied fiberglass orthopedic casts", "ph": "Wada'a al-jabs al-tibbi 'ala"}
-    ]
-  },
-  "99": {
-    "title": "Level 99: Golden Jubilee Banquets",
-    "words": [
-      {"ar": "أتمنى لك عيد زواج سعيد ومبارك", "en": "Happy blessed wedding anniversary", "ph": "Atamanna laka 'eed zawaj sa'eed"},
-      {"ar": "من منظور اجتماعي حضاري شامل جدا", "en": "From deep socio-cultural view", "ph": "Min manzhoor ijtima'i hadari"},
-      {"ar": "حفلة عيد زواج ذهبي عائلي كبير", "en": "Golden jubilee family wedding feast", "ph": "Haflat 'eed zawaj dhahabi"},
-      {"ar": "قاعة احتفالات فندق خمسة نجوم فخم", "en": "Five-star hotel luxury grand ballroom", "ph": "Qa'at ihtifalat funduq khamsat"},
-      {"ar": "حجز القاعة الكبيرة للحفلة عائلية فندق", "en": "He leased five-star grand ballrooms", "ph": "Hajaza al-qa'ah al-kabeerah"},
-      {"ar": "فخم جدا صالون احتفالات فندق ملوكي", "en": "Regal imperial high-luxury interior", "ph": "Fakhm jiddan salon ihtifalat"},
-      {"ar": "صالون الاحتفالات فخم جدا الليلة فندق", "en": "The hotel grand salon looks regal", "ph": "Salon al-ihtifalat fakhm jiddan"},
-      {"ar": "بطاقات دعوة حفل زفاف ملكي مذهب", "en": "Gold-embossed royal party invitations", "ph": "Bitaqat da'wah hafl zafaf"},
-      {"ar": "فرقة موسيقى كلاسيكية أوركسترا دولي", "en": "Symphony philharmonic orchestra bands", "ph": "Fareeq mooseeqa kalseekiyyah"},
-      {"ar": "استقبل المدعوين للحفل زفاف صالون فندق", "en": "He ushered VIP banquet delegates line", "ph": "Istaqbala al-mad'uwwen lilhafl"}
-    ]
-  },
-  "100": {
-    "title": "Level 100: Quantum Tech Complexes",
-    "words": [
-      {"ar": "أتمنى لك مسيرة علمية ممتازة وموفقة", "en": "Have a stellar premium science tenure", "ph": "Atamanna laka maseerah 'ilmiyyah"},
-      {"ar": "من منظور فلسفي علمي عميق وشامل", "en": "From holistic techno-philosophic views", "ph": "Min manzhoor falsafi 'ilmi"},
-      {"ar": "مختبر أبحاث فيزياء كيمياء متطور جدا", "en": "Molecular physics research laboratory", "ph": "Mukhtabar abhadh feezya'"},
-      {"ar": "مجهر الكتروني ماسح متطور ليزر دقيق", "en": "Cryo-scanning laser electron lens array", "ph": "Mijhar liktrooni masih mutatawwir"},
-      {"ar": "فحص العينة نانو تحت مجهر الكتروني", "en": "He analyzed atomic carbon structures", "ph": "Fahasa al-'ayyinah nano tahta"},
-      {"ar": "دقيق جدا رصد حركة ذرات مجهر", "en": "Sub-atomic atomic movement resolution", "ph": "Daqeeq jiddan rasd harakat"},
-      {"ar": "رصد حركة ذرات دقيق جدا تحت مجهر", "en": "The sub-atomic resolution is hyper precise", "ph": "Rasd harakat adh-dharrat daqeeq"},
-      {"ar": "أنابيب اختبار زجاجية حرارية معمل كيمياء", "en": "Quartz thermal vacuum test cylinder sets", "ph": "Anabeeb ikhtibar zujajiyyah"},
-      {"ar": "مواد كيميائية تفاعلية عالية نقاوة مختبر", "en": "High-purity isotopic active reagents", "ph": "Mawadd keemya'iyyah tafa'uliyyah"},
-      {"ar": "خلط المركبات الكيميائية معقدة في مختبر", "en": "He synthesized complex active polymers", "ph": "Khalata al-murakkabat al-keemya'iyyah"}
-    ]
-  }
+      "title": "Daily Routine VI",
+      "words": [
+        {"id": 951, "ar": "استيقظ", "en": "He woke up", "ph": "Istayqaz"},
+        {"id": 952, "ar": "نام", "en": "He slept", "ph": "Naama"},
+        {"id": 953, "ar": "اغتسل", "en": "He bathed", "ph": "Ightasala"},
+        {"id": 954, "ar": "فراش", "en": "Bed", "ph": "Firaash"},
+        {"id": 955, "ar": "بطانية", "en": "Blanket", "ph": "Bataaniyah"},
+        {"id": 956, "ar": "وسادة", "en": "Pillow", "ph": "Wisaadah"},
+        {"id": 957, "ar": "حمام", "en": "Bathroom", "ph": "Hammaam"},
+        {"id": 958, "ar": "مرآة", "en": "Mirror", "ph": "Mir’aah"},
+        {"id": 959, "ar": "مغسلة", "en": "Sink", "ph": "Maghsalah"},
+        {"id": 960, "ar": "منشفة", "en": "Towel", "ph": "Manshafah"}
+      ]
+    },
+    "97": {
+      "title": "Market & Shopping V",
+      "words": [
+        {"id": 961, "ar": "اشترى", "en": "He bought", "ph": "Ishtaraa"},
+        {"id": 962, "ar": "باع", "en": "He sold", "ph": "Baa’a"},
+        {"id": 963, "ar": "عرض", "en": "He offered/displayed", "ph": "‘Arada"},
+        {"id": 964, "ar": "سوق", "en": "Market", "ph": "Souq"},
+        {"id": 965, "ar": "محل", "en": "Shop", "ph": "Mahall"},
+        {"id": 966, "ar": "بائع", "en": "Seller", "ph": "Baa’i’"},
+        {"id": 967, "ar": "مشتري", "en": "Buyer", "ph": "Mushtari"},
+        {"id": 968, "ar": "سلعة", "en": "Product", "ph": "Sil’ah"},
+        {"id": 969, "ar": "ثمن", "en": "Price", "ph": "Thaman"},
+        {"id": 970, "ar": "مال", "en": "Money", "ph": "Maal"}
+      ]
+    },
+    "98": {
+      "title": "Health & Body V",
+      "words": [
+        {"id": 971, "ar": "تنفس", "en": "He breathed", "ph": "Tanaffasa"},
+        {"id": 972, "ar": "سعل", "en": "He coughed", "ph": "Sa’ala"},
+        {"id": 973, "ar": "ابتسم", "en": "He smiled", "ph": "Ibtasama"},
+        {"id": 974, "ar": "رأس", "en": "Head", "ph": "Ra’s"},
+        {"id": 975, "ar": "عين", "en": "Eye", "ph": "Ayn"},
+        {"id": 976, "ar": "أذن", "en": "Ear", "ph": "Udhun"},
+        {"id": 977, "ar": "فم", "en": "Mouth", "ph": "Fam"},
+        {"id": 978, "ar": "أنف", "en": "Nose", "ph": "Anf"},
+        {"id": 979, "ar": "يد", "en": "Hand", "ph": "Yad"},
+        {"id": 980, "ar": "قدم", "en": "Foot", "ph": "Qadam"}
+      ]
+    },
+    "99": {
+      "title": "Technology & Tools V",
+      "words": [
+        {"id": 981, "ar": "كتب", "en": "He typed/wrote", "ph": "Kataba"},
+        {"id": 982, "ar": "اتصل", "en": "He called", "ph": "Ittasala"},
+        {"id": 983, "ar": "بحث", "en": "He searched", "ph": "Bahatha"},
+        {"id": 984, "ar": "حاسوب", "en": "Computer", "ph": "Haasoob"},
+        {"id": 985, "ar": "هاتف", "en": "Phone", "ph": "Haatef"},
+        {"id": 986, "ar": "إنترنت", "en": "Internet", "ph": "Internet"},
+        {"id": 987, "ar": "برنامج", "en": "Program", "ph": "Barnaamaj"},
+        {"id": 988, "ar": "آلة", "en": "Machine", "ph": "Aalah"},
+        {"id": 989, "ar": "مفتاح", "en": "Key", "ph": "Miftaah"},
+        {"id": 990, "ar": "ساعة", "en": "Watch/Clock", "ph": "Saa’ah"}
+      ]
+    },
+    "100": {
+      "title": "Nature & Environment VI",
+      "words": [
+        {"id": 991, "ar": "أضاء", "en": "He illuminated", "ph": "Ada’a"},
+        {"id": 992, "ar": "أظلم", "en": "It became dark", "ph": "Azlama"},
+        {"id": 993, "ar": "أمطر", "en": "It rained", "ph": "Amtara"},
+        {"id": 994, "ar": "شمس", "en": "Sun", "ph": "Shams"},
+        {"id": 995, "ar": "قمر", "en": "Moon", "ph": "Qamar"},
+        {"id": 996, "ar": "نجم", "en": "Star", "ph": "Najm"},
+        {"id": 997, "ar": "سماء", "en": "Sky", "ph": "Samaa"},
+        {"id": 998, "ar": "سحاب", "en": "Cloud", "ph": "Sahaab"},
+        {"id": 999, "ar": "مطر", "en": "Rain", "ph": "Matar"},
+        {"id": 1000, "ar": "ثلج", "en": "Snow", "ph": "Thalj"}
+      ]
+    }
 }
+
+
+
+
