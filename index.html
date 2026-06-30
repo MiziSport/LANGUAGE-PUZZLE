@@ -13,7 +13,7 @@
             background-color: #2563eb !important;
             color: white !important;
             border-color: #1d4ed8 !important;
-            transform: scale(1.03);
+            transform: scale(1.08);
             box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
         }
         .matched {
@@ -31,6 +31,29 @@
             75% { transform: translateX(6px); }
         }
         .animate-shake { animation: shake 0.3s ease-in-out; }
+        
+        /* Boss Level Styles */
+        .boss-card {
+            background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #3730a3 100%) !important;
+            border-color: #6366f1 !important;
+            border-width: 2px !important;
+        }
+        .boss-card .arabic-text {
+            color: #fbbf24 !important;
+            text-shadow: 0 0 10px rgba(251, 191, 36, 0.3);
+        }
+        .boss-header {
+            background: linear-gradient(180deg, #1e1b4b 0%, #312e81 100%) !important;
+            border-bottom-color: #6366f1 !important;
+        }
+        .boss-badge {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6) !important;
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
     </style>
 </head>
 <body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between selection:bg-blue-500">
@@ -62,12 +85,12 @@
         </div>
     </div>
 
-    <header class="bg-slate-800/80 border-b border-slate-700/60 backdrop-blur-md p-4 sticky top-0 z-40 shadow-xl">
+    <header id="main-header" class="bg-slate-800/80 border-b border-slate-700/60 backdrop-blur-md p-4 sticky top-0 z-40 shadow-xl hidden">
         <div class="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
             <div class="flex justify-between items-center w-full sm:w-auto gap-6">
                 <div>
                     <h1 class="text-2xl font-black tracking-tight text-white flex items-center gap-2">
-                        KALIMAT <span class="bg-blue-600 text-[10px] px-2 py-0.5 rounded-md font-bold text-blue-50 tracking-wider">1000 WORDS</span>
+                        KALIMAT <span id="header-badge" class="bg-blue-600 text-[10px] px-2 py-0.5 rounded-md font-bold text-blue-50 tracking-wider">1000 WORDS</span>
                     </h1>
                     <div class="flex items-center gap-2 mt-0.5">
                         <p id="level-title" class="text-xs font-bold text-blue-400 uppercase tracking-widest">Connecting to DB...</p>
@@ -111,8 +134,8 @@
 
     <div id="completion-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-md hidden justify-center items-center p-4 z-50">
         <div class="bg-slate-800 border border-slate-700 rounded-2xl max-w-md w-full p-8 text-center shadow-2xl">
-            <div class="text-6xl mb-4 animate-bounce">🎉</div>
-            <h2 class="text-2xl font-black text-white mb-2">Level Completed!</h2>
+            <div id="completion-icon" class="text-6xl mb-4 animate-bounce">🎉</div>
+            <h2 id="completion-title" class="text-2xl font-black text-white mb-2">Level Completed!</h2>
             <p id="checkpoint-notice" class="text-slate-400 text-xs mb-6 px-2 py-1.5 bg-slate-900/60 rounded-xl border border-slate-700/50"></p>
             <button id="next-level-btn" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-extrabold py-3.5 px-6 rounded-xl transition tracking-wide cursor-pointer">Unlock Next Level</button>
         </div>
@@ -144,7 +167,6 @@
 
     <script>
         // MOCK CLOUD USER DATABASE CONTROLLER
-        // In production, this data array mapping acts as an active API payload to an external SQL/NoSQL engine
         const CloudServer = {
             getUsers: () => JSON.parse(localStorage.getItem('kalimat_server_users')) || {},
             saveUsers: (users) => localStorage.setItem('kalimat_server_users', JSON.stringify(users)),
@@ -158,8 +180,9 @@
                 users[cleanTag] = {
                     id: 'usr_' + Date.now(),
                     username: username.trim(),
-                    password_hash: btoa(password), // Basic simulation of cryptographic hash mapping
-                    max_level_reached: 1
+                    password_hash: btoa(password),
+                    max_level_reached: 1,
+                    boss_levels_completed: []
                 };
                 CloudServer.saveUsers(users);
                 return { success: true, user: users[cleanTag] };
@@ -182,6 +205,20 @@
                     users[cleanTag].max_level_reached = computedLevel;
                     CloudServer.saveUsers(users);
                 }
+            },
+            
+            markBossCompleted: (username, bossLevel) => {
+                const users = CloudServer.getUsers();
+                const cleanTag = username.trim().toLowerCase();
+                if (users[cleanTag]) {
+                    if (!users[cleanTag].boss_levels_completed) {
+                        users[cleanTag].boss_levels_completed = [];
+                    }
+                    if (!users[cleanTag].boss_levels_completed.includes(bossLevel)) {
+                        users[cleanTag].boss_levels_completed.push(bossLevel);
+                    }
+                    CloudServer.saveUsers(users);
+                }
             }
         };
 
@@ -192,6 +229,8 @@
         let selectedArabicCard = null, selectedEnglishCard = null;
         let matchesCount = 0, lives = 3, helpUsedThisLevel = false;
         const totalMatchesRequired = 10;
+        const BOSS_INTERVAL = 3;
+        const WORDS_FROM_PREVIOUS_LEVELS = 5;
 
         // UI DOCUMENT REGISTRY
         const authScreen = document.getElementById('auth-screen');
@@ -204,6 +243,7 @@
         const playerTag = document.getElementById('player-tag');
         const logoutBtn = document.getElementById('logout-btn');
         const checkpointNotice = document.getElementById('checkpoint-notice');
+        const mainHeader = document.getElementById('main-header');
 
         const arabicColumn = document.getElementById('arabic-column');
         const englishColumn = document.getElementById('english-column');
@@ -221,6 +261,9 @@
         const studyList = document.getElementById('study-list');
         const loadingState = document.getElementById('loading-state');
         const gameGrid = document.getElementById('game-grid');
+        const completionIcon = document.getElementById('completion-icon');
+        const completionTitle = document.getElementById('completion-title');
+        const headerBadge = document.getElementById('header-badge');
 
         // AUTHENTICATION INTERACTION MATRIX
         loginSubmitBtn.addEventListener('click', (e) => {
@@ -251,6 +294,7 @@
             authPasswordInput.value = '';
             authScreen.classList.remove('hidden');
             authScreen.classList.add('flex');
+            mainHeader.classList.add('hidden');
             gameGrid.classList.add('hidden');
             loadingState.classList.remove('hidden');
             loadingState.innerText = "Awaiting cloud authentication clearance...";
@@ -261,20 +305,25 @@
             authError.classList.remove('hidden');
         }
 
-        // INITIALIZE USER STATE PROFILE & COMPUTE THE 10-LEVEL CHECKPOINT METRIC
+        // CHECK IF CURRENT LEVEL IS A BOSS LEVEL
+        function isBossLevelCheck(levelId) {
+            return levelId % BOSS_INTERVAL === 0 && levelId > 0;
+        }
+
+        // INITIALIZE USER STATE PROFILE & COMPUTE THE CHECKPOINT METRIC
         function initializeUserSession(userRecord) {
             currentUserSession = userRecord;
             authError.classList.add('hidden');
             authScreen.classList.add('hidden');
             authScreen.classList.remove('flex');
+            mainHeader.classList.remove('hidden');
             
             playerTag.innerText = userRecord.username;
             
-            // MATH ENGINE LOGIC: Calculate active starting level based on maximum achieved record
+            // Calculate checkpoint (nearest multiple of BOSS_INTERVAL)
             const maxReached = userRecord.max_level_reached;
-            let targetCheckpoint = Math.floor(maxReached / 5) * 5;
+            let targetCheckpoint = Math.floor(maxReached / BOSS_INTERVAL) * BOSS_INTERVAL;
             
-            // Edge constraint: If fallback math resolves down to 0, reset base back to level 1 index
             if (targetCheckpoint === 0) {
                 targetCheckpoint = 1;
             }
@@ -308,16 +357,72 @@
                 return;
             }
 
+            const isBoss = isBossLevelCheck(levelId);
+            
             matchesCount = 0; lives = 3; helpUsedThisLevel = false;
             selectedArabicCard = null; selectedEnglishCard = null;
             
             updateUI(); resetHeartsUI(); enableHelpButton();
 
-            const levelInfo = levelsDatabase[levelId];
-            levelTitle.innerText = `Level ${levelId}: ${levelInfo.title}`;
+            let levelWords = [];
+            
+            if (isBoss) {
+                // Boss level: Combine current level words with review words from previous levels
+                const currentLevelWords = levelsDatabase[levelId].words || [];
+                levelWords = [...currentLevelWords];
+                
+                // Add review words from previous levels
+                const usedWordIds = new Set(currentLevelWords.map(w => w.id));
+                
+                for (let i = 1; i < BOSS_INTERVAL; i++) {
+                    const prevLevelKey = (levelId - i).toString();
+                    if (levelsDatabase[prevLevelKey] && levelsDatabase[prevLevelKey].words) {
+                        const prevWords = [...levelsDatabase[prevLevelKey].words]
+                            .sort(() => Math.random() - 0.5);
+                        
+                        let addedCount = 0;
+                        for (const word of prevWords) {
+                            if (addedCount >= WORDS_FROM_PREVIOUS_LEVELS) break;
+                            if (!usedWordIds.has(word.id)) {
+                                levelWords.push(word);
+                                usedWordIds.add(word.id);
+                                addedCount++;
+                            }
+                        }
+                    }
+                }
+                
+                // Update UI for boss mode
+                levelTitle.innerText = `⚔️ BOSS LEVEL ${levelId}: Trial of Mastery`;
+                levelTitle.className = "text-xs font-bold text-amber-400 uppercase tracking-widest";
+                headerBadge.className = "boss-badge text-[10px] px-2 py-0.5 rounded-md font-bold text-amber-200 tracking-wider";
+                headerBadge.innerText = "⚡ BOSS";
+                mainHeader.className = "boss-header border-b border-slate-700/60 backdrop-blur-md p-4 sticky top-0 z-40 shadow-xl";
+                completionIcon.innerText = "🏆";
+                completionTitle.innerText = "Trial Conquered!";
+                progressBar.className = "bg-gradient-to-r from-amber-500 to-yellow-500 h-2.5 transition-all duration-300";
+            } else {
+                // Regular level
+                levelWords = levelsDatabase[levelId].words;
+                
+                // Update UI for regular mode
+                levelTitle.innerText = `Level ${levelId}: ${levelsDatabase[levelId].title}`;
+                levelTitle.className = "text-xs font-bold text-blue-400 uppercase tracking-widest";
+                headerBadge.className = "bg-blue-600 text-[10px] px-2 py-0.5 rounded-md font-bold text-blue-50 tracking-wider";
+                headerBadge.innerText = "1000 WORDS";
+                mainHeader.className = "bg-slate-800/80 border-b border-slate-700/60 backdrop-blur-md p-4 sticky top-0 z-40 shadow-xl";
+                completionIcon.innerText = "🎉";
+                completionTitle.innerText = "Level Completed!";
+                progressBar.className = "bg-gradient-to-r from-emerald-500 to-teal-400 h-2.5 transition-all duration-300";
+            }
 
-            let arabicCardsData = levelInfo.words.map((w, idx) => ({ text: w.ar, id: idx, phonetic: w.ph }));
-            let englishCardsData = levelInfo.words.map((w, idx) => ({ text: w.en, id: idx }));
+            // Update score display for total words
+            const totalWords = levelWords.length;
+            scoreDisplay.innerText = `0/${totalWords}`;
+
+            // Create cards
+            let arabicCardsData = levelWords.map((w) => ({ text: w.ar, id: w.id, phonetic: w.ph }));
+            let englishCardsData = levelWords.map((w) => ({ text: w.en, id: w.id }));
 
             arabicCardsData.sort(() => Math.random() - 0.5);
             englishCardsData.sort(() => Math.random() - 0.5);
@@ -327,6 +432,7 @@
             arabicCardsData.forEach(card => {
                 const btn = document.createElement('button');
                 btn.className = "bg-slate-800 border-2 border-slate-700/80 rounded-xl p-3 flex flex-col justify-center items-center cursor-pointer transition min-h-[90px] w-full focus:outline-none";
+                if (isBoss) btn.classList.add('boss-card');
                 btn.dataset.id = card.id;
                 btn.innerHTML = `<span class="arabic-text font-bold text-white leading-none">${card.text}</span><span class="text-[11px] text-blue-400 mt-1.5 font-bold tracking-wide">${card.phonetic}</span>`;
                 btn.addEventListener('click', () => handleArabicSelection(btn));
@@ -336,6 +442,7 @@
             englishCardsData.forEach(card => {
                 const btn = document.createElement('button');
                 btn.className = "bg-slate-800 border-2 border-slate-700/80 rounded-xl p-3 flex justify-center items-center text-center cursor-pointer transition font-bold text-slate-200 text-xs md:text-sm min-h-[90px] w-full px-3 focus:outline-none";
+                if (isBoss) btn.classList.add('boss-card');
                 btn.dataset.id = card.id;
                 btn.innerText = card.text;
                 btn.addEventListener('click', () => handleEnglishSelection(btn));
@@ -366,14 +473,21 @@
                     selectedArabicCard = null; selectedEnglishCard = null;
                     matchesCount++; updateUI();
                     
-                    if (matchesCount === totalMatchesRequired) {
+                    // Get total words from the DOM
+                    const totalCards = arabicColumn.children.length;
+                    
+                    if (matchesCount === totalCards) {
                         const incomingLevel = currentLevel + 1;
                         
-                        // Push progress verification criteria out to the data layer database mock system
+                        // Update progress
                         CloudServer.updateProgress(currentUserSession.username, incomingLevel);
                         
-                        // Dynamically compute notification banner update
-                        const baseCheckpoint = Math.floor(incomingLevel / 10) * 10;
+                        if (isBossLevelCheck(currentLevel)) {
+                            CloudServer.markBossCompleted(currentUserSession.username, currentLevel);
+                        }
+                        
+                        // Calculate checkpoint
+                        const baseCheckpoint = Math.floor(incomingLevel / BOSS_INTERVAL) * BOSS_INTERVAL;
                         checkpointNotice.innerText = `Progress saved! Falls back to Checkpoint Level ${baseCheckpoint === 0 ? 1 : baseCheckpoint} upon re-login.`;
 
                         setTimeout(() => showModal(completionModal), 400);
@@ -400,7 +514,36 @@
         helpBtn.addEventListener('click', () => {
             if (helpUsedThisLevel || lives <= 0) return;
             helpUsedThisLevel = true; disableHelpButton();
-            const currentWords = levelsDatabase[currentLevel].words;
+            
+            let currentWords;
+            const isBoss = isBossLevelCheck(currentLevel);
+            
+            if (isBoss) {
+                // Reconstruct boss words for study list
+                currentWords = [...levelsDatabase[currentLevel].words];
+                const usedWordIds = new Set(currentWords.map(w => w.id));
+                
+                for (let i = 1; i < BOSS_INTERVAL; i++) {
+                    const prevLevelKey = (currentLevel - i).toString();
+                    if (levelsDatabase[prevLevelKey] && levelsDatabase[prevLevelKey].words) {
+                        const prevWords = [...levelsDatabase[prevLevelKey].words]
+                            .sort(() => Math.random() - 0.5);
+                        
+                        let addedCount = 0;
+                        for (const word of prevWords) {
+                            if (addedCount >= WORDS_FROM_PREVIOUS_LEVELS) break;
+                            if (!usedWordIds.has(word.id)) {
+                                currentWords.push(word);
+                                usedWordIds.add(word.id);
+                                addedCount++;
+                            }
+                        }
+                    }
+                }
+            } else {
+                currentWords = levelsDatabase[currentLevel].words;
+            }
+            
             studyList.innerHTML = '';
             currentWords.forEach(word => {
                 const row = document.createElement('div');
@@ -416,8 +559,9 @@
         nextLevelBtn.addEventListener('click', () => { hideModal(completionModal); currentLevel++; loadLevel(currentLevel); });
 
         function updateUI() {
-            scoreDisplay.innerText = `${matchesCount}/${totalMatchesRequired}`;
-            progressBar.style.width = `${(matchesCount / totalMatchesRequired) * 100}%`;
+            const totalCards = arabicColumn.children.length;
+            scoreDisplay.innerText = `${matchesCount}/${totalCards}`;
+            progressBar.style.width = `${(matchesCount / totalCards) * 100}%`;
         }
         function resetHeartsUI() { for(let i=1; i<=3; i++) document.getElementById(`heart-${i}`).innerText = "❤️"; }
         function disableHelpButton() { helpCountText.innerText = "0"; helpBtn.classList.add('opacity-30', 'cursor-not-allowed'); }
@@ -432,7 +576,7 @@
             }
         }
 
-        // On programmatic window bootstrap, initialization pauses until user registers or performs validation login
+        // On programmatic window bootstrap
         loadingState.innerText = "Awaiting cloud authentication clearance...";
     </script>
 </body>
